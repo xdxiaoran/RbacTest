@@ -1,0 +1,56 @@
+[32mINFO    [0m log:test_04_logoff.py:23 *************** 开始执行用例 ***************
+[32mINFO    [0m log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+[32mINFO    [0m log:http_client.py:41 接口请求方式 ==>> POST
+[32mINFO    [0m log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[32mINFO    [0m log:http_client.py:47 接口请求体 data 参数 ==>> {
+    "password": "18592037350"
+}
+[32mINFO    [0m log:index_user_service.py:13 接口实际返回的结果为==>>{'success': True, 'code': 200, 'message': '操作成功', 'time': '1729670199583', 'data': 'e9DKPHHd7PtogkgwsBd39jPF7V7aOiZOaGbWqI/lOgjBIcpygAsoqd3bBcVLPR9rw02hPYFQAqIhwpVxIan1f7qksfyKNCKz4fs1m/7f3TMXRIMP0rmypbyDe4WTH17ed51ImWBFPGGkKhI@g33mPT5RtNth0EfyZvIAIntFVNw=', 'path': None, 'timestamp': None, 'msg': None, 'trackId': None}
+[32mINFO    [0m log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/index/register
+[32mINFO    [0m log:http_client.py:41 接口请求方式 ==>> POST
+[32mINFO    [0m log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/json"
+}
+[32mINFO    [0m log:http_client.py:49 接口请求体 json 参数 ==>> {
+    "userName": "test",
+    "password": "e9DKPHHd7PtogkgwsBd39jPF7V7aOiZOaGbWqI/lOgjBIcpygAsoqd3bBcVLPR9rw02hPYFQAqIhwpVxIan1f7qksfyKNCKz4fs1m/7f3TMXRIMP0rmypbyDe4WTH17ed51ImWBFPGGkKhI@g33mPT5RtNth0EfyZvIAIntFVNw=",
+    "gender": "男",
+    "phone": "18592037350",
+    "email": "sada@qq.com"
+}
+[32mINFO    [0m log:index_user_service.py:13 接口实际返回的结果为==>>{'success': True, 'code': 200, 'message': '操作成功', 'time': '1729670201428', 'path': None, 'timestamp': None, 'msg': None, 'trackId': None}
+[32mINFO    [0m log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+[32mINFO    [0m log:http_client.py:41 接口请求方式 ==>> POST
+[32mINFO    [0m log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[32mINFO    [0m log:http_client.py:47 接口请求体 data 参数 ==>> {
+    "password": "18592037350"
+}
+[32mINFO    [0m log:index_user_service.py:13 接口实际返回的结果为==>>{'success': True, 'code': 200, 'message': '操作成功', 'time': '1729670201549', 'data': 'WgnKn8/6BFjACm53ntw@N6RBM52ih82I2AKeynpTm5eqZlESLpV/lTMlKKRPD6sIBjCpTAhS9wFhurxoeByUwI60hQ5rXohOznZ1uMQBYiaq/FxXqd@ghBgSDns@9KKqqrQWPQcWcdbs88ArOEtUzy04dqBhtmmMXsO0zIT1LPc=', 'path': None, 'timestamp': None, 'msg': None, 'trackId': None}
+[32mINFO    [0m log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/index/login
+[32mINFO    [0m log:http_client.py:41 接口请求方式 ==>> POST
+[32mINFO    [0m log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[32mINFO    [0m log:http_client.py:47 接口请求体 data 参数 ==>> {
+    "phone": "18592037350",
+    "password": "WgnKn8/6BFjACm53ntw@N6RBM52ih82I2AKeynpTm5eqZlESLpV/lTMlKKRPD6sIBjCpTAhS9wFhurxoeByUwI60hQ5rXohOznZ1uMQBYiaq/FxXqd@ghBgSDns@9KKqqrQWPQcWcdbs88ArOEtUzy04dqBhtmmMXsO0zIT1LPc="
+}
+[32mINFO    [0m log:index_user_service.py:13 接口实际返回的结果为==>>{'success': True, 'code': 200, 'message': '操作成功', 'time': '1729670201948', 'data': {'id': '1848996948958539778', 'userName': 'test', 'gender': '0', 'phone': '18592037350', 'email': 'sada@qq.com', 'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYmFjLXVzZXIiLCJpc3MiOiJsb25nY2hhbyIsImlhdCI6MTcyOTY3MDIwMSwiZXhwIjoxNzI5NjczODAxLCJpZCI6MTg0ODk5Njk0ODk1ODUzOTc3OH0.VnAOujjkgkxiwifcxzVydfdX_Ik3C3WZjLVFdK3_0wU'}, 'path': None, 'timestamp': None, 'msg': None, 'trackId': None}
+[32mINFO    [0m log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/index/logout
+[32mINFO    [0m log:http_client.py:41 接口请求方式 ==>> POST
+[32mINFO    [0m log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYmFjLXVzZXIiLCJpc3MiOiJsb25nY2hhbyIsImlhdCI6MTcyOTY3MDIwMSwiZXhwIjoxNzI5NjczODAxLCJpZCI6MTg0ODk5Njk0ODk1ODUzOTc3OH0.VnAOujjkgkxiwifcxzVydfdX_Ik3C3WZjLVFdK3_0wU"
+}
+[32mINFO    [0m log:http_client.py:47 接口请求体 data 参数 ==>> {
+    "userId": "1848996948958539778"
+}
+[32mINFO    [0m log:index_user_service.py:13 接口实际返回的结果为==>>{'success': True, 'code': 200, 'message': '操作成功', 'time': '1729670202331', 'path': None, 'timestamp': None, 'msg': None, 'trackId': None}
+[32mINFO    [0m log:test_04_logoff.py:27 *************** 成功执行后清理该数据 ***************
+[32mINFO    [0m log:conftest.py:26 code ==>> 期望结果：200， 实际结果：200
+[32mINFO    [0m log:conftest.py:27 返回信息 ==>> 期望结果：操作成功， 实际结果：操作成功
+[32mINFO    [0m log:test_04_logoff.py:30 *************** 结束执行用例 ***************

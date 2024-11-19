@@ -1,0 +1,97 @@
+INFO     log:conftest.py:38 ******************************
+INFO     log:conftest.py:39 前置步骤开始 ==>> 获取管理员token
+INFO     log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+INFO     log:http_client.py:41 接口请求方式 ==>> POST
+INFO     log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+INFO     log:http_client.py:47 接口请求体 data 参数 ==>> {
+    "password": "15320255643"
+}
+INFO     log:index_user_api.py:15 接口实际返回的结果为==>>{
+    "success": true,
+    "code": 200,
+    "message": "操作成功",
+    "time": "1730790041369",
+    "data": "iqXuyzFRvXVyPPw3nSqbCFV1Z4BZ6IqlN7OMzFmUGrAFGMjys24iPPGgNlGZ/It@o4NfahWAL0KQGTLOckUYe04C4EO95TxWIvInq4VPrguPzUt8uvdMMDAxEgiqD@kWnqWkcF0RU//oTkSgPepyQ7CS6fdYhGQ2QcGHB8ulOoQ=",
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+INFO     log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/index/login
+INFO     log:http_client.py:41 接口请求方式 ==>> POST
+INFO     log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+INFO     log:http_client.py:47 接口请求体 data 参数 ==>> {
+    "phone": "15320255643",
+    "password": "iqXuyzFRvXVyPPw3nSqbCFV1Z4BZ6IqlN7OMzFmUGrAFGMjys24iPPGgNlGZ/It@o4NfahWAL0KQGTLOckUYe04C4EO95TxWIvInq4VPrguPzUt8uvdMMDAxEgiqD@kWnqWkcF0RU//oTkSgPepyQ7CS6fdYhGQ2QcGHB8ulOoQ="
+}
+INFO     log:index_user_api.py:15 接口实际返回的结果为==>>{
+    "success": true,
+    "code": 200,
+    "message": "操作成功",
+    "time": "1730790041786",
+    "data": {
+        "id": "1846030109260034050",
+        "userName": "龙超",
+        "gender": "男",
+        "phone": "15320255643",
+        "email": "longchao@changan.com.cn",
+        "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYmFjLXVzZXIiLCJpc3MiOiJsb25nY2hhbyIsImlhdCI6MTczMDc5MDA0MSwiZXhwIjoxNzMwNzkzNjQxLCJpZCI6MTg0NjAzMDEwOTI2MDAzNDA1MH0.-u1CNUlS282sL3D7ryOdwfXfDwtWVYFCPocx4zQ3uHk"
+    },
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+INFO     log:conftest.py:48 ******************************
+INFO     log:conftest.py:49 前置步骤开始 ==>> 获取无权限用户token
+INFO     log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+INFO     log:http_client.py:41 接口请求方式 ==>> POST
+INFO     log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+INFO     log:http_client.py:47 接口请求体 data 参数 ==>> {
+    "password": "18592037349"
+}
+INFO     log:index_user_api.py:15 接口实际返回的结果为==>>{
+    "success": true,
+    "code": 200,
+    "message": "操作成功",
+    "time": "1730790041912",
+    "data": "QeZYsGrFNNK/mqSjrYyvpstb8bDqv6moNRNLy3KqGw8A7ThW/U6dTXUVwPi6VjromLsOOmSDkqPO3IptTFYe3SoAwqBDLgv9joi6DS7n/aAiUmQqCjqYx4iaiuPuCy3StuPqDq0lmD9@X6Ut@xaV0FcoKWBkPtlobOD0p70o50E=",
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+INFO     log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/index/login
+INFO     log:http_client.py:41 接口请求方式 ==>> POST
+INFO     log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+INFO     log:http_client.py:47 接口请求体 data 参数 ==>> {
+    "phone": "18592037349",
+    "password": "QeZYsGrFNNK/mqSjrYyvpstb8bDqv6moNRNLy3KqGw8A7ThW/U6dTXUVwPi6VjromLsOOmSDkqPO3IptTFYe3SoAwqBDLgv9joi6DS7n/aAiUmQqCjqYx4iaiuPuCy3StuPqDq0lmD9@X6Ut@xaV0FcoKWBkPtlobOD0p70o50E="
+}
+INFO     log:index_user_api.py:15 接口实际返回的结果为==>>{
+    "success": true,
+    "code": 200,
+    "message": "操作成功",
+    "time": "1730790042267",
+    "data": {
+        "id": "1846801442433683458",
+        "userName": "萧然1",
+        "gender": "男",
+        "phone": "18592037349",
+        "email": "2312213@qq.com",
+        "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYmFjLXVzZXIiLCJpc3MiOiJsb25nY2hhbyIsImlhdCI6MTczMDc5MDA0MiwiZXhwIjoxNzMwNzkzNjQyLCJpZCI6MTg0NjgwMTQ0MjQzMzY4MzQ1OH0.0MbYP8a11QP-zRcqxH_MZr_r3Vy-uA-Ovz56jPdtGVM"
+    },
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+INFO     log:test_04_add_resource.py:20 *************** 开始执行用例 ***************

@@ -1,0 +1,24 @@
+INFO     log:test_03_update_user_role_info.py:20 *************** 开始执行用例 ***************
+INFO     log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/user/updateUser
+INFO     log:http_client.py:41 接口请求方式 ==>> POST
+INFO     log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/json",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYmFjLXVzZXIiLCJpc3MiOiJsb25nY2hhbyIsImlhdCI6MTczMDcxMDM2NSwiZXhwIjoxNzMwNzEzOTY1LCJpZCI6MTg0OTM1MTM1NTc2NDA3NjU0Nn0.GSm3YWBnBrlj9OlREut-n18aK2-hSNaWCaXM9Ro5PDU"
+}
+INFO     log:http_client.py:49 接口请求体 json 参数 ==>> {
+    "id": 1846801442433683458,
+    "deleteRoleList": [],
+    "addRoleList": [
+        1846079261643087883
+    ]
+}
+INFO     log:index_user_api.py:15 接口实际返回的结果为==>>{
+    "success": true,
+    "code": 200,
+    "message": "操作成功",
+    "time": "1730710372474",
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}

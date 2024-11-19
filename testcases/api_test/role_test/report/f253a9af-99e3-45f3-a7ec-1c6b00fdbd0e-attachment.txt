@@ -1,0 +1,23 @@
+INFO     log:test_05_delete_role.py:19 *************** 开始执行用例 ***************
+INFO     log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/role/deleteRole
+INFO     log:http_client.py:41 接口请求方式 ==>> POST
+INFO     log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/json",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYmFjLXVzZXIiLCJpc3MiOiJsb25nY2hhbyIsImlhdCI6MTczMDc3NzA5MCwiZXhwIjoxNzMwNzgwNjkwLCJpZCI6MTg0NjAzMDEwOTI2MDAzNDA1MH0.Ntq9DvYOnHgNvyvF1JNXRkui_59O96oXn-AY1IBkprk"
+}
+INFO     log:http_client.py:45 接口请求 params 参数 ==>> {
+    "roleId": 1846079261643087874
+}
+INFO     log:index_user_api.py:15 接口实际返回的结果为==>>{
+    "success": false,
+    "code": 10087,
+    "message": "当前角色有人担任！",
+    "time": "1730777096146",
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+INFO     log:conftest.py:29 code ==>> 期望结果：10087， 实际结果：10087
+INFO     log:conftest.py:30 返回信息 ==>> 期望结果：当前角色有人担任！， 实际结果：当前角色有人担任！
+INFO     log:test_05_delete_role.py:29 *************** 结束执行用例 ***************

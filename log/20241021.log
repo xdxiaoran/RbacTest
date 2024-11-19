@@ -1,0 +1,50 @@
+[2024-10-21 08:59:12,096][read_data.py 39][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\config\setting.ini 文件......
+[2024-10-21 08:59:12,097][read_data.py 43][INFO]: 读到数据 ==>>  {'host': {'api_root_url': 'http://127.0.0.1'}, 'mysql': {'MYSQL_HOST': '172.29.0.17', 'MYSQL_PORT': '3306', 'MYSQL_USER': 'root', 'MYSQL_PASSWD': '9NBmX6BbKujY*JS$', 'MYSQL_DB': 'learn_rbac_lc_dev'}} 
+[2024-10-21 08:59:12,097][read_data.py 25][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\data\base_data.yml 文件......
+[2024-10-21 08:59:12,097][read_data.py 28][INFO]: 读到数据 ==>>  {'admin_user': {'phone': '15320254462', 'password': '15320254462'}} 
+[2024-10-21 08:59:12,098][read_data.py 25][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\data\api_test.yml 文件......
+[2024-10-21 08:59:12,099][read_data.py 28][INFO]: 读到数据 ==>>  {'test_register': [['test', '18592037350', '男', '18592037350', 'sada@qq.com', True, 200, '操作成功']], 'test_login': [['15320254462', '15320254462', True, 200, '操作成功']], 'test_logout': [['15320254462', True, 200, '操作成功']]} 
+[2024-10-21 08:59:12,156][read_data.py 39][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\config\setting.ini 文件......
+[2024-10-21 08:59:12,156][read_data.py 43][INFO]: 读到数据 ==>>  {'host': {'api_root_url': 'http://127.0.0.1'}, 'mysql': {'MYSQL_HOST': '172.29.0.17', 'MYSQL_PORT': '3306', 'MYSQL_USER': 'root', 'MYSQL_PASSWD': '9NBmX6BbKujY*JS$', 'MYSQL_DB': 'learn_rbac_lc_dev'}} 
+[2024-10-21 08:59:12,782][test_01_register.py 19][INFO]: *************** 开始执行用例 ***************
+[2024-10-21 08:59:12,782][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+[2024-10-21 08:59:12,782][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-21 08:59:12,782][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[2024-10-21 08:59:12,782][http_client.py 47][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "18592037350"
+}
+[2024-10-21 08:59:22,036][read_data.py 39][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\config\setting.ini 文件......
+[2024-10-21 08:59:22,036][read_data.py 43][INFO]: 读到数据 ==>>  {'host': {'api_root_url': 'http://127.0.0.1'}, 'mysql': {'MYSQL_HOST': '172.29.0.17', 'MYSQL_PORT': '3306', 'MYSQL_USER': 'root', 'MYSQL_PASSWD': '9NBmX6BbKujY*JS$', 'MYSQL_DB': 'learn_rbac_lc_dev'}} 
+[2024-10-21 08:59:22,036][read_data.py 25][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\data\base_data.yml 文件......
+[2024-10-21 08:59:22,036][read_data.py 28][INFO]: 读到数据 ==>>  {'admin_user': {'phone': '15320254462', 'password': '15320254462'}} 
+[2024-10-21 08:59:22,038][read_data.py 25][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\data\api_test.yml 文件......
+[2024-10-21 08:59:22,039][read_data.py 28][INFO]: 读到数据 ==>>  {'test_register': [['test', '18592037350', '男', '18592037350', 'sada@qq.com', True, 200, '操作成功']], 'test_login': [['15320254462', '15320254462', True, 200, '操作成功']], 'test_logout': [['15320254462', True, 200, '操作成功']]} 
+[2024-10-21 08:59:22,082][read_data.py 39][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\config\setting.ini 文件......
+[2024-10-21 08:59:22,082][read_data.py 43][INFO]: 读到数据 ==>>  {'host': {'api_root_url': 'http://127.0.0.1'}, 'mysql': {'MYSQL_HOST': '172.29.0.17', 'MYSQL_PORT': '3306', 'MYSQL_USER': 'root', 'MYSQL_PASSWD': '9NBmX6BbKujY*JS$', 'MYSQL_DB': 'learn_rbac_lc_dev'}} 
+[2024-10-21 08:59:22,735][test_01_register.py 19][INFO]: *************** 开始执行用例 ***************
+[2024-10-21 08:59:22,735][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+[2024-10-21 08:59:22,735][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-21 08:59:22,735][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[2024-10-21 08:59:22,735][http_client.py 47][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "18592037350"
+}
+[2024-10-21 08:59:23,150][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/register
+[2024-10-21 08:59:23,150][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-21 08:59:23,150][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/json"
+}
+[2024-10-21 08:59:23,150][http_client.py 49][INFO]: 接口请求体 json 参数 ==>> {
+    "userName": "test",
+    "password": "NrSKgRluLwrGxZjg7L3tkjU6dgliURYuaO@zI9CyqBCbxChtnuh6lvRvGxSQtWdVY87/ZYskcTD1AWLKxbsmsORUUr0o13fNUyRa1UbAKDYttbuxKpLqw7tkMZtA7UFRKHMHiw0tdBXVls497hO12J78S8SkIs7zxxp3EuUN2pA=",
+    "gender": "男",
+    "phone": "18592037350",
+    "email": "sada@qq.com"
+}
+[2024-10-21 08:59:24,588][conftest.py 18][INFO]: code ==>> 期望结果：200， 实际结果：200
+[2024-10-21 08:59:24,589][conftest.py 19][INFO]: 返回信息 ==>> 期望结果：操作成功， 实际结果：操作成功
+[2024-10-21 08:59:24,589][test_01_register.py 22][INFO]: *************** 成功执行后清理该数据 ***************
+[2024-10-21 08:59:24,837][test_01_register.py 24][INFO]: *************** 结束执行用例 ***************

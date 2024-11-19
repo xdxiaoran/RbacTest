@@ -1,0 +1,41 @@
+INFO     log:test_02_login.py:18 *************** 开始执行用例 ***************
+INFO     log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+INFO     log:http_client.py:41 接口请求方式 ==>> POST
+INFO     log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+INFO     log:http_client.py:47 接口请求体 data 参数 ==>> {
+    "password": ""
+}
+INFO     log:index_user_service.py:14 接口实际返回的结果为==>>{
+    "success": true,
+    "code": 200,
+    "message": "操作成功",
+    "time": "1729675212248",
+    "data": "PCrrRog42Wc1WqZis0NXUSAbj72w@b0@IXFuXJ8w4QbhsV9l5GeGdkwY/jedi1rO6mVUZp7wsBhOujogA2eafgPfvAfS6YB1B/41UFtyoa6OWIPmLZ2wMyDvJpAittNHv8JcrV6ESsIuhWcooUtuEB6GXKURQJIM4VWF7EpC36g=",
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+INFO     log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/index/login
+INFO     log:http_client.py:41 接口请求方式 ==>> POST
+INFO     log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+INFO     log:http_client.py:47 接口请求体 data 参数 ==>> {
+    "phone": "15320255643",
+    "password": "PCrrRog42Wc1WqZis0NXUSAbj72w@b0@IXFuXJ8w4QbhsV9l5GeGdkwY/jedi1rO6mVUZp7wsBhOujogA2eafgPfvAfS6YB1B/41UFtyoa6OWIPmLZ2wMyDvJpAittNHv8JcrV6ESsIuhWcooUtuEB6GXKURQJIM4VWF7EpC36g="
+}
+INFO     log:index_user_service.py:14 接口实际返回的结果为==>>{
+    "success": false,
+    "code": 10002,
+    "message": "用户名与密码不匹配！",
+    "time": "1729675212595",
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+INFO     log:conftest.py:26 code ==>> 期望结果：10001， 实际结果：10002
+INFO     log:conftest.py:27 返回信息 ==>> 期望结果：用户名或密码不能为空！， 实际结果：用户名与密码不匹配！

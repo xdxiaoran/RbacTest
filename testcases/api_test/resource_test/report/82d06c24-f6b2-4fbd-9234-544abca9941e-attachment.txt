@@ -1,0 +1,28 @@
+INFO     log:test_03_update_resource.py:20 *************** 开始执行用例 ***************
+INFO     log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/resource/updateResource
+INFO     log:http_client.py:41 接口请求方式 ==>> POST
+INFO     log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/json",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYmFjLXVzZXIiLCJpc3MiOiJsb25nY2hhbyIsImlhdCI6MTczMDc4OTY4OCwiZXhwIjoxNzMwNzkzMjg4LCJpZCI6MTg0NjAzMDEwOTI2MDAzNDA1MH0.kul67b1jNh3GCsdUhqDc0GFM3U_5Xike00E0CtcdznQ"
+}
+INFO     log:http_client.py:49 接口请求体 json 参数 ==>> {
+    "id": 18536874653150401,
+    "resourceName": "test",
+    "code": "testCode",
+    "type": "testType",
+    "description": "testDes",
+    "permissionList": []
+}
+INFO     log:index_user_api.py:15 接口实际返回的结果为==>>{
+    "success": false,
+    "code": 10120,
+    "message": "当前资源不存在！",
+    "time": "1730789693621",
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+INFO     log:conftest.py:29 code ==>> 期望结果：10120， 实际结果：10120
+INFO     log:conftest.py:30 返回信息 ==>> 期望结果：当前资源不存在！， 实际结果：当前资源不存在！
+INFO     log:test_03_update_resource.py:27 *************** 结束执行用例 ***************

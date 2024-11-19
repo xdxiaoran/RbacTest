@@ -1,0 +1,6 @@
+INFO     log:test_09_get_all_resource_list.py:19 *************** 开始执行用例 ***************
+INFO     log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/role/getAllResourceList
+INFO     log:http_client.py:41 接口请求方式 ==>> POST
+INFO     log:http_client.py:43 接口请求头 ==>> {
+    "token": "sadasda"
+}

@@ -1,0 +1,63 @@
+INFO     log:test_05_updatePassword.py:18 *************** 开始执行用例 ***************
+INFO     log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+INFO     log:http_client.py:41 接口请求方式 ==>> POST
+INFO     log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+INFO     log:http_client.py:47 接口请求体 data 参数 ==>> {
+    "password": "18592037348"
+}
+INFO     log:index_user_api.py:15 接口实际返回的结果为==>>{
+    "success": true,
+    "code": 200,
+    "message": "操作成功",
+    "time": "1730794284926",
+    "data": "KoLcIkcxh5Rr1bmC1Rjg7CJn@KrYPhKXv9bSzsyvezg9la3A35qCEG6uLYvVB0BzMmgSpQEwX6v4Z5dDdwvQOU83M3NqnJ4WRfStuYOibkICVneoR9IyUGjcrv3Bv8HUdHue3vTGWM9QTHtJpBG9Hl6wl2yzalmGl/nyif3QrP8=",
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+INFO     log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+INFO     log:http_client.py:41 接口请求方式 ==>> POST
+INFO     log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+INFO     log:http_client.py:47 接口请求体 data 参数 ==>> {
+    "password": "18592037348"
+}
+INFO     log:index_user_api.py:15 接口实际返回的结果为==>>{
+    "success": true,
+    "code": 200,
+    "message": "操作成功",
+    "time": "1730794285010",
+    "data": "B3qhLLW1YC2AXiW3uuIrpZ2JpT5KtfxLqG8QdTXX5u9xUz@RkSDonf9Dl1qDMPg@SQ/6C9GwZ42WhM21MspDB6qqr7zuKDOXvZbewV4/3a2FbigTEHMMK4yBQHQA1kdreeTrUn7aslgJRR7Od8329bEkQwwyDoBp7GA8q1ftwjk=",
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+INFO     log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/user/updatePassword
+INFO     log:http_client.py:41 接口请求方式 ==>> POST
+INFO     log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYmFjLXVzZXIiLCJpc3MiOiJsb25nY2hhbyIsImlhdCI6MTczMDc5NDI4MSwiZXhwIjoxNzMwNzk3ODgxLCJpZCI6MTg0NjgwMTQ0MjQzMzY4MzQ1OH0.-RyNwzE88HSFqjkhEM3I-mYV4cu3pzPaBrg0B0mcfo4"
+}
+INFO     log:http_client.py:47 接口请求体 data 参数 ==>> {
+    "userId": 1846801442433683458,
+    "oldPassword": "KoLcIkcxh5Rr1bmC1Rjg7CJn@KrYPhKXv9bSzsyvezg9la3A35qCEG6uLYvVB0BzMmgSpQEwX6v4Z5dDdwvQOU83M3NqnJ4WRfStuYOibkICVneoR9IyUGjcrv3Bv8HUdHue3vTGWM9QTHtJpBG9Hl6wl2yzalmGl/nyif3QrP8=",
+    "newPassword": "B3qhLLW1YC2AXiW3uuIrpZ2JpT5KtfxLqG8QdTXX5u9xUz@RkSDonf9Dl1qDMPg@SQ/6C9GwZ42WhM21MspDB6qqr7zuKDOXvZbewV4/3a2FbigTEHMMK4yBQHQA1kdreeTrUn7aslgJRR7Od8329bEkQwwyDoBp7GA8q1ftwjk="
+}
+INFO     log:index_user_api.py:15 接口实际返回的结果为==>>{
+    "success": false,
+    "code": 9992,
+    "message": "你没有权限访问该接口！",
+    "time": 1730794285449,
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+INFO     log:conftest.py:29 code ==>> 期望结果：9992， 实际结果：9992
+INFO     log:conftest.py:30 返回信息 ==>> 期望结果：你没有权限访问该接口！， 实际结果：你没有权限访问该接口！
+INFO     log:test_05_updatePassword.py:27 *************** 结束执行用例 ***************

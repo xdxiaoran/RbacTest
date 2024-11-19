@@ -1,0 +1,24 @@
+[32mINFO    [0m log:test_01_register.py:19 *************** 开始执行用例 ***************
+[32mINFO    [0m log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+[32mINFO    [0m log:http_client.py:41 接口请求方式 ==>> POST
+[32mINFO    [0m log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[32mINFO    [0m log:http_client.py:47 接口请求体 data 参数 ==>> {
+    "password": ""
+}
+[32mINFO    [0m log:index_user_service.py:13 接口实际返回的结果为==>>{'success': True, 'code': 200, 'message': '操作成功', 'time': '1729670190065', 'data': 'FT8x6JluV1BGFG70dQs8U86Au10kFodsela4kDsdbSIaaed8vMo9fQd6cdB4hTZtY34AcMuQ3cCpn8VMDat@RorDXWlBcu/o/pn2ctpkh1hPE@Bo266mNDokt5rNz7P3BFQELroVYOVBjTZVUL5rlNCZVuGRsZX8nY6NBMHYgK8=', 'path': None, 'timestamp': None, 'msg': None, 'trackId': None}
+[32mINFO    [0m log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/index/register
+[32mINFO    [0m log:http_client.py:41 接口请求方式 ==>> POST
+[32mINFO    [0m log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/json"
+}
+[32mINFO    [0m log:http_client.py:49 接口请求体 json 参数 ==>> {
+    "userName": "test",
+    "password": "FT8x6JluV1BGFG70dQs8U86Au10kFodsela4kDsdbSIaaed8vMo9fQd6cdB4hTZtY34AcMuQ3cCpn8VMDat@RorDXWlBcu/o/pn2ctpkh1hPE@Bo266mNDokt5rNz7P3BFQELroVYOVBjTZVUL5rlNCZVuGRsZX8nY6NBMHYgK8=",
+    "gender": "男",
+    "phone": "18592037350",
+    "email": "sada@qq.com"
+}
+[32mINFO    [0m log:index_user_service.py:13 接口实际返回的结果为==>>{'success': True, 'code': 200, 'message': '操作成功', 'time': '1729670191388', 'path': None, 'timestamp': None, 'msg': None, 'trackId': None}
+[32mINFO    [0m log:test_01_register.py:21 *************** 成功执行后清理该数据 ***************

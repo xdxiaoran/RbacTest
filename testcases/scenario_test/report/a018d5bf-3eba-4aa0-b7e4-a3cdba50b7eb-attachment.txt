@@ -1,0 +1,76 @@
+INFO     log:conftest.py:38 ******************************
+INFO     log:conftest.py:39 前置步骤开始 ==>> 获取管理员token
+INFO     log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+INFO     log:http_client.py:41 接口请求方式 ==>> POST
+INFO     log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+INFO     log:http_client.py:47 接口请求体 data 参数 ==>> {
+    "password": "15320255643"
+}
+INFO     log:index_user_api.py:15 接口实际返回的结果为==>>{
+    "success": true,
+    "code": 200,
+    "message": "操作成功",
+    "time": "1730857176284",
+    "data": "HPoIEANz@P39X5jqSgAWUVuQ8mi5zrCODiiSfhtaI/YFGggb7Eb5Xi/sCY4NQHbxpxtgDZ0KUR8B/K3UJ2njy8Hx49mevwHyvcR14aUWKtoFMRhL3PjHqNTxIVhMtvbFaP/jnIPeZEPf8V1ofOz3li00xSPlIzwgHoNE1PBxdTc=",
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+INFO     log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/index/login
+INFO     log:http_client.py:41 接口请求方式 ==>> POST
+INFO     log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+INFO     log:http_client.py:47 接口请求体 data 参数 ==>> {
+    "phone": "15320255643",
+    "password": "HPoIEANz@P39X5jqSgAWUVuQ8mi5zrCODiiSfhtaI/YFGggb7Eb5Xi/sCY4NQHbxpxtgDZ0KUR8B/K3UJ2njy8Hx49mevwHyvcR14aUWKtoFMRhL3PjHqNTxIVhMtvbFaP/jnIPeZEPf8V1ofOz3li00xSPlIzwgHoNE1PBxdTc="
+}
+INFO     log:index_user_api.py:15 接口实际返回的结果为==>>{
+    "success": true,
+    "code": 200,
+    "message": "操作成功",
+    "time": "1730857176857",
+    "data": {
+        "id": "1846030109260034050",
+        "userName": "龙超",
+        "gender": "男",
+        "phone": "15320255643",
+        "email": "longchao@changan.com.cn",
+        "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYmFjLXVzZXIiLCJpc3MiOiJsb25nY2hhbyIsImlhdCI6MTczMDg1NzE3NiwiZXhwIjoxNzMwODYwNzc2LCJpZCI6MTg0NjAzMDEwOTI2MDAzNDA1MH0.V_nl9JYPJCgdC-ZnQ5EH8pUtfibJY-NVoX_kIuXT7RY"
+    },
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+INFO     log:test_04_admin_resource_add_update_delete.py:30 *************** 开始执行用例 ***************
+INFO     log:test_04_admin_resource_add_update_delete.py:12 步骤1 ==>> 添加资源
+INFO     log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/resource/addResource
+INFO     log:http_client.py:41 接口请求方式 ==>> POST
+INFO     log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/json",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYmFjLXVzZXIiLCJpc3MiOiJsb25nY2hhbyIsImlhdCI6MTczMDg1NzE3NiwiZXhwIjoxNzMwODYwNzc2LCJpZCI6MTg0NjAzMDEwOTI2MDAzNDA1MH0.V_nl9JYPJCgdC-ZnQ5EH8pUtfibJY-NVoX_kIuXT7RY"
+}
+INFO     log:http_client.py:49 接口请求体 json 参数 ==>> {
+    "resourceName": "萧然资源测试",
+    "code": "测试code",
+    "parentId": 1846109800614629378,
+    "type": "测试type",
+    "description": "测试des",
+    "addPermissionList": [
+        "/test"
+    ]
+}
+INFO     log:index_user_api.py:15 接口实际返回的结果为==>>{
+    "success": true,
+    "code": 200,
+    "message": "操作成功",
+    "time": "1730857178382",
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}

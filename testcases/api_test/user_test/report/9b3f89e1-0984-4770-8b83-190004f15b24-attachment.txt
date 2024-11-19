@@ -1,0 +1,70 @@
+INFO     log:conftest.py:38 ******************************
+INFO     log:conftest.py:39 前置步骤开始 ==>> 获取管理员token
+INFO     log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+INFO     log:http_client.py:41 接口请求方式 ==>> POST
+INFO     log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+INFO     log:http_client.py:47 接口请求体 data 参数 ==>> {
+    "password": "15320255643"
+}
+INFO     log:index_user_api.py:15 接口实际返回的结果为==>>{
+    "success": true,
+    "code": 200,
+    "message": "操作成功",
+    "time": "1730701921845",
+    "data": "NKiiEABAbmq3xio7vJ8SgSA9hhXgraf89j/wPDNkSLVLXQebnHXbUfKf5h55GmJULJ1c9NoBavFDE5vZp1eO09BJQp/X1RFOF7NaICFZraB3e2hr9h@/hKgzKz0iNjC4cJrwMKfHFiLoAKheGaRA9eH1Gt7mf3FPeDM87VYScrY=",
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+INFO     log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/index/login
+INFO     log:http_client.py:41 接口请求方式 ==>> POST
+INFO     log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+INFO     log:http_client.py:47 接口请求体 data 参数 ==>> {
+    "phone": "15320255643",
+    "password": "NKiiEABAbmq3xio7vJ8SgSA9hhXgraf89j/wPDNkSLVLXQebnHXbUfKf5h55GmJULJ1c9NoBavFDE5vZp1eO09BJQp/X1RFOF7NaICFZraB3e2hr9h@/hKgzKz0iNjC4cJrwMKfHFiLoAKheGaRA9eH1Gt7mf3FPeDM87VYScrY="
+}
+INFO     log:index_user_api.py:15 接口实际返回的结果为==>>{
+    "success": true,
+    "code": 200,
+    "message": "操作成功",
+    "time": "1730701922244",
+    "data": {
+        "id": "1846030109260034050",
+        "userName": "龙超",
+        "gender": "男",
+        "phone": "15320255643",
+        "email": "longchao@changan.com.cn",
+        "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYmFjLXVzZXIiLCJpc3MiOiJsb25nY2hhbyIsImlhdCI6MTczMDcwMTkyMiwiZXhwIjoxNzMwNzA1NTIyLCJpZCI6MTg0NjAzMDEwOTI2MDAzNDA1MH0.j2D4w-vd4URYKb_I5hbtcYoDQlGktrGovV4aUdYdJGk"
+    },
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+INFO     log:test_02_get_user.py:33 *************** 开始执行用例 ***************
+INFO     log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/user/getUser
+INFO     log:http_client.py:41 接口请求方式 ==>> POST
+INFO     log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded",
+    "token": ""
+}
+INFO     log:http_client.py:47 接口请求体 data 参数 ==>> {
+    "userId": ""
+}
+INFO     log:index_user_api.py:15 接口实际返回的结果为==>>{
+    "success": false,
+    "code": 9990,
+    "message": "token丢失！",
+    "time": 1730701922248,
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+INFO     log:conftest.py:29 code ==>> 期望结果：10007， 实际结果：9990
+INFO     log:conftest.py:30 返回信息 ==>> 期望结果：当前用户不存在！， 实际结果：token丢失！

@@ -1,0 +1,24 @@
+INFO     log:test_06_add_user.py:20 *************** 开始执行用例 ***************
+INFO     log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/user/addUser
+INFO     log:http_client.py:41 接口请求方式 ==>> POST
+INFO     log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/json",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYmFjLXVzZXIiLCJpc3MiOiJsb25nY2hhbyIsImlhdCI6MTczMDcxNTkwMiwiZXhwIjoxNzMwNzE5NTAyLCJpZCI6MTg0NjAzMDEwOTI2MDAzNDA1MH0.7pu7P0zVuNstrpr9wtQHngaI1VrxQbKENjsezJWLqgM"
+}
+INFO     log:http_client.py:49 接口请求体 json 参数 ==>> {
+    "userName": "",
+    "phone": "18592037351",
+    "email": "2312213@qq.com",
+    "addRoleList": []
+}
+INFO     log:index_user_api.py:15 接口实际返回的结果为==>>{
+    "success": false,
+    "code": 10006,
+    "message": "用户名不能为空！",
+    "time": "1730715904991",
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+INFO     log:test_06_add_user.py:26 *************** 成功执行后清理该数据 ***************

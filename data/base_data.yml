@@ -1,0 +1,10 @@
+#管理员账号密码，用于获取高权限用户token
+admin_user:
+    phone: "15320255643"
+    password: "15320255643"
+test_user:
+    phone: "18592037348"
+    password: "18592037348"
+nopri_user:
+    phone: "18592037349"
+    password: "18592037349"

@@ -1,0 +1,24 @@
+INFO     log:test_04_update_base_info.py:18 *************** 开始执行用例 ***************
+INFO     log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/user/updateBaseInfo
+INFO     log:http_client.py:41 接口请求方式 ==>> POST
+INFO     log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/json",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYmFjLXVzZXIiLCJpc3MiOiJsb25nY2hhbyIsImlhdCI6MTczMDcxMDQxMCwiZXhwIjoxNzMwNzE0MDEwLCJpZCI6MTg0NjgwMTQ0MjQzMzY4MzQ1OH0.OhwOpskNnK-lep2FF_WReQGHO9SjSz9z9DpPa3rdY3w"
+}
+INFO     log:http_client.py:49 接口请求体 json 参数 ==>> {
+    "id": 1846801442433683458,
+    "userName": "萧然1",
+    "gender": "男",
+    "phone": "18592037349",
+    "email": "2312213@qq.com"
+}
+INFO     log:index_user_api.py:15 接口实际返回的结果为==>>{
+    "success": true,
+    "code": 200,
+    "message": "操作成功",
+    "time": "1730710416531",
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}

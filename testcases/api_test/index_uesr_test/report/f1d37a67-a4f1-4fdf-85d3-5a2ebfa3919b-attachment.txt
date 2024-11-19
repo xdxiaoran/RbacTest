@@ -1,0 +1,28 @@
+[32mINFO    [0m log:test_01_register.py:19 *************** 开始执行用例 ***************
+[32mINFO    [0m log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+[32mINFO    [0m log:http_client.py:41 接口请求方式 ==>> POST
+[32mINFO    [0m log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[32mINFO    [0m log:http_client.py:47 接口请求体 data 参数 ==>> {
+    "password": "18592037350"
+}
+[32mINFO    [0m log:index_user_service.py:13 接口实际返回的结果为==>>{'success': True, 'code': 200, 'message': '操作成功', 'time': '1729670191860', 'data': 'L@b8yfPffiG6OIwPEZpiT6hgL9aUMav/U@GiNUChpuFk@jn6EfFfP@f1ykgyvDEn/szggz0xX0k7FdK/R/GJ8xIyc@E31k/8O@mLcH8qUG0EaMHeEIAkO4sGanysJACWVFp/hgtM1l3O5QHBMybKssTruA0VBTiDTJdyCpbhVPo=', 'path': None, 'timestamp': None, 'msg': None, 'trackId': None}
+[32mINFO    [0m log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/index/register
+[32mINFO    [0m log:http_client.py:41 接口请求方式 ==>> POST
+[32mINFO    [0m log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/json"
+}
+[32mINFO    [0m log:http_client.py:49 接口请求体 json 参数 ==>> {
+    "userName": "test",
+    "password": "L@b8yfPffiG6OIwPEZpiT6hgL9aUMav/U@GiNUChpuFk@jn6EfFfP@f1ykgyvDEn/szggz0xX0k7FdK/R/GJ8xIyc@E31k/8O@mLcH8qUG0EaMHeEIAkO4sGanysJACWVFp/hgtM1l3O5QHBMybKssTruA0VBTiDTJdyCpbhVPo=",
+    "gender": "男",
+    "phone": "A18592037352",
+    "email": "sada@qq.com"
+}
+[32mINFO    [0m log:index_user_service.py:13 接口实际返回的结果为==>>{'success': False, 'code': 10071, 'message': '电话格式不正确！', 'time': '1729670191864', 'path': None, 'timestamp': None, 'msg': None, 'trackId': None}
+[32mINFO    [0m log:test_01_register.py:21 *************** 成功执行后清理该数据 ***************
+[32mINFO    [0m log:mysql_operator.py:53 操作MySQL出现错误，错误原因：(1054, "Unknown column 'A18592037352' in 'where clause'")
+[32mINFO    [0m log:conftest.py:26 code ==>> 期望结果：10071， 实际结果：10071
+[32mINFO    [0m log:conftest.py:27 返回信息 ==>> 期望结果：电话格式不正确！， 实际结果：电话格式不正确！
+[32mINFO    [0m log:test_01_register.py:24 *************** 结束执行用例 ***************

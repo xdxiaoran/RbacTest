@@ -1,0 +1,19 @@
+[32mINFO    [0m log:test_09_get_all_resource_list.py:19 *************** 开始执行用例 ***************
+[32mINFO    [0m log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/role/getAllResourceList
+[32mINFO    [0m log:http_client.py:41 接口请求方式 ==>> GET
+[32mINFO    [0m log:http_client.py:43 接口请求头 ==>> {
+    "token": ""
+}
+[32mINFO    [0m log:index_user_api.py:15 接口实际返回的结果为==>>{
+    "success": false,
+    "code": 9990,
+    "message": "token丢失！",
+    "time": 1731384298718,
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+[32mINFO    [0m log:conftest.py:29 code ==>> 期望结果：9990， 实际结果：9990
+[32mINFO    [0m log:conftest.py:30 返回信息 ==>> 期望结果：token丢失！， 实际结果：token丢失！
+[32mINFO    [0m log:test_09_get_all_resource_list.py:26 *************** 结束执行用例 ***************

@@ -1,0 +1,144 @@
+INFO     log:conftest.py:38 ******************************
+INFO     log:conftest.py:39 前置步骤开始 ==>> 获取管理员token
+INFO     log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+INFO     log:http_client.py:41 接口请求方式 ==>> POST
+INFO     log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+INFO     log:http_client.py:47 接口请求体 data 参数 ==>> {
+    "password": "18592037348"
+}
+INFO     log:index_user_api.py:15 接口实际返回的结果为==>>{
+    "success": true,
+    "code": 200,
+    "message": "操作成功",
+    "time": "1730711391891",
+    "data": "jVHkjPO/cDeXCNEN@nwS0ML9WjbpMfmgHi@qk4rCXFnlBSXmHSkppvXzwIaTM6Kax9jc@I6mfhZST0sgrOiTpvrABvKD1XGaV2H7lhYnMvG9rf8q9dmA7cDefO75R8BqenmgNmVmQ1050SZ@TrDvWwekiy0kEXfIX6Fbus64NMk=",
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+INFO     log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/index/login
+INFO     log:http_client.py:41 接口请求方式 ==>> POST
+INFO     log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+INFO     log:http_client.py:47 接口请求体 data 参数 ==>> {
+    "phone": "18592037348",
+    "password": "jVHkjPO/cDeXCNEN@nwS0ML9WjbpMfmgHi@qk4rCXFnlBSXmHSkppvXzwIaTM6Kax9jc@I6mfhZST0sgrOiTpvrABvKD1XGaV2H7lhYnMvG9rf8q9dmA7cDefO75R8BqenmgNmVmQ1050SZ@TrDvWwekiy0kEXfIX6Fbus64NMk="
+}
+INFO     log:index_user_api.py:15 接口实际返回的结果为==>>{
+    "success": true,
+    "code": 200,
+    "message": "操作成功",
+    "time": "1730711392975",
+    "data": {
+        "id": "1849351355764076546",
+        "userName": "萧然",
+        "gender": "男",
+        "phone": "18592037348",
+        "email": "2312213@qq.com",
+        "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYmFjLXVzZXIiLCJpc3MiOiJsb25nY2hhbyIsImlhdCI6MTczMDcxMTM5MiwiZXhwIjoxNzMwNzE0OTkyLCJpZCI6MTg0OTM1MTM1NTc2NDA3NjU0Nn0.Y259m50zYKkbukczTI2ihOIZPx8TW5BJlG-Xo81xIxc"
+    },
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+INFO     log:conftest.py:38 ******************************
+INFO     log:conftest.py:39 前置步骤开始 ==>> 获取管理员token
+INFO     log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+INFO     log:http_client.py:41 接口请求方式 ==>> POST
+INFO     log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+INFO     log:http_client.py:47 接口请求体 data 参数 ==>> {
+    "password": "15320255643"
+}
+INFO     log:index_user_api.py:15 接口实际返回的结果为==>>{
+    "success": true,
+    "code": 200,
+    "message": "操作成功",
+    "time": "1730711393081",
+    "data": "L4N0S6eXUz7SjD@Tm@XGQhH2dp7wdef@D8zVX3goVvuBiE0vFYm@9aJCdI3GLfM6oxvyZRoe/HPEfhfJJOYgp0jsYMLysuTD@tndkKGDRWQqbT72YhxtVo@BLr2losBSlILprSJFvuEmZZWzbWh7IfEMYHTQpVDopFuT@Xjpkuc=",
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+INFO     log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/index/login
+INFO     log:http_client.py:41 接口请求方式 ==>> POST
+INFO     log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+INFO     log:http_client.py:47 接口请求体 data 参数 ==>> {
+    "phone": "15320255643",
+    "password": "L4N0S6eXUz7SjD@Tm@XGQhH2dp7wdef@D8zVX3goVvuBiE0vFYm@9aJCdI3GLfM6oxvyZRoe/HPEfhfJJOYgp0jsYMLysuTD@tndkKGDRWQqbT72YhxtVo@BLr2losBSlILprSJFvuEmZZWzbWh7IfEMYHTQpVDopFuT@Xjpkuc="
+}
+INFO     log:index_user_api.py:15 接口实际返回的结果为==>>{
+    "success": true,
+    "code": 200,
+    "message": "操作成功",
+    "time": "1730711393404",
+    "data": {
+        "id": "1846030109260034050",
+        "userName": "龙超",
+        "gender": "男",
+        "phone": "15320255643",
+        "email": "longchao@changan.com.cn",
+        "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYmFjLXVzZXIiLCJpc3MiOiJsb25nY2hhbyIsImlhdCI6MTczMDcxMTM5MywiZXhwIjoxNzMwNzE0OTkzLCJpZCI6MTg0NjAzMDEwOTI2MDAzNDA1MH0.GVEy5na_XBNzl8SdrnrADNTT3QM254R3UHhoqf75Qw0"
+    },
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+INFO     log:conftest.py:38 ******************************
+INFO     log:conftest.py:39 前置步骤开始 ==>> 获取管理员token
+INFO     log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+INFO     log:http_client.py:41 接口请求方式 ==>> POST
+INFO     log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+INFO     log:http_client.py:47 接口请求体 data 参数 ==>> {
+    "password": "18592037349"
+}
+INFO     log:index_user_api.py:15 接口实际返回的结果为==>>{
+    "success": true,
+    "code": 200,
+    "message": "操作成功",
+    "time": "1730711393494",
+    "data": "ET44aKztcZRqyJ@H25sGTC19C7xf7pHyulQ1VpnyTKtTt7QRHbjfAtJK7wwUJwWCpfpfs2M04kCKhvwSj9FTveW2ERiO1mk@BNQr8RLcZx4QWQtNq@BQLR2@qarZs0G/PsUyaYnjGwWAxGE/4aXc/RXWCPotYGwKlB7r1TbjOLI=",
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+INFO     log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/index/login
+INFO     log:http_client.py:41 接口请求方式 ==>> POST
+INFO     log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+INFO     log:http_client.py:47 接口请求体 data 参数 ==>> {
+    "phone": "18592037349",
+    "password": "ET44aKztcZRqyJ@H25sGTC19C7xf7pHyulQ1VpnyTKtTt7QRHbjfAtJK7wwUJwWCpfpfs2M04kCKhvwSj9FTveW2ERiO1mk@BNQr8RLcZx4QWQtNq@BQLR2@qarZs0G/PsUyaYnjGwWAxGE/4aXc/RXWCPotYGwKlB7r1TbjOLI="
+}
+INFO     log:index_user_api.py:15 接口实际返回的结果为==>>{
+    "success": true,
+    "code": 200,
+    "message": "操作成功",
+    "time": "1730711393847",
+    "data": {
+        "id": "1846801442433683458",
+        "userName": "萧然1",
+        "gender": "男",
+        "phone": "18592037349",
+        "email": "2312213@qq.com",
+        "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYmFjLXVzZXIiLCJpc3MiOiJsb25nY2hhbyIsImlhdCI6MTczMDcxMTM5MywiZXhwIjoxNzMwNzE0OTkzLCJpZCI6MTg0NjgwMTQ0MjQzMzY4MzQ1OH0.dwwL1n_Ctjmbc3Y-D42DqInJ6BejMPsk85HvSsLn0RM"
+    },
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}

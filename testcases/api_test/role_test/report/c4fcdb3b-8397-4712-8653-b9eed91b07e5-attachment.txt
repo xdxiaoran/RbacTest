@@ -1,0 +1,203 @@
+INFO     log:conftest.py:38 ******************************
+INFO     log:conftest.py:39 前置步骤开始 ==>> 获取管理员token
+INFO     log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+INFO     log:http_client.py:41 接口请求方式 ==>> POST
+INFO     log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+INFO     log:http_client.py:47 接口请求体 data 参数 ==>> {
+    "password": "15320255643"
+}
+INFO     log:index_user_api.py:15 接口实际返回的结果为==>>{
+    "success": true,
+    "code": 200,
+    "message": "操作成功",
+    "time": "1730857689562",
+    "data": "SH5Zt4XLOeGXVWET0RjpkIm/rBNECOI/MYm5FsuX/Mx5xbNbbiGxi1Ea1hhFt9XpfP1RFni/vCvAhkoD3FMDP/CstcXNzq1P@wGNDgHMl1FFCC7Lo5XGD9yKB9hckokJYgEw9mgFpjyhgQVG1d6L16Nw/ScxUrfCDuN12Y/k5pc=",
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+INFO     log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/index/login
+INFO     log:http_client.py:41 接口请求方式 ==>> POST
+INFO     log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+INFO     log:http_client.py:47 接口请求体 data 参数 ==>> {
+    "phone": "15320255643",
+    "password": "SH5Zt4XLOeGXVWET0RjpkIm/rBNECOI/MYm5FsuX/Mx5xbNbbiGxi1Ea1hhFt9XpfP1RFni/vCvAhkoD3FMDP/CstcXNzq1P@wGNDgHMl1FFCC7Lo5XGD9yKB9hckokJYgEw9mgFpjyhgQVG1d6L16Nw/ScxUrfCDuN12Y/k5pc="
+}
+INFO     log:index_user_api.py:15 接口实际返回的结果为==>>{
+    "success": true,
+    "code": 200,
+    "message": "操作成功",
+    "time": "1730857690012",
+    "data": {
+        "id": "1846030109260034050",
+        "userName": "龙超",
+        "gender": "男",
+        "phone": "15320255643",
+        "email": "longchao@changan.com.cn",
+        "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYmFjLXVzZXIiLCJpc3MiOiJsb25nY2hhbyIsImlhdCI6MTczMDg1NzY4OSwiZXhwIjoxNzMwODYxMjg5LCJpZCI6MTg0NjAzMDEwOTI2MDAzNDA1MH0.O_NbbwBLsTy9dXQzApmwUL5RjjM-5_aSwuLzxfSId5c"
+    },
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+INFO     log:conftest.py:48 ******************************
+INFO     log:conftest.py:49 前置步骤开始 ==>> 获取无权限用户token
+INFO     log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+INFO     log:http_client.py:41 接口请求方式 ==>> POST
+INFO     log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+INFO     log:http_client.py:47 接口请求体 data 参数 ==>> {
+    "password": "18592037349"
+}
+INFO     log:index_user_api.py:15 接口实际返回的结果为==>>{
+    "success": true,
+    "code": 200,
+    "message": "操作成功",
+    "time": "1730857690103",
+    "data": "Dfe3YbwLyeGHi/9pxsBvUTN2wU/z4eTnSV3d1Cc4S9GhzWrx/viuEFRf5KrLs8sfIx9JJdnCrf1EnEFwMdEAnE7kiqzd7oZr@xS5fSG6T7nOhdDHp88vnbtq9QCkFsbDwQPKMKhasBMJtJBaq53hVHg5PAbkMVHiYc123gbzuec=",
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+INFO     log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/index/login
+INFO     log:http_client.py:41 接口请求方式 ==>> POST
+INFO     log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+INFO     log:http_client.py:47 接口请求体 data 参数 ==>> {
+    "phone": "18592037349",
+    "password": "Dfe3YbwLyeGHi/9pxsBvUTN2wU/z4eTnSV3d1Cc4S9GhzWrx/viuEFRf5KrLs8sfIx9JJdnCrf1EnEFwMdEAnE7kiqzd7oZr@xS5fSG6T7nOhdDHp88vnbtq9QCkFsbDwQPKMKhasBMJtJBaq53hVHg5PAbkMVHiYc123gbzuec="
+}
+INFO     log:index_user_api.py:15 接口实际返回的结果为==>>{
+    "success": true,
+    "code": 200,
+    "message": "操作成功",
+    "time": "1730857690548",
+    "data": {
+        "id": "1846801442433683458",
+        "userName": "萧然1",
+        "gender": "男",
+        "phone": "18592037349",
+        "email": "2312213@qq.com",
+        "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYmFjLXVzZXIiLCJpc3MiOiJsb25nY2hhbyIsImlhdCI6MTczMDg1NzY5MCwiZXhwIjoxNzMwODYxMjkwLCJpZCI6MTg0NjgwMTQ0MjQzMzY4MzQ1OH0.PsjBPQWVZufv3aunGluYG4M9mrWdgCIgKuPTnXLYRbU"
+    },
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+INFO     log:test_07_get_role_resource.py:19 *************** 开始执行用例 ***************
+INFO     log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/role/getResourcePage
+INFO     log:http_client.py:41 接口请求方式 ==>> POST
+INFO     log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-unlencoded",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYmFjLXVzZXIiLCJpc3MiOiJsb25nY2hhbyIsImlhdCI6MTczMDg1NzY4OSwiZXhwIjoxNzMwODYxMjg5LCJpZCI6MTg0NjAzMDEwOTI2MDAzNDA1MH0.O_NbbwBLsTy9dXQzApmwUL5RjjM-5_aSwuLzxfSId5c"
+}
+INFO     log:http_client.py:45 接口请求 params 参数 ==>> {
+    "roleId": 1846079261643087873
+}
+INFO     log:index_user_api.py:15 接口实际返回的结果为==>>{
+    "success": true,
+    "code": 200,
+    "message": "操作成功",
+    "time": "1730857692091",
+    "data": {
+        "records": [
+            {
+                "id": "1846109800614629378",
+                "resourceName": "基础公共资源",
+                "code": "1",
+                "parentId": "0",
+                "type": "opt:base",
+                "description": "操作基础公共接口，如用户自己更新信息等操作",
+                "createTime": "2024-10-15 16:51:48",
+                "createBy": "1846030109260034050",
+                "updateTime": "2024-10-15 16:50:00",
+                "updateBy": "1846030109260034050",
+                "isDelete": "0",
+                "reversion": 0
+            },
+            {
+                "id": "1846109800614629379",
+                "resourceName": "用户管理",
+                "code": "0",
+                "parentId": "1846109800614629406",
+                "type": "menu:sys:user",
+                "description": "系统界面下的用户界面资源",
+                "createTime": "2024-10-15 16:54:38",
+                "createBy": "1846030109260034050",
+                "updateTime": "2024-10-15 16:50:03",
+                "updateBy": "1846030109260034050",
+                "isDelete": "0",
+                "reversion": 0
+            },
+            {
+                "id": "1846109800614629380",
+                "resourceName": "角色管理",
+                "code": "0",
+                "parentId": "1846109800614629406",
+                "type": "menu:sys:role",
+                "description": "系统界面下的角色界面资源",
+                "createTime": "2024-10-15 16:54:41",
+                "createBy": "1846030109260034050",
+                "updateTime": "2024-10-15 16:50:10",
+                "updateBy": "1846030109260034050",
+                "isDelete": "0",
+                "reversion": 0
+            },
+            {
+                "id": "1846109800614629381",
+                "resourceName": "资源管理",
+                "code": "0",
+                "parentId": "1846109800614629406",
+                "type": "menu:sys:resource",
+                "description": "系统界面下的资源界面资源",
+                "createTime": "2024-10-15 16:54:43",
+                "createBy": "1846030109260034050",
+                "updateTime": "2024-10-15 16:50:05",
+                "updateBy": "1846030109260034050",
+                "isDelete": "0",
+                "reversion": 0
+            },
+            {
+                "id": "1846109800614629383",
+                "resourceName": "前端开发",
+                "code": "0",
+                "parentId": "1846109800614629382",
+                "type": "menu:dev:front",
+                "description": "研发界面下的前端开发界面资源",
+                "createTime": "2024-10-15 17:20:32",
+                "createBy": "1846030109260034050",
+                "updateTime": "2024-10-15 16:50:17",
+                "updateBy": "1846030109260034050",
+                "isDelete": "0",
+                "reversion": 0
+            }
+        ],
+        "total": "28",
+        "size": "5",
+        "current": "1",
+        "orders": [],
+        "optimizeCountSql": true,
+        "hitCount": false,
+        "countId": null,
+        "maxLimit": null,
+        "searchCount": true,
+        "pages": "6"
+    },
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+INFO     log:conftest.py:29 code ==>> 期望结果：200， 实际结果：200
+INFO     log:conftest.py:30 返回信息 ==>> 期望结果：操作成功， 实际结果：操作成功
+INFO     log:test_07_get_role_resource.py:26 *************** 结束执行用例 ***************

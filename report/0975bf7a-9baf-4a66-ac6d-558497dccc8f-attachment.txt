@@ -1,0 +1,21 @@
+[32mINFO    [0m log:test_07_get_permission.py:19 *************** 开始执行用例 ***************
+[32mINFO    [0m log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/resource/getPermission
+[32mINFO    [0m log:http_client.py:41 接口请求方式 ==>> POST
+[32mINFO    [0m log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-unlencoded",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYmFjLXVzZXIiLCJpc3MiOiJsb25nY2hhbyIsImlhdCI6MTczMTM4NDIzMywiZXhwIjoxNzMxMzg3ODMzLCJpZCI6MTg0NjAzMDEwOTI2MDAzNDA1MH0.mus_8IquIcrNxLffWrofYGJrqiwbIkxm7DjcpBedRBE"
+}
+[32mINFO    [0m log:http_client.py:45 接口请求 params 参数 ==>> {
+    "resourceId": 1853687465346150
+}
+[32mINFO    [0m log:index_user_api.py:15 接口实际返回的结果为==>>{
+    "success": true,
+    "code": 200,
+    "message": "操作成功",
+    "time": "1731384262056",
+    "data": [],
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}

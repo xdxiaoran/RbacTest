@@ -1,0 +1,127 @@
+INFO     log:conftest.py:38 ******************************
+INFO     log:conftest.py:39 前置步骤开始 ==>> 获取管理员token
+INFO     log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+INFO     log:http_client.py:41 接口请求方式 ==>> POST
+INFO     log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+INFO     log:http_client.py:47 接口请求体 data 参数 ==>> {
+    "password": "15320255643"
+}
+INFO     log:index_user_api.py:15 接口实际返回的结果为==>>{
+    "success": true,
+    "code": 200,
+    "message": "操作成功",
+    "time": "1730857605561",
+    "data": "XoN1Fkzg3lzgoJrXHuLd8oOc5C0HxHjKF7tjyhU8va@U1aPa7YXsfpIsaP4hnBlPVkL0FjKDVYAizPOr0YEoTA1wayOlGd6fw9xBYKPAZVq2JG9@Nw24yUCYl8VVE7AIzcRYUOYUE37TtczYIrsYkGFxvQFcHoGZFKT2Z/TgclA=",
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+INFO     log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/index/login
+INFO     log:http_client.py:41 接口请求方式 ==>> POST
+INFO     log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+INFO     log:http_client.py:47 接口请求体 data 参数 ==>> {
+    "phone": "15320255643",
+    "password": "XoN1Fkzg3lzgoJrXHuLd8oOc5C0HxHjKF7tjyhU8va@U1aPa7YXsfpIsaP4hnBlPVkL0FjKDVYAizPOr0YEoTA1wayOlGd6fw9xBYKPAZVq2JG9@Nw24yUCYl8VVE7AIzcRYUOYUE37TtczYIrsYkGFxvQFcHoGZFKT2Z/TgclA="
+}
+INFO     log:index_user_api.py:15 接口实际返回的结果为==>>{
+    "success": true,
+    "code": 200,
+    "message": "操作成功",
+    "time": "1730857606349",
+    "data": {
+        "id": "1846030109260034050",
+        "userName": "龙超",
+        "gender": "男",
+        "phone": "15320255643",
+        "email": "longchao@changan.com.cn",
+        "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYmFjLXVzZXIiLCJpc3MiOiJsb25nY2hhbyIsImlhdCI6MTczMDg1NzYwNiwiZXhwIjoxNzMwODYxMjA2LCJpZCI6MTg0NjAzMDEwOTI2MDAzNDA1MH0.9oEH1oPORLb382Nl8k3i1pyRZ-4WTIMRQOx0TbtILuI"
+    },
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+INFO     log:test_04_admin_resource_add_update_delete.py:30 *************** 开始执行用例 ***************
+INFO     log:test_04_admin_resource_add_update_delete.py:12 步骤1 ==>> 添加资源
+INFO     log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/resource/addResource
+INFO     log:http_client.py:41 接口请求方式 ==>> POST
+INFO     log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/json",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYmFjLXVzZXIiLCJpc3MiOiJsb25nY2hhbyIsImlhdCI6MTczMDg1NzYwNiwiZXhwIjoxNzMwODYxMjA2LCJpZCI6MTg0NjAzMDEwOTI2MDAzNDA1MH0.9oEH1oPORLb382Nl8k3i1pyRZ-4WTIMRQOx0TbtILuI"
+}
+INFO     log:http_client.py:49 接口请求体 json 参数 ==>> {
+    "resourceName": "萧然资源测试",
+    "code": "测试code",
+    "parentId": 1846109800614629378,
+    "type": "测试type",
+    "description": "测试des",
+    "addPermissionList": [
+        "/test"
+    ]
+}
+INFO     log:index_user_api.py:15 接口实际返回的结果为==>>{
+    "success": true,
+    "code": 200,
+    "message": "操作成功",
+    "time": "1730857608931",
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+INFO     log:test_04_admin_resource_add_update_delete.py:16 步骤2 ==>> 更新资源
+INFO     log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/resource/updateResource
+INFO     log:http_client.py:41 接口请求方式 ==>> POST
+INFO     log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/json",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYmFjLXVzZXIiLCJpc3MiOiJsb25nY2hhbyIsImlhdCI6MTczMDg1NzYwNiwiZXhwIjoxNzMwODYxMjA2LCJpZCI6MTg0NjAzMDEwOTI2MDAzNDA1MH0.9oEH1oPORLb382Nl8k3i1pyRZ-4WTIMRQOx0TbtILuI"
+}
+INFO     log:http_client.py:49 接口请求体 json 参数 ==>> {
+    "id": 1853977298325024770,
+    "resourceName": "萧然资源测试3",
+    "code": "测试code",
+    "type": "测试type",
+    "description": "测试des",
+    "permissionList": [
+        "/test"
+    ]
+}
+INFO     log:index_user_api.py:15 接口实际返回的结果为==>>{
+    "success": true,
+    "code": 200,
+    "message": "操作成功",
+    "time": "1730857613259",
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+INFO     log:test_04_admin_resource_add_update_delete.py:20 步骤3 ==>> 删除资源
+INFO     log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/resource/deleteResource
+INFO     log:http_client.py:41 接口请求方式 ==>> POST
+INFO     log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-unlencoded",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYmFjLXVzZXIiLCJpc3MiOiJsb25nY2hhbyIsImlhdCI6MTczMDg1NzYwNiwiZXhwIjoxNzMwODYxMjA2LCJpZCI6MTg0NjAzMDEwOTI2MDAzNDA1MH0.9oEH1oPORLb382Nl8k3i1pyRZ-4WTIMRQOx0TbtILuI"
+}
+INFO     log:http_client.py:45 接口请求 params 参数 ==>> {
+    "resourceId": 1853977298325024770
+}
+INFO     log:index_user_api.py:15 接口实际返回的结果为==>>{
+    "success": true,
+    "code": 200,
+    "message": "操作成功",
+    "time": "1730857616040",
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+INFO     log:conftest.py:29 code ==>> 期望结果：200， 实际结果：200
+INFO     log:conftest.py:30 返回信息 ==>> 期望结果：操作成功， 实际结果：操作成功
+INFO     log:test_04_admin_resource_add_update_delete.py:44 *************** 清理测试数据 ***************
+INFO     log:test_04_admin_resource_add_update_delete.py:46 *************** 结束执行用例 ***************

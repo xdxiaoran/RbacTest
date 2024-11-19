@@ -1,0 +1,28 @@
+INFO     log:test_04_add_resource.py:20 *************** 开始执行用例 ***************
+INFO     log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/resource/addResource
+INFO     log:http_client.py:41 接口请求方式 ==>> POST
+INFO     log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/json",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYmFjLXVzZXIiLCJpc3MiOiJsb25nY2hhbyIsImlhdCI6MTczMDc5MDI2MywiZXhwIjoxNzMwNzkzODYzLCJpZCI6MTg0NjAzMDEwOTI2MDAzNDA1MH0.n8BaZnrGijTD8KEbORiyWlAbG-qKO5Lz8yZf561wKeM"
+}
+INFO     log:http_client.py:49 接口请求体 json 参数 ==>> {
+    "resourceName": "test1",
+    "code": "6666",
+    "parentId": 18461098006146292,
+    "type": "type1",
+    "description": "testDes",
+    "addPermissionList": []
+}
+INFO     log:index_user_api.py:15 接口实际返回的结果为==>>{
+    "success": false,
+    "code": 10122,
+    "message": "父级资源不存在！",
+    "time": "1730790266541",
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+INFO     log:conftest.py:29 code ==>> 期望结果：10122， 实际结果：10122
+INFO     log:conftest.py:30 返回信息 ==>> 期望结果：父级资源不存在！， 实际结果：父级资源不存在！
+INFO     log:test_04_add_resource.py:30 *************** 结束执行用例 ***************

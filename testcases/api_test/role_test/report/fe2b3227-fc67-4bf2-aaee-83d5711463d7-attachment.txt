@@ -1,0 +1,97 @@
+INFO     log:conftest.py:38 ******************************
+INFO     log:conftest.py:39 前置步骤开始 ==>> 获取管理员token
+INFO     log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+INFO     log:http_client.py:41 接口请求方式 ==>> POST
+INFO     log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+INFO     log:http_client.py:47 接口请求体 data 参数 ==>> {
+    "password": "15320255643"
+}
+INFO     log:index_user_api.py:15 接口实际返回的结果为==>>{
+    "success": true,
+    "code": 200,
+    "message": "操作成功",
+    "time": "1730777982725",
+    "data": "SBidjImCsWCupVHz8NmQmgdSZEi1Xwm4B4QXCF9RYzWfP0sL4ERb9THCBvC0RiDETeFeBEwCGW/g6QtWOkXUZafNN2ybbpwMX3GmwM/BmAbU3lwMKDgV3Hfn@Nxn68x7THb9h4RLzw0xwGc4k0vGsdGVVljMtUem/0LaAYyDJNs=",
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+INFO     log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/index/login
+INFO     log:http_client.py:41 接口请求方式 ==>> POST
+INFO     log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+INFO     log:http_client.py:47 接口请求体 data 参数 ==>> {
+    "phone": "15320255643",
+    "password": "SBidjImCsWCupVHz8NmQmgdSZEi1Xwm4B4QXCF9RYzWfP0sL4ERb9THCBvC0RiDETeFeBEwCGW/g6QtWOkXUZafNN2ybbpwMX3GmwM/BmAbU3lwMKDgV3Hfn@Nxn68x7THb9h4RLzw0xwGc4k0vGsdGVVljMtUem/0LaAYyDJNs="
+}
+INFO     log:index_user_api.py:15 接口实际返回的结果为==>>{
+    "success": true,
+    "code": 200,
+    "message": "操作成功",
+    "time": "1730777983917",
+    "data": {
+        "id": "1846030109260034050",
+        "userName": "龙超",
+        "gender": "男",
+        "phone": "15320255643",
+        "email": "longchao@changan.com.cn",
+        "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYmFjLXVzZXIiLCJpc3MiOiJsb25nY2hhbyIsImlhdCI6MTczMDc3Nzk4MywiZXhwIjoxNzMwNzgxNTgzLCJpZCI6MTg0NjAzMDEwOTI2MDAzNDA1MH0.JJrn-5xl8HKTwU6NalFiPY0VWPRM5R96Rr_WNB6cDl0"
+    },
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+INFO     log:conftest.py:48 ******************************
+INFO     log:conftest.py:49 前置步骤开始 ==>> 获取无权限用户token
+INFO     log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+INFO     log:http_client.py:41 接口请求方式 ==>> POST
+INFO     log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+INFO     log:http_client.py:47 接口请求体 data 参数 ==>> {
+    "password": "18592037349"
+}
+INFO     log:index_user_api.py:15 接口实际返回的结果为==>>{
+    "success": true,
+    "code": 200,
+    "message": "操作成功",
+    "time": "1730777984004",
+    "data": "yMkMWPyD@E3x1@uEdkrOeMdZqFlNBtghXc3pxiJwm7uV28iEbCpHhF4QVhGLJp4oIR9hmvU83yx6ccCqtk8ih02CFxamIX1HYePuaAnq/OdatWeoznA6NKwLqyXrxs@rwGssYwWTDrGdFYsoj0B14fPDFLB8jdM116Anb3QmENs=",
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+INFO     log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/index/login
+INFO     log:http_client.py:41 接口请求方式 ==>> POST
+INFO     log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+INFO     log:http_client.py:47 接口请求体 data 参数 ==>> {
+    "phone": "18592037349",
+    "password": "yMkMWPyD@E3x1@uEdkrOeMdZqFlNBtghXc3pxiJwm7uV28iEbCpHhF4QVhGLJp4oIR9hmvU83yx6ccCqtk8ih02CFxamIX1HYePuaAnq/OdatWeoznA6NKwLqyXrxs@rwGssYwWTDrGdFYsoj0B14fPDFLB8jdM116Anb3QmENs="
+}
+INFO     log:index_user_api.py:15 接口实际返回的结果为==>>{
+    "success": true,
+    "code": 200,
+    "message": "操作成功",
+    "time": "1730777984342",
+    "data": {
+        "id": "1846801442433683458",
+        "userName": "萧然1",
+        "gender": "男",
+        "phone": "18592037349",
+        "email": "2312213@qq.com",
+        "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYmFjLXVzZXIiLCJpc3MiOiJsb25nY2hhbyIsImlhdCI6MTczMDc3Nzk4NCwiZXhwIjoxNzMwNzgxNTg0LCJpZCI6MTg0NjgwMTQ0MjQzMzY4MzQ1OH0.R7pX0I9z2jDZBXOW8nzZBgxQrtsfukzpIivB2ZW4I30"
+    },
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+INFO     log:test_06_get_user.py:19 *************** 开始执行用例 ***************

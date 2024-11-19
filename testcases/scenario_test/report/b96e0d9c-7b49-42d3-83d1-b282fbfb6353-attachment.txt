@@ -1,0 +1,90 @@
+INFO     log:test_01_register_login_update_logout.py:33 *************** 开始执行用例 ***************
+INFO     log:test_01_register_login_update_logout.py:10 步骤1 ==>> 注册用户
+INFO     log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+INFO     log:http_client.py:41 接口请求方式 ==>> POST
+INFO     log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+INFO     log:http_client.py:47 接口请求体 data 参数 ==>> {
+    "password": "18592037346"
+}
+INFO     log:index_user_service.py:14 接口实际返回的结果为==>>{
+    "success": true,
+    "code": 200,
+    "message": "操作成功",
+    "time": "1729755484178",
+    "data": "WZDsr@FgjHSuzHVP6tYwx3aBCB5PcYnxmwtjNW@z2F4Fr0z29hlKBZvI9U9QFZxvTOJzxqehApGWy1Vb4in21Gfmy2cZ4e3MJ3hn7/uJdODkQ9EJ0eR4nGGl6@RYUofkb@kPIEvBE9E4YHTdzAW48x7S@yHjWYyZwi6FxIJh650=",
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+INFO     log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/index/register
+INFO     log:http_client.py:41 接口请求方式 ==>> POST
+INFO     log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/json"
+}
+INFO     log:http_client.py:49 接口请求体 json 参数 ==>> {
+    "userName": "萧然测试",
+    "password": "WZDsr@FgjHSuzHVP6tYwx3aBCB5PcYnxmwtjNW@z2F4Fr0z29hlKBZvI9U9QFZxvTOJzxqehApGWy1Vb4in21Gfmy2cZ4e3MJ3hn7/uJdODkQ9EJ0eR4nGGl6@RYUofkb@kPIEvBE9E4YHTdzAW48x7S@yHjWYyZwi6FxIJh650=",
+    "gender": "男",
+    "phone": "18592037346",
+    "email": "smasdad@qq.com"
+}
+INFO     log:index_user_service.py:14 接口实际返回的结果为==>>{
+    "success": true,
+    "code": 200,
+    "message": "操作成功",
+    "time": "1729755485209",
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+INFO     log:test_01_register_login_update_logout.py:14 步骤2 ==>> 登录用户
+INFO     log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+INFO     log:http_client.py:41 接口请求方式 ==>> POST
+INFO     log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+INFO     log:http_client.py:47 接口请求体 data 参数 ==>> {
+    "password": "18592037346"
+}
+INFO     log:index_user_service.py:14 接口实际返回的结果为==>>{
+    "success": true,
+    "code": 200,
+    "message": "操作成功",
+    "time": "1729755485292",
+    "data": "NGEXy5/v5qtAzzYaXC6rU2zyLS2VSmzpQ2KPw48camqepKseLDefzW1eMO/0SrlwXf6yMgoQ1MIKfvFRFL1g3EVxNEGcmr/KUeWEXXWeQ3CeuRIqQP9@gWOQ/okxMLGeEitITUXE6pcNwSfGfO8LEpt4XOyKWEnA7q/UMTqJYe4=",
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+INFO     log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/index/login
+INFO     log:http_client.py:41 接口请求方式 ==>> POST
+INFO     log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+INFO     log:http_client.py:47 接口请求体 data 参数 ==>> {
+    "phone": "18592037346",
+    "password": "NGEXy5/v5qtAzzYaXC6rU2zyLS2VSmzpQ2KPw48camqepKseLDefzW1eMO/0SrlwXf6yMgoQ1MIKfvFRFL1g3EVxNEGcmr/KUeWEXXWeQ3CeuRIqQP9@gWOQ/okxMLGeEitITUXE6pcNwSfGfO8LEpt4XOyKWEnA7q/UMTqJYe4="
+}
+INFO     log:index_user_service.py:14 接口实际返回的结果为==>>{
+    "success": true,
+    "code": 200,
+    "message": "操作成功",
+    "time": "1729755485614",
+    "data": {
+        "id": "1849354657801203713",
+        "userName": "萧然测试",
+        "gender": "0",
+        "phone": "18592037346",
+        "email": "smasdad@qq.com",
+        "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYmFjLXVzZXIiLCJpc3MiOiJsb25nY2hhbyIsImlhdCI6MTcyOTc1NTQ4NSwiZXhwIjoxNzI5NzU5MDg1LCJpZCI6MTg0OTM1NDY1NzgwMTIwMzcxM30.aTTQL9iVfDJjRaqH-C-CjfrTkj33oxzj7-tA82pLqGw"
+    },
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}

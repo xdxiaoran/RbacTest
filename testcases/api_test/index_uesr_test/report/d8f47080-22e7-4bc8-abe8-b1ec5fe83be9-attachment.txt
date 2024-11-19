@@ -1,0 +1,50 @@
+INFO     log:test_02_login.py:18 *************** 开始执行用例 ***************
+INFO     log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+INFO     log:http_client.py:41 接口请求方式 ==>> POST
+INFO     log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+INFO     log:http_client.py:47 接口请求体 data 参数 ==>> {
+    "password": "15320255643"
+}
+INFO     log:index_user_api.py:15 接口实际返回的结果为==>>{
+    "success": true,
+    "code": 200,
+    "message": "操作成功",
+    "time": "1730792900197",
+    "data": "JM/MkmCAJo7YPJfCHmml1EeGiu0evLTcGOYDOXqC8QbMCzFWlop7LECxsxNn8BKgO5LgFY34kE2jSqk1Y@mqLYiqIxHbYrrxyVeodKXYQ9LL4clgXFR0HIa5o9U33YrI8UqRN66lw01NQoaa67hkCNl24gZgCW5XX21bUFBO3fA=",
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+INFO     log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/index/login
+INFO     log:http_client.py:41 接口请求方式 ==>> POST
+INFO     log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+INFO     log:http_client.py:47 接口请求体 data 参数 ==>> {
+    "phone": "15320255643",
+    "password": "JM/MkmCAJo7YPJfCHmml1EeGiu0evLTcGOYDOXqC8QbMCzFWlop7LECxsxNn8BKgO5LgFY34kE2jSqk1Y@mqLYiqIxHbYrrxyVeodKXYQ9LL4clgXFR0HIa5o9U33YrI8UqRN66lw01NQoaa67hkCNl24gZgCW5XX21bUFBO3fA="
+}
+INFO     log:index_user_api.py:15 接口实际返回的结果为==>>{
+    "success": true,
+    "code": 200,
+    "message": "操作成功",
+    "time": "1730792901767",
+    "data": {
+        "id": "1846030109260034050",
+        "userName": "龙超",
+        "gender": "男",
+        "phone": "15320255643",
+        "email": "longchao@changan.com.cn",
+        "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYmFjLXVzZXIiLCJpc3MiOiJsb25nY2hhbyIsImlhdCI6MTczMDc5MjkwMSwiZXhwIjoxNzMwNzk2NTAxLCJpZCI6MTg0NjAzMDEwOTI2MDAzNDA1MH0.T1HQT6v-S3DgKv1VX-lAqRvUfUpJODHlprkqICe8NxQ"
+    },
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+INFO     log:conftest.py:29 code ==>> 期望结果：200， 实际结果：200
+INFO     log:conftest.py:30 返回信息 ==>> 期望结果：操作成功， 实际结果：操作成功
+INFO     log:test_02_login.py:21 *************** 结束执行用例 ***************

@@ -1,0 +1,75 @@
+test_user_register_login_update_logout:
+  register:
+    userName: "萧然测试"
+    password: "18592037346"
+    gender: "男"
+    phone: "18592037346"
+    email: "smasdad@qq.com"
+  login:
+    phone: "18592037346"
+    password: "18592037346"
+  update:
+    userName: "萧然测试"
+    gender: "女"
+    phone: "18592037346"
+    email: "smasdad@qq.com"
+  expect_result: True
+  expect_code: 200
+  expect_msg: "操作成功"
+
+
+
+test_admin_user_add_update_delete:
+  add:
+    userName: "萧然用户测试"
+    phone: "18592037346"
+    email: "smasdad@qq.com"
+    addRoleList: []
+  update:
+    deleteRoleList: []
+    addRoleList: [1846079261643087884]
+  delete:
+  expect_result: True
+  expect_code: 200
+  expect_msg: "操作成功"
+
+
+
+test_admin_role_add_update_delete:
+  add:
+    roleName: "萧然角色测试1"
+    code: "6666"
+    parentId: 1846079261643087873
+    description: "destest"
+    addResourceList: [1846109800614629392]
+  update:
+    roleName: "萧然角色测试3"
+    code: "666666"
+    parentName: "超级管理员"
+    description: "destest"
+    deleteResourceList: []
+    addResourceList: [1846109800614629399]
+  delete:
+  expect_result: True
+  expect_code: 200
+  expect_msg: "操作成功"
+
+
+test_resource_role_add_update_delete:
+  add:
+    resourceName: "萧然资源测试"
+    code: "测试code"
+    parentId: 1846109800614629378
+    type: "测试type"
+    description: "测试des"
+    addPermissionList: ["/test"]
+  update:
+    resourceName: "萧然资源测试3"
+    code: "测试code"
+    type: "测试type"
+    description: "测试des"
+    addPermissionList: [ "/test" ]
+  delete:
+  expect_result: True
+  expect_code: 200
+  expect_msg: "操作成功"

@@ -1,0 +1,1526 @@
+[2024-10-17 10:39:10,398][read_data.py 39][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\config\setting.ini 文件......
+[2024-10-17 10:39:10,398][read_data.py 43][INFO]: 读到数据 ==>>  {'host': {'api_root_url': 'http://127.0.0.1'}, 'mysql': {'MYSQL_HOST': '172.29.0.17', 'MYSQL_PORT': '3306', 'MYSQL_USER': 'root', 'MYSQL_PASSWD': '9NBmX6BbKujY*JS$', 'MYSQL_DB': 'learn_rbac_lc_dev'}} 
+[2024-10-17 10:39:10,398][rest_client.py 41][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/getPublicKey
+[2024-10-17 10:39:10,398][rest_client.py 42][INFO]: 接口请求方式 ==>> GET
+[2024-10-17 10:39:10,399][rest_client.py 44][INFO]: 接口请求头 ==>> null
+[2024-10-17 10:39:10,399][rest_client.py 45][INFO]: 接口请求 params 参数 ==>> null
+[2024-10-17 10:39:10,399][rest_client.py 46][INFO]: 接口请求体 data 参数 ==>> null
+[2024-10-17 10:39:10,399][rest_client.py 47][INFO]: 接口请求体 json 参数 ==>> null
+[2024-10-17 10:39:10,399][rest_client.py 48][INFO]: 接口上传附件 files 参数 ==>> None
+[2024-10-17 10:39:10,399][rest_client.py 49][INFO]: 接口 cookies 参数 ==>> null
+[2024-10-17 10:39:54,690][read_data.py 39][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\config\setting.ini 文件......
+[2024-10-17 10:39:54,690][read_data.py 43][INFO]: 读到数据 ==>>  {'host': {'api_root_url': 'http://127.0.0.1'}, 'mysql': {'MYSQL_HOST': '172.29.0.17', 'MYSQL_PORT': '3306', 'MYSQL_USER': 'root', 'MYSQL_PASSWD': '9NBmX6BbKujY*JS$', 'MYSQL_DB': 'learn_rbac_lc_dev'}} 
+[2024-10-17 10:39:54,690][rest_client.py 41][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/getPublicKey
+[2024-10-17 10:39:54,690][rest_client.py 42][INFO]: 接口请求方式 ==>> GET
+[2024-10-17 10:39:54,690][rest_client.py 44][INFO]: 接口请求头 ==>> null
+[2024-10-17 10:39:54,690][rest_client.py 45][INFO]: 接口请求 params 参数 ==>> null
+[2024-10-17 10:39:54,690][rest_client.py 46][INFO]: 接口请求体 data 参数 ==>> null
+[2024-10-17 10:39:54,690][rest_client.py 47][INFO]: 接口请求体 json 参数 ==>> null
+[2024-10-17 10:39:54,690][rest_client.py 48][INFO]: 接口上传附件 files 参数 ==>> None
+[2024-10-17 10:39:54,690][rest_client.py 49][INFO]: 接口 cookies 参数 ==>> null
+[2024-10-17 10:40:13,963][read_data.py 39][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\config\setting.ini 文件......
+[2024-10-17 10:40:13,964][read_data.py 43][INFO]: 读到数据 ==>>  {'host': {'api_root_url': 'http://127.0.0.1'}, 'mysql': {'MYSQL_HOST': '172.29.0.17', 'MYSQL_PORT': '3306', 'MYSQL_USER': 'root', 'MYSQL_PASSWD': '9NBmX6BbKujY*JS$', 'MYSQL_DB': 'learn_rbac_lc_dev'}} 
+[2024-10-17 10:40:13,964][rest_client.py 41][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/getPublicKey
+[2024-10-17 10:40:13,964][rest_client.py 42][INFO]: 接口请求方式 ==>> GET
+[2024-10-17 10:40:13,964][rest_client.py 44][INFO]: 接口请求头 ==>> null
+[2024-10-17 10:40:13,964][rest_client.py 45][INFO]: 接口请求 params 参数 ==>> null
+[2024-10-17 10:40:13,964][rest_client.py 46][INFO]: 接口请求体 data 参数 ==>> null
+[2024-10-17 10:40:13,964][rest_client.py 47][INFO]: 接口请求体 json 参数 ==>> null
+[2024-10-17 10:40:13,964][rest_client.py 48][INFO]: 接口上传附件 files 参数 ==>> None
+[2024-10-17 10:40:13,964][rest_client.py 49][INFO]: 接口 cookies 参数 ==>> null
+[2024-10-17 10:40:19,556][read_data.py 39][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\config\setting.ini 文件......
+[2024-10-17 10:40:19,556][read_data.py 43][INFO]: 读到数据 ==>>  {'host': {'api_root_url': 'http://127.0.0.1'}, 'mysql': {'MYSQL_HOST': '172.29.0.17', 'MYSQL_PORT': '3306', 'MYSQL_USER': 'root', 'MYSQL_PASSWD': '9NBmX6BbKujY*JS$', 'MYSQL_DB': 'learn_rbac_lc_dev'}} 
+[2024-10-17 10:40:19,557][rest_client.py 41][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/getPublicKey
+[2024-10-17 10:40:19,557][rest_client.py 42][INFO]: 接口请求方式 ==>> GET
+[2024-10-17 10:40:19,557][rest_client.py 44][INFO]: 接口请求头 ==>> null
+[2024-10-17 10:40:19,557][rest_client.py 45][INFO]: 接口请求 params 参数 ==>> null
+[2024-10-17 10:40:19,557][rest_client.py 46][INFO]: 接口请求体 data 参数 ==>> null
+[2024-10-17 10:40:19,557][rest_client.py 47][INFO]: 接口请求体 json 参数 ==>> null
+[2024-10-17 10:40:19,557][rest_client.py 48][INFO]: 接口上传附件 files 参数 ==>> None
+[2024-10-17 10:40:19,557][rest_client.py 49][INFO]: 接口 cookies 参数 ==>> null
+[2024-10-17 11:07:25,477][read_data.py 39][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\config\setting.ini 文件......
+[2024-10-17 11:07:25,477][read_data.py 43][INFO]: 读到数据 ==>>  {'host': {'api_root_url': 'http://127.0.0.1'}, 'mysql': {'MYSQL_HOST': '172.29.0.17', 'MYSQL_PORT': '3306', 'MYSQL_USER': 'root', 'MYSQL_PASSWD': '9NBmX6BbKujY*JS$', 'MYSQL_DB': 'learn_rbac_lc_dev'}} 
+[2024-10-17 11:08:18,862][read_data.py 39][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\config\setting.ini 文件......
+[2024-10-17 11:08:18,863][read_data.py 43][INFO]: 读到数据 ==>>  {'host': {'api_root_url': 'http://127.0.0.1'}, 'mysql': {'MYSQL_HOST': '172.29.0.17', 'MYSQL_PORT': '3306', 'MYSQL_USER': 'root', 'MYSQL_PASSWD': '9NBmX6BbKujY*JS$', 'MYSQL_DB': 'learn_rbac_lc_dev'}} 
+[2024-10-17 11:08:18,863][http_client.py 41][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/getPublicKey
+[2024-10-17 11:08:18,863][http_client.py 42][INFO]: 接口请求方式 ==>> GET
+[2024-10-17 11:08:18,863][http_client.py 44][INFO]: 接口请求头 ==>> null
+[2024-10-17 11:08:18,863][http_client.py 45][INFO]: 接口请求 params 参数 ==>> null
+[2024-10-17 11:08:18,863][http_client.py 46][INFO]: 接口请求体 data 参数 ==>> null
+[2024-10-17 11:08:18,863][http_client.py 47][INFO]: 接口请求体 json 参数 ==>> null
+[2024-10-17 11:08:18,863][http_client.py 48][INFO]: 接口上传附件 files 参数 ==>> None
+[2024-10-17 11:08:18,863][http_client.py 49][INFO]: 接口 cookies 参数 ==>> null
+[2024-10-17 11:09:05,545][read_data.py 39][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\config\setting.ini 文件......
+[2024-10-17 11:09:05,546][read_data.py 43][INFO]: 读到数据 ==>>  {'host': {'api_root_url': 'http://127.0.0.1'}, 'mysql': {'MYSQL_HOST': '172.29.0.17', 'MYSQL_PORT': '3306', 'MYSQL_USER': 'root', 'MYSQL_PASSWD': '9NBmX6BbKujY*JS$', 'MYSQL_DB': 'learn_rbac_lc_dev'}} 
+[2024-10-17 11:09:05,546][http_client.py 41][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/getPublicKey
+[2024-10-17 11:09:05,546][http_client.py 42][INFO]: 接口请求方式 ==>> GET
+[2024-10-17 11:09:05,546][http_client.py 44][INFO]: 接口请求头 ==>> null
+[2024-10-17 11:09:05,546][http_client.py 45][INFO]: 接口请求 params 参数 ==>> null
+[2024-10-17 11:09:05,546][http_client.py 46][INFO]: 接口请求体 data 参数 ==>> null
+[2024-10-17 11:09:05,546][http_client.py 47][INFO]: 接口请求体 json 参数 ==>> null
+[2024-10-17 11:09:05,546][http_client.py 48][INFO]: 接口上传附件 files 参数 ==>> None
+[2024-10-17 11:09:05,546][http_client.py 49][INFO]: 接口 cookies 参数 ==>> null
+[2024-10-17 11:09:25,276][read_data.py 39][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\config\setting.ini 文件......
+[2024-10-17 11:09:25,276][read_data.py 43][INFO]: 读到数据 ==>>  {'host': {'api_root_url': 'http://127.0.0.1'}, 'mysql': {'MYSQL_HOST': '172.29.0.17', 'MYSQL_PORT': '3306', 'MYSQL_USER': 'root', 'MYSQL_PASSWD': '9NBmX6BbKujY*JS$', 'MYSQL_DB': 'learn_rbac_lc_dev'}} 
+[2024-10-17 11:09:25,276][http_client.py 41][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/getPublicKey
+[2024-10-17 11:09:25,277][http_client.py 42][INFO]: 接口请求方式 ==>> GET
+[2024-10-17 11:09:25,277][http_client.py 44][INFO]: 接口请求头 ==>> null
+[2024-10-17 11:09:25,277][http_client.py 45][INFO]: 接口请求 params 参数 ==>> null
+[2024-10-17 11:09:25,277][http_client.py 46][INFO]: 接口请求体 data 参数 ==>> null
+[2024-10-17 11:09:25,277][http_client.py 47][INFO]: 接口请求体 json 参数 ==>> null
+[2024-10-17 11:09:25,277][http_client.py 48][INFO]: 接口上传附件 files 参数 ==>> None
+[2024-10-17 11:09:25,277][http_client.py 49][INFO]: 接口 cookies 参数 ==>> null
+[2024-10-17 11:09:42,558][read_data.py 39][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\config\setting.ini 文件......
+[2024-10-17 11:09:42,558][read_data.py 43][INFO]: 读到数据 ==>>  {'host': {'api_root_url': 'http://127.0.0.1'}, 'mysql': {'MYSQL_HOST': '172.29.0.17', 'MYSQL_PORT': '3306', 'MYSQL_USER': 'root', 'MYSQL_PASSWD': '9NBmX6BbKujY*JS$', 'MYSQL_DB': 'learn_rbac_lc_dev'}} 
+[2024-10-17 11:09:42,558][http_client.py 41][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/getPublicKey
+[2024-10-17 11:09:42,558][http_client.py 42][INFO]: 接口请求方式 ==>> GET
+[2024-10-17 11:09:42,558][http_client.py 44][INFO]: 接口请求头 ==>> null
+[2024-10-17 11:09:42,558][http_client.py 45][INFO]: 接口请求 params 参数 ==>> null
+[2024-10-17 11:09:42,558][http_client.py 46][INFO]: 接口请求体 data 参数 ==>> null
+[2024-10-17 11:09:42,558][http_client.py 47][INFO]: 接口请求体 json 参数 ==>> null
+[2024-10-17 11:09:42,558][http_client.py 48][INFO]: 接口上传附件 files 参数 ==>> None
+[2024-10-17 11:09:42,558][http_client.py 49][INFO]: 接口 cookies 参数 ==>> null
+[2024-10-17 11:10:01,760][read_data.py 39][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\config\setting.ini 文件......
+[2024-10-17 11:10:01,760][read_data.py 43][INFO]: 读到数据 ==>>  {'host': {'api_root_url': 'http://127.0.0.1'}, 'mysql': {'MYSQL_HOST': '172.29.0.17', 'MYSQL_PORT': '3306', 'MYSQL_USER': 'root', 'MYSQL_PASSWD': '9NBmX6BbKujY*JS$', 'MYSQL_DB': 'learn_rbac_lc_dev'}} 
+[2024-10-17 11:10:01,760][http_client.py 41][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/getPublicKey
+[2024-10-17 11:10:01,760][http_client.py 42][INFO]: 接口请求方式 ==>> GET
+[2024-10-17 11:10:01,760][http_client.py 44][INFO]: 接口请求头 ==>> null
+[2024-10-17 11:10:01,760][http_client.py 45][INFO]: 接口请求 params 参数 ==>> null
+[2024-10-17 11:10:01,760][http_client.py 46][INFO]: 接口请求体 data 参数 ==>> null
+[2024-10-17 11:10:01,760][http_client.py 47][INFO]: 接口请求体 json 参数 ==>> null
+[2024-10-17 11:10:01,760][http_client.py 48][INFO]: 接口上传附件 files 参数 ==>> None
+[2024-10-17 11:10:01,760][http_client.py 49][INFO]: 接口 cookies 参数 ==>> null
+[2024-10-17 11:10:35,857][read_data.py 39][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\config\setting.ini 文件......
+[2024-10-17 11:10:35,858][read_data.py 43][INFO]: 读到数据 ==>>  {'host': {'api_root_url': 'http://127.0.0.1'}, 'mysql': {'MYSQL_HOST': '172.29.0.17', 'MYSQL_PORT': '3306', 'MYSQL_USER': 'root', 'MYSQL_PASSWD': '9NBmX6BbKujY*JS$', 'MYSQL_DB': 'learn_rbac_lc_dev'}} 
+[2024-10-17 11:10:35,858][http_client.py 41][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/getPublicKey
+[2024-10-17 11:10:35,858][http_client.py 42][INFO]: 接口请求方式 ==>> GET
+[2024-10-17 11:10:35,858][http_client.py 44][INFO]: 接口请求头 ==>> null
+[2024-10-17 11:10:35,858][http_client.py 45][INFO]: 接口请求 params 参数 ==>> null
+[2024-10-17 11:10:35,858][http_client.py 46][INFO]: 接口请求体 data 参数 ==>> null
+[2024-10-17 11:10:35,858][http_client.py 47][INFO]: 接口请求体 json 参数 ==>> null
+[2024-10-17 11:10:35,858][http_client.py 48][INFO]: 接口上传附件 files 参数 ==>> None
+[2024-10-17 11:10:35,858][http_client.py 49][INFO]: 接口 cookies 参数 ==>> null
+[2024-10-17 11:12:51,626][read_data.py 39][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\config\setting.ini 文件......
+[2024-10-17 11:12:51,626][read_data.py 43][INFO]: 读到数据 ==>>  {'host': {'api_root_url': 'http://127.0.0.1'}, 'mysql': {'MYSQL_HOST': '172.29.0.17', 'MYSQL_PORT': '3306', 'MYSQL_USER': 'root', 'MYSQL_PASSWD': '9NBmX6BbKujY*JS$', 'MYSQL_DB': 'learn_rbac_lc_dev'}} 
+[2024-10-17 11:12:51,626][http_client.py 41][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/getPublicKey
+[2024-10-17 11:12:51,626][http_client.py 42][INFO]: 接口请求方式 ==>> GET
+[2024-10-17 11:12:51,627][http_client.py 44][INFO]: 接口请求头 ==>> null
+[2024-10-17 11:12:51,627][http_client.py 45][INFO]: 接口请求 params 参数 ==>> null
+[2024-10-17 11:12:51,627][http_client.py 46][INFO]: 接口请求体 data 参数 ==>> null
+[2024-10-17 11:12:51,627][http_client.py 47][INFO]: 接口请求体 json 参数 ==>> null
+[2024-10-17 11:12:51,627][http_client.py 48][INFO]: 接口上传附件 files 参数 ==>> None
+[2024-10-17 11:12:51,627][http_client.py 49][INFO]: 接口 cookies 参数 ==>> null
+[2024-10-17 11:19:17,184][read_data.py 39][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\config\setting.ini 文件......
+[2024-10-17 11:19:17,184][read_data.py 43][INFO]: 读到数据 ==>>  {'host': {'api_root_url': 'http://127.0.0.1'}, 'mysql': {'MYSQL_HOST': '172.29.0.17', 'MYSQL_PORT': '3306', 'MYSQL_USER': 'root', 'MYSQL_PASSWD': '9NBmX6BbKujY*JS$', 'MYSQL_DB': 'learn_rbac_lc_dev'}} 
+[2024-10-17 11:19:17,185][http_client.py 41][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/users/
+[2024-10-17 11:19:17,185][http_client.py 42][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 11:19:17,185][http_client.py 44][INFO]: 接口请求头 ==>> null
+[2024-10-17 11:19:17,185][http_client.py 45][INFO]: 接口请求 params 参数 ==>> null
+[2024-10-17 11:19:17,185][http_client.py 46][INFO]: 接口请求体 data 参数 ==>> {
+    "password": 123456
+}
+[2024-10-17 11:19:17,185][http_client.py 47][INFO]: 接口请求体 json 参数 ==>> null
+[2024-10-17 11:19:17,185][http_client.py 48][INFO]: 接口上传附件 files 参数 ==>> None
+[2024-10-17 11:19:17,185][http_client.py 49][INFO]: 接口 cookies 参数 ==>> null
+[2024-10-17 11:19:43,754][read_data.py 39][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\config\setting.ini 文件......
+[2024-10-17 11:19:43,754][read_data.py 43][INFO]: 读到数据 ==>>  {'host': {'api_root_url': 'http://127.0.0.1'}, 'mysql': {'MYSQL_HOST': '172.29.0.17', 'MYSQL_PORT': '3306', 'MYSQL_USER': 'root', 'MYSQL_PASSWD': '9NBmX6BbKujY*JS$', 'MYSQL_DB': 'learn_rbac_lc_dev'}} 
+[2024-10-17 11:19:52,908][read_data.py 39][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\config\setting.ini 文件......
+[2024-10-17 11:19:52,908][read_data.py 43][INFO]: 读到数据 ==>>  {'host': {'api_root_url': 'http://127.0.0.1'}, 'mysql': {'MYSQL_HOST': '172.29.0.17', 'MYSQL_PORT': '3306', 'MYSQL_USER': 'root', 'MYSQL_PASSWD': '9NBmX6BbKujY*JS$', 'MYSQL_DB': 'learn_rbac_lc_dev'}} 
+[2024-10-17 11:19:52,908][http_client.py 41][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+[2024-10-17 11:19:52,908][http_client.py 42][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 11:19:52,908][http_client.py 44][INFO]: 接口请求头 ==>> null
+[2024-10-17 11:19:52,908][http_client.py 45][INFO]: 接口请求 params 参数 ==>> null
+[2024-10-17 11:19:52,908][http_client.py 46][INFO]: 接口请求体 data 参数 ==>> {
+    "password": 123456
+}
+[2024-10-17 11:19:52,908][http_client.py 47][INFO]: 接口请求体 json 参数 ==>> null
+[2024-10-17 11:19:52,909][http_client.py 48][INFO]: 接口上传附件 files 参数 ==>> None
+[2024-10-17 11:19:52,909][http_client.py 49][INFO]: 接口 cookies 参数 ==>> null
+[2024-10-17 11:20:10,357][read_data.py 39][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\config\setting.ini 文件......
+[2024-10-17 11:20:10,357][read_data.py 43][INFO]: 读到数据 ==>>  {'host': {'api_root_url': 'http://127.0.0.1'}, 'mysql': {'MYSQL_HOST': '172.29.0.17', 'MYSQL_PORT': '3306', 'MYSQL_USER': 'root', 'MYSQL_PASSWD': '9NBmX6BbKujY*JS$', 'MYSQL_DB': 'learn_rbac_lc_dev'}} 
+[2024-10-17 11:20:10,357][http_client.py 41][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+[2024-10-17 11:20:10,357][http_client.py 42][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 11:20:10,357][http_client.py 44][INFO]: 接口请求头 ==>> null
+[2024-10-17 11:20:10,357][http_client.py 45][INFO]: 接口请求 params 参数 ==>> null
+[2024-10-17 11:20:10,357][http_client.py 46][INFO]: 接口请求体 data 参数 ==>> {
+    "password": 123456
+}
+[2024-10-17 11:20:10,357][http_client.py 47][INFO]: 接口请求体 json 参数 ==>> null
+[2024-10-17 11:20:10,357][http_client.py 48][INFO]: 接口上传附件 files 参数 ==>> None
+[2024-10-17 11:20:10,357][http_client.py 49][INFO]: 接口 cookies 参数 ==>> null
+[2024-10-17 11:20:55,855][read_data.py 39][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\config\setting.ini 文件......
+[2024-10-17 11:20:55,855][read_data.py 43][INFO]: 读到数据 ==>>  {'host': {'api_root_url': 'http://127.0.0.1'}, 'mysql': {'MYSQL_HOST': '172.29.0.17', 'MYSQL_PORT': '3306', 'MYSQL_USER': 'root', 'MYSQL_PASSWD': '9NBmX6BbKujY*JS$', 'MYSQL_DB': 'learn_rbac_lc_dev'}} 
+[2024-10-17 11:20:55,855][http_client.py 41][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+[2024-10-17 11:20:55,855][http_client.py 42][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 11:20:55,855][http_client.py 44][INFO]: 接口请求头 ==>> null
+[2024-10-17 11:20:55,855][http_client.py 45][INFO]: 接口请求 params 参数 ==>> null
+[2024-10-17 11:20:55,855][http_client.py 46][INFO]: 接口请求体 data 参数 ==>> {
+    "password": 123456
+}
+[2024-10-17 11:20:55,855][http_client.py 47][INFO]: 接口请求体 json 参数 ==>> null
+[2024-10-17 11:20:55,856][http_client.py 48][INFO]: 接口上传附件 files 参数 ==>> None
+[2024-10-17 11:20:55,856][http_client.py 49][INFO]: 接口 cookies 参数 ==>> null
+[2024-10-17 11:22:34,175][read_data.py 39][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\config\setting.ini 文件......
+[2024-10-17 11:22:34,176][read_data.py 43][INFO]: 读到数据 ==>>  {'host': {'api_root_url': 'http://127.0.0.1'}, 'mysql': {'MYSQL_HOST': '172.29.0.17', 'MYSQL_PORT': '3306', 'MYSQL_USER': 'root', 'MYSQL_PASSWD': '9NBmX6BbKujY*JS$', 'MYSQL_DB': 'learn_rbac_lc_dev'}} 
+[2024-10-17 11:22:34,176][http_client.py 41][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+[2024-10-17 11:22:34,176][http_client.py 42][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 11:22:34,176][http_client.py 44][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[2024-10-17 11:22:34,176][http_client.py 45][INFO]: 接口请求 params 参数 ==>> null
+[2024-10-17 11:22:34,176][http_client.py 46][INFO]: 接口请求体 data 参数 ==>> {
+    "password": 123456
+}
+[2024-10-17 11:22:34,176][http_client.py 47][INFO]: 接口请求体 json 参数 ==>> null
+[2024-10-17 11:22:34,176][http_client.py 48][INFO]: 接口上传附件 files 参数 ==>> None
+[2024-10-17 11:22:34,176][http_client.py 49][INFO]: 接口 cookies 参数 ==>> null
+[2024-10-17 11:26:25,138][read_data.py 39][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\config\setting.ini 文件......
+[2024-10-17 11:26:25,138][read_data.py 43][INFO]: 读到数据 ==>>  {'host': {'api_root_url': 'http://127.0.0.1'}, 'mysql': {'MYSQL_HOST': '172.29.0.17', 'MYSQL_PORT': '3306', 'MYSQL_USER': 'root', 'MYSQL_PASSWD': '9NBmX6BbKujY*JS$', 'MYSQL_DB': 'learn_rbac_lc_dev'}} 
+[2024-10-17 11:26:35,628][read_data.py 39][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\config\setting.ini 文件......
+[2024-10-17 11:26:35,628][read_data.py 43][INFO]: 读到数据 ==>>  {'host': {'api_root_url': 'http://127.0.0.1'}, 'mysql': {'MYSQL_HOST': '172.29.0.17', 'MYSQL_PORT': '3306', 'MYSQL_USER': 'root', 'MYSQL_PASSWD': '9NBmX6BbKujY*JS$', 'MYSQL_DB': 'learn_rbac_lc_dev'}} 
+[2024-10-17 11:26:35,628][http_client.py 41][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/getPublicKey
+[2024-10-17 11:26:35,629][http_client.py 42][INFO]: 接口请求方式 ==>> GET
+[2024-10-17 11:26:35,629][http_client.py 44][INFO]: 接口请求头 ==>> null
+[2024-10-17 11:26:35,629][http_client.py 45][INFO]: 接口请求 params 参数 ==>> null
+[2024-10-17 11:26:35,629][http_client.py 46][INFO]: 接口请求体 data 参数 ==>> null
+[2024-10-17 11:26:35,629][http_client.py 47][INFO]: 接口请求体 json 参数 ==>> null
+[2024-10-17 11:26:35,629][http_client.py 48][INFO]: 接口上传附件 files 参数 ==>> None
+[2024-10-17 11:26:35,629][http_client.py 49][INFO]: 接口 cookies 参数 ==>> null
+[2024-10-17 11:26:35,714][http_client.py 41][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+[2024-10-17 11:26:35,714][http_client.py 42][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 11:26:35,714][http_client.py 44][INFO]: 接口请求头 ==>> null
+[2024-10-17 11:26:35,714][http_client.py 45][INFO]: 接口请求 params 参数 ==>> null
+[2024-10-17 11:26:35,714][http_client.py 46][INFO]: 接口请求体 data 参数 ==>> {
+    "password": 123456
+}
+[2024-10-17 11:26:35,714][http_client.py 47][INFO]: 接口请求体 json 参数 ==>> null
+[2024-10-17 11:26:35,714][http_client.py 48][INFO]: 接口上传附件 files 参数 ==>> None
+[2024-10-17 11:26:35,714][http_client.py 49][INFO]: 接口 cookies 参数 ==>> null
+[2024-10-17 11:52:56,181][read_data.py 39][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\config\setting.ini 文件......
+[2024-10-17 11:52:56,182][read_data.py 43][INFO]: 读到数据 ==>>  {'host': {'api_root_url': 'http://127.0.0.1'}, 'mysql': {'MYSQL_HOST': '172.29.0.17', 'MYSQL_PORT': '3306', 'MYSQL_USER': 'root', 'MYSQL_PASSWD': '9NBmX6BbKujY*JS$', 'MYSQL_DB': 'learn_rbac_lc_dev'}} 
+[2024-10-17 11:53:07,515][read_data.py 39][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\config\setting.ini 文件......
+[2024-10-17 11:53:07,515][read_data.py 43][INFO]: 读到数据 ==>>  {'host': {'api_root_url': 'http://127.0.0.1'}, 'mysql': {'MYSQL_HOST': '172.29.0.17', 'MYSQL_PORT': '3306', 'MYSQL_USER': 'root', 'MYSQL_PASSWD': '9NBmX6BbKujY*JS$', 'MYSQL_DB': 'learn_rbac_lc_dev'}} 
+[2024-10-17 11:55:48,290][read_data.py 39][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\config\setting.ini 文件......
+[2024-10-17 11:55:48,290][read_data.py 43][INFO]: 读到数据 ==>>  {'host': {'api_root_url': 'http://127.0.0.1'}, 'mysql': {'MYSQL_HOST': '172.29.0.17', 'MYSQL_PORT': '3306', 'MYSQL_USER': 'root', 'MYSQL_PASSWD': '9NBmX6BbKujY*JS$', 'MYSQL_DB': 'learn_rbac_lc_dev'}} 
+[2024-10-17 11:55:48,291][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+[2024-10-17 11:55:48,291][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 11:55:48,291][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[2024-10-17 11:55:48,291][http_client.py 44][INFO]: 接口请求 params 参数 ==>> null
+[2024-10-17 11:55:48,291][http_client.py 45][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "18592037348"
+}
+[2024-10-17 11:55:48,291][http_client.py 46][INFO]: 接口请求体 json 参数 ==>> null
+[2024-10-17 11:55:48,291][http_client.py 47][INFO]: 接口上传附件 files 参数 ==>> None
+[2024-10-17 11:55:48,291][http_client.py 48][INFO]: 接口 cookies 参数 ==>> null
+[2024-10-17 13:32:59,598][read_data.py 39][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\config\setting.ini 文件......
+[2024-10-17 13:32:59,603][read_data.py 43][INFO]: 读到数据 ==>>  {'host': {'api_root_url': 'http://127.0.0.1'}, 'mysql': {'MYSQL_HOST': '172.29.0.17', 'MYSQL_PORT': '3306', 'MYSQL_USER': 'root', 'MYSQL_PASSWD': '9NBmX6BbKujY*JS$', 'MYSQL_DB': 'learn_rbac_lc_dev'}} 
+[2024-10-17 13:32:59,604][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+[2024-10-17 13:32:59,604][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 13:32:59,604][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[2024-10-17 13:32:59,604][http_client.py 44][INFO]: 接口请求 params 参数 ==>> null
+[2024-10-17 13:32:59,604][http_client.py 45][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "18592037348"
+}
+[2024-10-17 13:32:59,604][http_client.py 46][INFO]: 接口请求体 json 参数 ==>> null
+[2024-10-17 13:32:59,604][http_client.py 47][INFO]: 接口上传附件 files 参数 ==>> None
+[2024-10-17 13:32:59,604][http_client.py 48][INFO]: 接口 cookies 参数 ==>> null
+[2024-10-17 13:33:44,627][read_data.py 39][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\config\setting.ini 文件......
+[2024-10-17 13:33:44,627][read_data.py 43][INFO]: 读到数据 ==>>  {'host': {'api_root_url': 'http://127.0.0.1'}, 'mysql': {'MYSQL_HOST': '172.29.0.17', 'MYSQL_PORT': '3306', 'MYSQL_USER': 'root', 'MYSQL_PASSWD': '9NBmX6BbKujY*JS$', 'MYSQL_DB': 'learn_rbac_lc_dev'}} 
+[2024-10-17 13:33:44,627][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+[2024-10-17 13:33:44,627][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 13:33:44,627][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[2024-10-17 13:33:44,628][http_client.py 44][INFO]: 接口请求 params 参数 ==>> null
+[2024-10-17 13:33:44,628][http_client.py 45][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "18592037348"
+}
+[2024-10-17 13:33:44,628][http_client.py 46][INFO]: 接口请求体 json 参数 ==>> null
+[2024-10-17 13:33:44,628][http_client.py 47][INFO]: 接口上传附件 files 参数 ==>> None
+[2024-10-17 13:33:44,628][http_client.py 48][INFO]: 接口 cookies 参数 ==>> null
+[2024-10-17 13:35:06,242][read_data.py 39][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\config\setting.ini 文件......
+[2024-10-17 13:35:06,243][read_data.py 43][INFO]: 读到数据 ==>>  {'host': {'api_root_url': 'http://127.0.0.1'}, 'mysql': {'MYSQL_HOST': '172.29.0.17', 'MYSQL_PORT': '3306', 'MYSQL_USER': 'root', 'MYSQL_PASSWD': '9NBmX6BbKujY*JS$', 'MYSQL_DB': 'learn_rbac_lc_dev'}} 
+[2024-10-17 13:35:06,243][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+[2024-10-17 13:35:06,243][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 13:35:06,243][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[2024-10-17 13:35:06,243][http_client.py 44][INFO]: 接口请求 params 参数 ==>> null
+[2024-10-17 13:35:06,243][http_client.py 45][INFO]: 接口请求体 data 参数 ==>> {
+    "password": 123456
+}
+[2024-10-17 13:35:06,243][http_client.py 46][INFO]: 接口请求体 json 参数 ==>> null
+[2024-10-17 13:35:06,243][http_client.py 47][INFO]: 接口上传附件 files 参数 ==>> None
+[2024-10-17 13:35:06,243][http_client.py 48][INFO]: 接口 cookies 参数 ==>> null
+[2024-10-17 13:35:49,272][read_data.py 39][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\config\setting.ini 文件......
+[2024-10-17 13:35:49,272][read_data.py 43][INFO]: 读到数据 ==>>  {'host': {'api_root_url': 'http://127.0.0.1'}, 'mysql': {'MYSQL_HOST': '172.29.0.17', 'MYSQL_PORT': '3306', 'MYSQL_USER': 'root', 'MYSQL_PASSWD': '9NBmX6BbKujY*JS$', 'MYSQL_DB': 'learn_rbac_lc_dev'}} 
+[2024-10-17 13:35:49,272][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+[2024-10-17 13:35:49,273][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 13:35:49,273][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[2024-10-17 13:35:49,273][http_client.py 44][INFO]: 接口请求 params 参数 ==>> null
+[2024-10-17 13:35:49,273][http_client.py 45][INFO]: 接口请求体 data 参数 ==>> {
+    "password": 123456
+}
+[2024-10-17 13:35:49,273][http_client.py 46][INFO]: 接口请求体 json 参数 ==>> null
+[2024-10-17 13:35:49,273][http_client.py 47][INFO]: 接口上传附件 files 参数 ==>> None
+[2024-10-17 13:35:49,273][http_client.py 48][INFO]: 接口 cookies 参数 ==>> null
+[2024-10-17 13:47:46,644][read_data.py 39][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\config\setting.ini 文件......
+[2024-10-17 13:47:46,645][read_data.py 43][INFO]: 读到数据 ==>>  {'host': {'api_root_url': 'http://127.0.0.1'}, 'mysql': {'MYSQL_HOST': '172.29.0.17', 'MYSQL_PORT': '3306', 'MYSQL_USER': 'root', 'MYSQL_PASSWD': '9NBmX6BbKujY*JS$', 'MYSQL_DB': 'learn_rbac_lc_dev'}} 
+[2024-10-17 13:47:46,645][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+[2024-10-17 13:47:46,645][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 13:47:46,645][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[2024-10-17 13:47:46,645][http_client.py 44][INFO]: 接口请求 params 参数 ==>> null
+[2024-10-17 13:47:46,645][http_client.py 45][INFO]: 接口请求体 data 参数 ==>> {
+    "password": 123456
+}
+[2024-10-17 13:47:46,645][http_client.py 46][INFO]: 接口请求体 json 参数 ==>> null
+[2024-10-17 13:47:46,646][http_client.py 47][INFO]: 接口上传附件 files 参数 ==>> None
+[2024-10-17 13:47:46,646][http_client.py 48][INFO]: 接口 cookies 参数 ==>> null
+[2024-10-17 13:47:55,815][read_data.py 39][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\config\setting.ini 文件......
+[2024-10-17 13:47:55,816][read_data.py 43][INFO]: 读到数据 ==>>  {'host': {'api_root_url': 'http://127.0.0.1'}, 'mysql': {'MYSQL_HOST': '172.29.0.17', 'MYSQL_PORT': '3306', 'MYSQL_USER': 'root', 'MYSQL_PASSWD': '9NBmX6BbKujY*JS$', 'MYSQL_DB': 'learn_rbac_lc_dev'}} 
+[2024-10-17 13:47:55,816][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+[2024-10-17 13:47:55,816][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 13:47:55,816][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[2024-10-17 13:47:55,816][http_client.py 44][INFO]: 接口请求 params 参数 ==>> null
+[2024-10-17 13:47:55,816][http_client.py 45][INFO]: 接口请求体 data 参数 ==>> {
+    "password": 123456
+}
+[2024-10-17 13:47:55,816][http_client.py 46][INFO]: 接口请求体 json 参数 ==>> null
+[2024-10-17 13:47:55,816][http_client.py 47][INFO]: 接口上传附件 files 参数 ==>> None
+[2024-10-17 13:47:55,816][http_client.py 48][INFO]: 接口 cookies 参数 ==>> null
+[2024-10-17 13:48:11,854][read_data.py 39][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\config\setting.ini 文件......
+[2024-10-17 13:48:11,855][read_data.py 43][INFO]: 读到数据 ==>>  {'host': {'api_root_url': 'http://127.0.0.1'}, 'mysql': {'MYSQL_HOST': '172.29.0.17', 'MYSQL_PORT': '3306', 'MYSQL_USER': 'root', 'MYSQL_PASSWD': '9NBmX6BbKujY*JS$', 'MYSQL_DB': 'learn_rbac_lc_dev'}} 
+[2024-10-17 13:48:11,855][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+[2024-10-17 13:48:11,855][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 13:48:11,855][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[2024-10-17 13:48:11,855][http_client.py 44][INFO]: 接口请求 params 参数 ==>> null
+[2024-10-17 13:48:11,855][http_client.py 45][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "18592037348"
+}
+[2024-10-17 13:48:11,855][http_client.py 46][INFO]: 接口请求体 json 参数 ==>> null
+[2024-10-17 13:48:11,855][http_client.py 47][INFO]: 接口上传附件 files 参数 ==>> None
+[2024-10-17 13:48:11,855][http_client.py 48][INFO]: 接口 cookies 参数 ==>> null
+[2024-10-17 13:49:27,865][read_data.py 39][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\config\setting.ini 文件......
+[2024-10-17 13:49:27,866][read_data.py 43][INFO]: 读到数据 ==>>  {'host': {'api_root_url': 'http://127.0.0.1'}, 'mysql': {'MYSQL_HOST': '172.29.0.17', 'MYSQL_PORT': '3306', 'MYSQL_USER': 'root', 'MYSQL_PASSWD': '9NBmX6BbKujY*JS$', 'MYSQL_DB': 'learn_rbac_lc_dev'}} 
+[2024-10-17 13:49:27,866][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+[2024-10-17 13:49:27,866][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 13:49:27,866][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[2024-10-17 13:49:27,866][http_client.py 44][INFO]: 接口请求 params 参数 ==>> null
+[2024-10-17 13:49:27,866][http_client.py 45][INFO]: 接口请求体 data 参数 ==>> {
+    "password": 123456
+}
+[2024-10-17 13:49:27,866][http_client.py 46][INFO]: 接口请求体 json 参数 ==>> null
+[2024-10-17 13:49:27,866][http_client.py 47][INFO]: 接口上传附件 files 参数 ==>> None
+[2024-10-17 13:49:27,866][http_client.py 48][INFO]: 接口 cookies 参数 ==>> null
+[2024-10-17 13:50:15,002][read_data.py 39][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\config\setting.ini 文件......
+[2024-10-17 13:50:15,002][read_data.py 43][INFO]: 读到数据 ==>>  {'host': {'api_root_url': 'http://127.0.0.1'}, 'mysql': {'MYSQL_HOST': '172.29.0.17', 'MYSQL_PORT': '3306', 'MYSQL_USER': 'root', 'MYSQL_PASSWD': '9NBmX6BbKujY*JS$', 'MYSQL_DB': 'learn_rbac_lc_dev'}} 
+[2024-10-17 13:50:15,003][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+[2024-10-17 13:50:15,003][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 13:50:15,003][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[2024-10-17 13:50:15,003][http_client.py 44][INFO]: 接口请求 params 参数 ==>> null
+[2024-10-17 13:50:15,003][http_client.py 45][INFO]: 接口请求体 data 参数 ==>> {
+    "password": 123456
+}
+[2024-10-17 13:50:15,003][http_client.py 46][INFO]: 接口请求体 json 参数 ==>> null
+[2024-10-17 13:50:15,003][http_client.py 47][INFO]: 接口上传附件 files 参数 ==>> None
+[2024-10-17 13:50:15,003][http_client.py 48][INFO]: 接口 cookies 参数 ==>> null
+[2024-10-17 13:50:29,014][read_data.py 39][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\config\setting.ini 文件......
+[2024-10-17 13:50:29,015][read_data.py 43][INFO]: 读到数据 ==>>  {'host': {'api_root_url': 'http://127.0.0.1'}, 'mysql': {'MYSQL_HOST': '172.29.0.17', 'MYSQL_PORT': '3306', 'MYSQL_USER': 'root', 'MYSQL_PASSWD': '9NBmX6BbKujY*JS$', 'MYSQL_DB': 'learn_rbac_lc_dev'}} 
+[2024-10-17 13:50:29,015][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+[2024-10-17 13:50:29,015][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 13:50:29,015][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[2024-10-17 13:50:29,015][http_client.py 44][INFO]: 接口请求 params 参数 ==>> null
+[2024-10-17 13:50:29,015][http_client.py 45][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "123456"
+}
+[2024-10-17 13:50:29,015][http_client.py 46][INFO]: 接口请求体 json 参数 ==>> null
+[2024-10-17 13:50:29,015][http_client.py 47][INFO]: 接口上传附件 files 参数 ==>> None
+[2024-10-17 13:50:29,015][http_client.py 48][INFO]: 接口 cookies 参数 ==>> null
+[2024-10-17 13:50:54,333][read_data.py 39][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\config\setting.ini 文件......
+[2024-10-17 13:50:54,334][read_data.py 43][INFO]: 读到数据 ==>>  {'host': {'api_root_url': 'http://127.0.0.1'}, 'mysql': {'MYSQL_HOST': '172.29.0.17', 'MYSQL_PORT': '3306', 'MYSQL_USER': 'root', 'MYSQL_PASSWD': '9NBmX6BbKujY*JS$', 'MYSQL_DB': 'learn_rbac_lc_dev'}} 
+[2024-10-17 13:50:54,334][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+[2024-10-17 13:50:54,334][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 13:50:54,334][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[2024-10-17 13:50:54,334][http_client.py 44][INFO]: 接口请求 params 参数 ==>> null
+[2024-10-17 13:50:54,334][http_client.py 45][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "18592037348"
+}
+[2024-10-17 13:50:54,334][http_client.py 46][INFO]: 接口请求体 json 参数 ==>> null
+[2024-10-17 13:50:54,334][http_client.py 47][INFO]: 接口上传附件 files 参数 ==>> None
+[2024-10-17 13:50:54,334][http_client.py 48][INFO]: 接口 cookies 参数 ==>> null
+[2024-10-17 13:51:30,870][read_data.py 39][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\config\setting.ini 文件......
+[2024-10-17 13:51:30,870][read_data.py 43][INFO]: 读到数据 ==>>  {'host': {'api_root_url': 'http://127.0.0.1'}, 'mysql': {'MYSQL_HOST': '172.29.0.17', 'MYSQL_PORT': '3306', 'MYSQL_USER': 'root', 'MYSQL_PASSWD': '9NBmX6BbKujY*JS$', 'MYSQL_DB': 'learn_rbac_lc_dev'}} 
+[2024-10-17 13:51:30,871][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+[2024-10-17 13:51:30,871][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 13:51:30,871][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[2024-10-17 13:51:30,871][http_client.py 44][INFO]: 接口请求 params 参数 ==>> null
+[2024-10-17 13:51:30,871][http_client.py 45][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "123456"
+}
+[2024-10-17 13:51:30,871][http_client.py 46][INFO]: 接口请求体 json 参数 ==>> null
+[2024-10-17 13:51:30,871][http_client.py 47][INFO]: 接口上传附件 files 参数 ==>> None
+[2024-10-17 13:51:30,871][http_client.py 48][INFO]: 接口 cookies 参数 ==>> null
+[2024-10-17 13:52:15,905][read_data.py 39][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\config\setting.ini 文件......
+[2024-10-17 13:52:15,906][read_data.py 43][INFO]: 读到数据 ==>>  {'host': {'api_root_url': 'http://127.0.0.1'}, 'mysql': {'MYSQL_HOST': '172.29.0.17', 'MYSQL_PORT': '3306', 'MYSQL_USER': 'root', 'MYSQL_PASSWD': '9NBmX6BbKujY*JS$', 'MYSQL_DB': 'learn_rbac_lc_dev'}} 
+[2024-10-17 13:52:15,906][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+[2024-10-17 13:52:15,906][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 13:52:15,906][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[2024-10-17 13:52:15,907][http_client.py 44][INFO]: 接口请求 params 参数 ==>> null
+[2024-10-17 13:52:15,907][http_client.py 45][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "18592037348"
+}
+[2024-10-17 13:52:15,907][http_client.py 46][INFO]: 接口请求体 json 参数 ==>> null
+[2024-10-17 13:52:15,907][http_client.py 47][INFO]: 接口上传附件 files 参数 ==>> None
+[2024-10-17 13:52:15,907][http_client.py 48][INFO]: 接口 cookies 参数 ==>> null
+[2024-10-17 13:52:34,610][read_data.py 39][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\config\setting.ini 文件......
+[2024-10-17 13:52:34,610][read_data.py 43][INFO]: 读到数据 ==>>  {'host': {'api_root_url': 'http://127.0.0.1'}, 'mysql': {'MYSQL_HOST': '172.29.0.17', 'MYSQL_PORT': '3306', 'MYSQL_USER': 'root', 'MYSQL_PASSWD': '9NBmX6BbKujY*JS$', 'MYSQL_DB': 'learn_rbac_lc_dev'}} 
+[2024-10-17 13:52:34,610][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+[2024-10-17 13:52:34,611][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 13:52:34,611][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[2024-10-17 13:52:34,611][http_client.py 44][INFO]: 接口请求 params 参数 ==>> null
+[2024-10-17 13:52:34,611][http_client.py 45][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "18592037348"
+}
+[2024-10-17 13:52:34,611][http_client.py 46][INFO]: 接口请求体 json 参数 ==>> null
+[2024-10-17 13:52:34,611][http_client.py 47][INFO]: 接口上传附件 files 参数 ==>> None
+[2024-10-17 13:52:34,611][http_client.py 48][INFO]: 接口 cookies 参数 ==>> null
+[2024-10-17 13:53:20,525][read_data.py 39][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\config\setting.ini 文件......
+[2024-10-17 13:53:20,526][read_data.py 43][INFO]: 读到数据 ==>>  {'host': {'api_root_url': 'http://127.0.0.1'}, 'mysql': {'MYSQL_HOST': '172.29.0.17', 'MYSQL_PORT': '3306', 'MYSQL_USER': 'root', 'MYSQL_PASSWD': '9NBmX6BbKujY*JS$', 'MYSQL_DB': 'learn_rbac_lc_dev'}} 
+[2024-10-17 13:53:20,526][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+[2024-10-17 13:53:20,526][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 13:53:20,526][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[2024-10-17 13:53:20,526][http_client.py 44][INFO]: 接口请求 params 参数 ==>> null
+[2024-10-17 13:53:20,526][http_client.py 45][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "18592037348"
+}
+[2024-10-17 13:53:20,526][http_client.py 46][INFO]: 接口请求体 json 参数 ==>> null
+[2024-10-17 13:53:20,526][http_client.py 47][INFO]: 接口上传附件 files 参数 ==>> None
+[2024-10-17 13:53:20,526][http_client.py 48][INFO]: 接口 cookies 参数 ==>> null
+[2024-10-17 13:53:40,806][read_data.py 39][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\config\setting.ini 文件......
+[2024-10-17 13:53:40,806][read_data.py 43][INFO]: 读到数据 ==>>  {'host': {'api_root_url': 'http://127.0.0.1'}, 'mysql': {'MYSQL_HOST': '172.29.0.17', 'MYSQL_PORT': '3306', 'MYSQL_USER': 'root', 'MYSQL_PASSWD': '9NBmX6BbKujY*JS$', 'MYSQL_DB': 'learn_rbac_lc_dev'}} 
+[2024-10-17 13:53:40,807][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+[2024-10-17 13:53:40,807][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 13:53:40,807][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[2024-10-17 13:53:40,807][http_client.py 44][INFO]: 接口请求 params 参数 ==>> null
+[2024-10-17 13:53:40,807][http_client.py 45][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "18592037348"
+}
+[2024-10-17 13:53:40,807][http_client.py 46][INFO]: 接口请求体 json 参数 ==>> null
+[2024-10-17 13:53:40,807][http_client.py 47][INFO]: 接口上传附件 files 参数 ==>> None
+[2024-10-17 13:53:40,807][http_client.py 48][INFO]: 接口 cookies 参数 ==>> null
+[2024-10-17 13:55:00,206][read_data.py 39][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\config\setting.ini 文件......
+[2024-10-17 13:55:00,208][read_data.py 43][INFO]: 读到数据 ==>>  {'host': {'api_root_url': 'http://127.0.0.1'}, 'mysql': {'MYSQL_HOST': '172.29.0.17', 'MYSQL_PORT': '3306', 'MYSQL_USER': 'root', 'MYSQL_PASSWD': '9NBmX6BbKujY*JS$', 'MYSQL_DB': 'learn_rbac_lc_dev'}} 
+[2024-10-17 13:55:00,208][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+[2024-10-17 13:55:00,208][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 13:55:00,208][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[2024-10-17 13:55:00,208][http_client.py 44][INFO]: 接口请求 params 参数 ==>> null
+[2024-10-17 13:55:00,209][http_client.py 45][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "18592037348"
+}
+[2024-10-17 13:55:00,209][http_client.py 46][INFO]: 接口请求体 json 参数 ==>> null
+[2024-10-17 13:55:00,209][http_client.py 47][INFO]: 接口上传附件 files 参数 ==>> None
+[2024-10-17 13:55:00,209][http_client.py 48][INFO]: 接口 cookies 参数 ==>> null
+[2024-10-17 13:57:39,924][read_data.py 39][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\config\setting.ini 文件......
+[2024-10-17 13:57:39,924][read_data.py 43][INFO]: 读到数据 ==>>  {'host': {'api_root_url': 'http://127.0.0.1'}, 'mysql': {'MYSQL_HOST': '172.29.0.17', 'MYSQL_PORT': '3306', 'MYSQL_USER': 'root', 'MYSQL_PASSWD': '9NBmX6BbKujY*JS$', 'MYSQL_DB': 'learn_rbac_lc_dev'}} 
+[2024-10-17 13:57:39,925][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+[2024-10-17 13:57:39,925][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 13:57:39,925][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[2024-10-17 13:57:39,925][http_client.py 44][INFO]: 接口请求 params 参数 ==>> null
+[2024-10-17 13:57:39,925][http_client.py 45][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "18592037348"
+}
+[2024-10-17 13:57:39,925][http_client.py 46][INFO]: 接口请求体 json 参数 ==>> null
+[2024-10-17 13:57:39,925][http_client.py 47][INFO]: 接口上传附件 files 参数 ==>> None
+[2024-10-17 13:57:39,925][http_client.py 48][INFO]: 接口 cookies 参数 ==>> null
+[2024-10-17 13:57:56,056][read_data.py 39][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\config\setting.ini 文件......
+[2024-10-17 13:57:56,056][read_data.py 43][INFO]: 读到数据 ==>>  {'host': {'api_root_url': 'http://127.0.0.1'}, 'mysql': {'MYSQL_HOST': '172.29.0.17', 'MYSQL_PORT': '3306', 'MYSQL_USER': 'root', 'MYSQL_PASSWD': '9NBmX6BbKujY*JS$', 'MYSQL_DB': 'learn_rbac_lc_dev'}} 
+[2024-10-17 13:57:56,057][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+[2024-10-17 13:57:56,057][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 13:57:56,057][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[2024-10-17 13:57:56,057][http_client.py 44][INFO]: 接口请求 params 参数 ==>> null
+[2024-10-17 13:57:56,057][http_client.py 45][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "18592037348"
+}
+[2024-10-17 13:57:56,057][http_client.py 46][INFO]: 接口请求体 json 参数 ==>> null
+[2024-10-17 13:57:56,057][http_client.py 47][INFO]: 接口上传附件 files 参数 ==>> None
+[2024-10-17 13:57:56,057][http_client.py 48][INFO]: 接口 cookies 参数 ==>> null
+[2024-10-17 13:57:56,146][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/register
+[2024-10-17 13:57:56,146][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 13:57:56,146][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/json"
+}
+[2024-10-17 13:57:56,146][http_client.py 44][INFO]: 接口请求 params 参数 ==>> null
+[2024-10-17 13:57:56,146][http_client.py 45][INFO]: 接口请求体 data 参数 ==>> null
+[2024-10-17 13:57:56,146][http_client.py 46][INFO]: 接口请求体 json 参数 ==>> {
+    "userName": "萧然",
+    "password": "JQxW40d/tWcO12OFjSZMsKmUT1xao/ZQ2KPi9xLkDt3Q3hI@xK7aVhOQXG88ruOUDyLmiJbAKPvLW6I7aKTVHIYr6zTIiw@9TTl7YGjLgqRLAFA7LrcTyfAHVbhdipNehPHpjqO0kkNnco5tP/1yjqco2/BR/eJQHqHro352WhY=",
+    "gender": "男",
+    "phone": "18592037348",
+    "email": "62131232@qq.com"
+}
+[2024-10-17 13:57:56,146][http_client.py 47][INFO]: 接口上传附件 files 参数 ==>> None
+[2024-10-17 13:57:56,146][http_client.py 48][INFO]: 接口 cookies 参数 ==>> null
+[2024-10-17 13:58:56,540][read_data.py 39][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\config\setting.ini 文件......
+[2024-10-17 13:58:56,541][read_data.py 43][INFO]: 读到数据 ==>>  {'host': {'api_root_url': 'http://127.0.0.1'}, 'mysql': {'MYSQL_HOST': '172.29.0.17', 'MYSQL_PORT': '3306', 'MYSQL_USER': 'root', 'MYSQL_PASSWD': '9NBmX6BbKujY*JS$', 'MYSQL_DB': 'learn_rbac_lc_dev'}} 
+[2024-10-17 13:58:56,541][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+[2024-10-17 13:58:56,541][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 13:58:56,541][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[2024-10-17 13:58:56,541][http_client.py 44][INFO]: 接口请求 params 参数 ==>> null
+[2024-10-17 13:58:56,541][http_client.py 45][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "18592037348"
+}
+[2024-10-17 13:58:56,541][http_client.py 46][INFO]: 接口请求体 json 参数 ==>> null
+[2024-10-17 13:58:56,541][http_client.py 47][INFO]: 接口上传附件 files 参数 ==>> None
+[2024-10-17 13:58:56,541][http_client.py 48][INFO]: 接口 cookies 参数 ==>> null
+[2024-10-17 13:58:56,627][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/register
+[2024-10-17 13:58:56,627][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 13:58:56,627][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/json"
+}
+[2024-10-17 13:58:56,627][http_client.py 44][INFO]: 接口请求 params 参数 ==>> null
+[2024-10-17 13:58:56,627][http_client.py 45][INFO]: 接口请求体 data 参数 ==>> null
+[2024-10-17 13:58:56,627][http_client.py 46][INFO]: 接口请求体 json 参数 ==>> {
+    "userName": "萧然",
+    "password": "feq8geBBtC2VwPOyQuMzTW@KcClXYHaw06uXoQFqjkOwnTSOhoxaNyTKmX370CMfS3SQfHmTJGIgEm9Hg5@9RDl6BOIscP2GIQMaTo7WqujHcKOQaypIBpgvOozuQx1QDSgMzacZHW5YD@RltaylTPCJh1KyAsHqLipb/VFky94=",
+    "gender": "男",
+    "phone": "18592037348",
+    "email": "62131232@qq.com"
+}
+[2024-10-17 13:58:56,627][http_client.py 47][INFO]: 接口上传附件 files 参数 ==>> None
+[2024-10-17 13:58:56,627][http_client.py 48][INFO]: 接口 cookies 参数 ==>> null
+[2024-10-17 14:00:29,785][read_data.py 39][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\config\setting.ini 文件......
+[2024-10-17 14:00:29,786][read_data.py 43][INFO]: 读到数据 ==>>  {'host': {'api_root_url': 'http://127.0.0.1'}, 'mysql': {'MYSQL_HOST': '172.29.0.17', 'MYSQL_PORT': '3306', 'MYSQL_USER': 'root', 'MYSQL_PASSWD': '9NBmX6BbKujY*JS$', 'MYSQL_DB': 'learn_rbac_lc_dev'}} 
+[2024-10-17 14:00:29,786][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+[2024-10-17 14:00:29,786][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 14:00:29,786][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[2024-10-17 14:00:29,786][http_client.py 44][INFO]: 接口请求 params 参数 ==>> null
+[2024-10-17 14:00:29,786][http_client.py 45][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "18592037348"
+}
+[2024-10-17 14:00:29,786][http_client.py 46][INFO]: 接口请求体 json 参数 ==>> null
+[2024-10-17 14:00:29,786][http_client.py 47][INFO]: 接口上传附件 files 参数 ==>> None
+[2024-10-17 14:00:29,786][http_client.py 48][INFO]: 接口 cookies 参数 ==>> null
+[2024-10-17 14:00:29,917][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/register
+[2024-10-17 14:00:29,917][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 14:00:29,917][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/json"
+}
+[2024-10-17 14:00:29,917][http_client.py 44][INFO]: 接口请求 params 参数 ==>> null
+[2024-10-17 14:00:29,917][http_client.py 45][INFO]: 接口请求体 data 参数 ==>> null
+[2024-10-17 14:00:29,917][http_client.py 46][INFO]: 接口请求体 json 参数 ==>> {
+    "userName": "萧然",
+    "password": "gGIJZJuVyL2TQS64z8eNjEee5eaQgNwIu6Tbw/rTWL86@N@yx2Cgasu9/W07M1LNkdjz@tXexyIRCntEJCucaXH2L3CcKspRuXJPUTkONvU4bG@ZzWDe1CuSfxIGktqxWyfxyElUAjkh@zML/jFZ4E3Ey90T8JJmIRyXP0UYTQQ=",
+    "gender": "男",
+    "phone": "18592037348",
+    "email": "62131232@qq.com"
+}
+[2024-10-17 14:00:29,917][http_client.py 47][INFO]: 接口上传附件 files 参数 ==>> None
+[2024-10-17 14:00:29,917][http_client.py 48][INFO]: 接口 cookies 参数 ==>> null
+[2024-10-17 14:00:36,073][read_data.py 39][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\config\setting.ini 文件......
+[2024-10-17 14:00:36,074][read_data.py 43][INFO]: 读到数据 ==>>  {'host': {'api_root_url': 'http://127.0.0.1'}, 'mysql': {'MYSQL_HOST': '172.29.0.17', 'MYSQL_PORT': '3306', 'MYSQL_USER': 'root', 'MYSQL_PASSWD': '9NBmX6BbKujY*JS$', 'MYSQL_DB': 'learn_rbac_lc_dev'}} 
+[2024-10-17 14:00:36,074][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+[2024-10-17 14:00:36,074][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 14:00:36,074][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[2024-10-17 14:00:36,074][http_client.py 44][INFO]: 接口请求 params 参数 ==>> null
+[2024-10-17 14:00:36,074][http_client.py 45][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "18592037348"
+}
+[2024-10-17 14:00:36,074][http_client.py 46][INFO]: 接口请求体 json 参数 ==>> null
+[2024-10-17 14:00:36,074][http_client.py 47][INFO]: 接口上传附件 files 参数 ==>> None
+[2024-10-17 14:00:36,074][http_client.py 48][INFO]: 接口 cookies 参数 ==>> null
+[2024-10-17 14:00:36,233][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/register
+[2024-10-17 14:00:36,234][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 14:00:36,234][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/json"
+}
+[2024-10-17 14:00:36,234][http_client.py 44][INFO]: 接口请求 params 参数 ==>> null
+[2024-10-17 14:00:36,234][http_client.py 45][INFO]: 接口请求体 data 参数 ==>> null
+[2024-10-17 14:00:36,234][http_client.py 46][INFO]: 接口请求体 json 参数 ==>> {
+    "userName": "萧然",
+    "password": "MOMlSoxneCrooWRWlXC3FLf/UQvbRf8@x@oO1UhGi40T2oBh86M6@z/Bzyyt8Vb4xAb4NuXPVnFp/ktOm/gBtQifytGTqyh91lUpl326LYiETXp/12EM@dBqPEtO7TBqPddjYwN@PR6mortLKA17zNlnXKxMlCmfemDxV4X9yNA=",
+    "gender": "男",
+    "phone": "18592037348",
+    "email": "62131232@qq.com"
+}
+[2024-10-17 14:00:36,234][http_client.py 47][INFO]: 接口上传附件 files 参数 ==>> None
+[2024-10-17 14:00:36,234][http_client.py 48][INFO]: 接口 cookies 参数 ==>> null
+[2024-10-17 14:06:05,533][read_data.py 39][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\config\setting.ini 文件......
+[2024-10-17 14:06:05,533][read_data.py 43][INFO]: 读到数据 ==>>  {'host': {'api_root_url': 'http://127.0.0.1'}, 'mysql': {'MYSQL_HOST': '172.29.0.17', 'MYSQL_PORT': '3306', 'MYSQL_USER': 'root', 'MYSQL_PASSWD': '9NBmX6BbKujY*JS$', 'MYSQL_DB': 'learn_rbac_lc_dev'}} 
+[2024-10-17 14:06:05,533][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+[2024-10-17 14:06:05,533][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 14:06:05,533][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[2024-10-17 14:06:05,533][http_client.py 47][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "123456"
+}
+[2024-10-17 14:06:45,329][read_data.py 39][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\config\setting.ini 文件......
+[2024-10-17 14:06:45,329][read_data.py 43][INFO]: 读到数据 ==>>  {'host': {'api_root_url': 'http://127.0.0.1'}, 'mysql': {'MYSQL_HOST': '172.29.0.17', 'MYSQL_PORT': '3306', 'MYSQL_USER': 'root', 'MYSQL_PASSWD': '9NBmX6BbKujY*JS$', 'MYSQL_DB': 'learn_rbac_lc_dev'}} 
+[2024-10-17 14:06:45,330][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+[2024-10-17 14:06:45,330][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 14:06:45,330][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[2024-10-17 14:06:45,330][http_client.py 47][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "123456"
+}
+[2024-10-17 14:06:45,479][index_user_service.py 36][INFO]: <Response [200]>
+[2024-10-17 14:07:06,860][read_data.py 39][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\config\setting.ini 文件......
+[2024-10-17 14:07:06,860][read_data.py 43][INFO]: 读到数据 ==>>  {'host': {'api_root_url': 'http://127.0.0.1'}, 'mysql': {'MYSQL_HOST': '172.29.0.17', 'MYSQL_PORT': '3306', 'MYSQL_USER': 'root', 'MYSQL_PASSWD': '9NBmX6BbKujY*JS$', 'MYSQL_DB': 'learn_rbac_lc_dev'}} 
+[2024-10-17 14:07:06,860][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+[2024-10-17 14:07:06,860][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 14:07:06,860][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[2024-10-17 14:07:06,860][http_client.py 47][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "123456"
+}
+[2024-10-17 14:07:06,963][index_user_service.py 36][INFO]: {'success': True, 'code': 200, 'message': '操作成功', 'time': '1729145226961', 'data': 'LnmhUfbj1GQal15lXiHVIDFXN88xNSz3F83@f7fHYVDDHM7jgvTY07pcjUMf2NLTFFdn3FWojfM8Pqc9SDpiX50Ix75/1hwSrZLKSkbGEdR7oi16GpusJ208CoD3LtdmIouSRb32tfihGwCCtSlIOQX9SHYYN7u@o0nnDIH@aaw=', 'path': None, 'timestamp': None, 'msg': None, 'trackId': None}
+[2024-10-17 14:08:27,205][read_data.py 39][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\config\setting.ini 文件......
+[2024-10-17 14:08:27,205][read_data.py 43][INFO]: 读到数据 ==>>  {'host': {'api_root_url': 'http://127.0.0.1'}, 'mysql': {'MYSQL_HOST': '172.29.0.17', 'MYSQL_PORT': '3306', 'MYSQL_USER': 'root', 'MYSQL_PASSWD': '9NBmX6BbKujY*JS$', 'MYSQL_DB': 'learn_rbac_lc_dev'}} 
+[2024-10-17 14:08:27,205][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+[2024-10-17 14:08:27,205][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 14:08:27,205][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[2024-10-17 14:08:27,206][http_client.py 47][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "18592037348"
+}
+[2024-10-17 14:08:27,291][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/register
+[2024-10-17 14:08:27,291][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 14:08:27,291][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/json"
+}
+[2024-10-17 14:08:27,291][http_client.py 49][INFO]: 接口请求体 json 参数 ==>> {
+    "userName": "萧然",
+    "password": "Ye8j0B61qegKeuheqVrdzGfw1HBNguqi2Pp5qH1VYPlSHcVbfupkvIPJVy3OA6bODAc8vsmTzpjBUW@Bdqcilk288a4BEJr8DCR7plEMuDdhSuPyssSbKmU76g4Nlquy80cJCGzQUhzmGa6GYAPgqv3ISOGyduDxk3UQOfItQ6w=",
+    "gender": "男",
+    "phone": "18592037348",
+    "email": "62131232@qq.com"
+}
+[2024-10-17 14:15:46,613][read_data.py 39][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\config\setting.ini 文件......
+[2024-10-17 14:15:46,613][read_data.py 43][INFO]: 读到数据 ==>>  {'host': {'api_root_url': 'http://127.0.0.1'}, 'mysql': {'MYSQL_HOST': '172.29.0.17', 'MYSQL_PORT': '3306', 'MYSQL_USER': 'root', 'MYSQL_PASSWD': '9NBmX6BbKujY*JS$', 'MYSQL_DB': 'learn_rbac_lc_dev'}} 
+[2024-10-17 14:15:46,614][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+[2024-10-17 14:15:46,614][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 14:15:46,614][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[2024-10-17 14:15:46,614][http_client.py 47][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "18592037347"
+}
+[2024-10-17 14:15:46,728][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/login
+[2024-10-17 14:15:46,728][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 14:15:46,728][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[2024-10-17 14:15:46,728][http_client.py 47][INFO]: 接口请求体 data 参数 ==>> {
+    "phone": "18592037347",
+    "password": "REFR0aoChUNZiifqWkLKbft8Zia8oLERHDMzXcfFbhDLijEONTjelNUVo@78y6I4Laa2jY9Wz7@oMfONYj3aF21NpMlfde8lEISgq/7qY@818VpNnMrh/PrMrMimMYZQOaqHMRIbcBBfFxE68MVPnQJyj@vxZLh3I3COoOp4oZg="
+}
+[2024-10-17 14:16:10,331][read_data.py 39][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\config\setting.ini 文件......
+[2024-10-17 14:16:10,331][read_data.py 43][INFO]: 读到数据 ==>>  {'host': {'api_root_url': 'http://127.0.0.1'}, 'mysql': {'MYSQL_HOST': '172.29.0.17', 'MYSQL_PORT': '3306', 'MYSQL_USER': 'root', 'MYSQL_PASSWD': '9NBmX6BbKujY*JS$', 'MYSQL_DB': 'learn_rbac_lc_dev'}} 
+[2024-10-17 14:16:10,331][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+[2024-10-17 14:16:10,331][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 14:16:10,331][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[2024-10-17 14:16:10,331][http_client.py 47][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "18592037347"
+}
+[2024-10-17 14:16:10,417][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/login
+[2024-10-17 14:16:10,417][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 14:16:10,418][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[2024-10-17 14:16:10,418][http_client.py 47][INFO]: 接口请求体 data 参数 ==>> {
+    "phone": "18592037347",
+    "password": "Qi4j35pGKhos7YYmntReWngUq0x6RUVfzXMysEnj/@FQ2Rj7q3ankP6biSqwbo7K20wPo@hF0JVnWWwHpAtppFeMZ5MLpZNJGSQe/CFV8ib8NUUNfo8tfNuvGUGRn/AgHtYQCG0GqM1J7Q2ldzHqKOMpKxev3WBHXNbNSn5FAY4="
+}
+[2024-10-17 14:16:19,957][read_data.py 39][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\config\setting.ini 文件......
+[2024-10-17 14:16:19,957][read_data.py 43][INFO]: 读到数据 ==>>  {'host': {'api_root_url': 'http://127.0.0.1'}, 'mysql': {'MYSQL_HOST': '172.29.0.17', 'MYSQL_PORT': '3306', 'MYSQL_USER': 'root', 'MYSQL_PASSWD': '9NBmX6BbKujY*JS$', 'MYSQL_DB': 'learn_rbac_lc_dev'}} 
+[2024-10-17 14:16:19,957][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+[2024-10-17 14:16:19,957][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 14:16:19,957][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[2024-10-17 14:16:19,957][http_client.py 47][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "18592037348"
+}
+[2024-10-17 14:16:20,050][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/login
+[2024-10-17 14:16:20,050][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 14:16:20,050][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[2024-10-17 14:16:20,050][http_client.py 47][INFO]: 接口请求体 data 参数 ==>> {
+    "phone": "18592037348",
+    "password": "SxNNxVwdQVUFzLV5VPMQoN33P@x0jbPXkUo6nZdgbSH5Fgi8gQmRmKo@C5dam7m@h2FcmdrJi9BFmvAykW1V4r8vXkr5QJKo9rhLZ71VTvKiaWx7jwNPqEc4ZkeUWyhf/oqxfiPP0xYuR4tern3ziO7yknfgfcdYY1nWv8titJs="
+}
+[2024-10-17 14:16:58,806][read_data.py 39][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\config\setting.ini 文件......
+[2024-10-17 14:16:58,807][read_data.py 43][INFO]: 读到数据 ==>>  {'host': {'api_root_url': 'http://127.0.0.1'}, 'mysql': {'MYSQL_HOST': '172.29.0.17', 'MYSQL_PORT': '3306', 'MYSQL_USER': 'root', 'MYSQL_PASSWD': '9NBmX6BbKujY*JS$', 'MYSQL_DB': 'learn_rbac_lc_dev'}} 
+[2024-10-17 14:16:58,807][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+[2024-10-17 14:16:58,807][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 14:16:58,807][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[2024-10-17 14:16:58,807][http_client.py 47][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "18592037348"
+}
+[2024-10-17 14:16:58,886][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/login
+[2024-10-17 14:16:58,886][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 14:16:58,886][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[2024-10-17 14:16:58,886][http_client.py 47][INFO]: 接口请求体 data 参数 ==>> {
+    "phone": "18592037348",
+    "password": "beRvruLCo9FhbsDV3R9Jdr15bHtHUltW@gtRfidBT/sAoHPabSOcg6He9lw@Euh0pHVXzakXKSz9avOBlePgkb2gNmeQlCM98NxnY5Dj@L28i/gX74BZVYH1map0MUirtTdJSjN0TrDGDDAIZPxLuLl/IXD9NggRieWXtHqpVBc="
+}
+[2024-10-17 14:17:05,969][read_data.py 39][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\config\setting.ini 文件......
+[2024-10-17 14:17:05,969][read_data.py 43][INFO]: 读到数据 ==>>  {'host': {'api_root_url': 'http://127.0.0.1'}, 'mysql': {'MYSQL_HOST': '172.29.0.17', 'MYSQL_PORT': '3306', 'MYSQL_USER': 'root', 'MYSQL_PASSWD': '9NBmX6BbKujY*JS$', 'MYSQL_DB': 'learn_rbac_lc_dev'}} 
+[2024-10-17 14:17:05,969][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+[2024-10-17 14:17:05,969][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 14:17:05,969][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[2024-10-17 14:17:05,969][http_client.py 47][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "18592037348"
+}
+[2024-10-17 14:17:06,052][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/login
+[2024-10-17 14:17:06,052][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 14:17:06,052][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[2024-10-17 14:17:06,052][http_client.py 47][INFO]: 接口请求体 data 参数 ==>> {
+    "phone": "18592037348",
+    "password": "LgOhB1NU/Dze5BiLJoJlY@QCSoZP7EVhWgjt0tLerkD8CCQIvpYhcpzNm4mJJatjH6uTZw7LbMsitXLhgi/OH0rsc6BqqUc5ZaSD0@WQmaIG0CpvsHHlIutiV7mEhmLogtmCmWu6QwlPZ4iSm5PQYPVKwuh2F/X1y9FI9j@GmRs="
+}
+[2024-10-17 14:19:37,285][read_data.py 39][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\config\setting.ini 文件......
+[2024-10-17 14:19:37,285][read_data.py 43][INFO]: 读到数据 ==>>  {'host': {'api_root_url': 'http://127.0.0.1'}, 'mysql': {'MYSQL_HOST': '172.29.0.17', 'MYSQL_PORT': '3306', 'MYSQL_USER': 'root', 'MYSQL_PASSWD': '9NBmX6BbKujY*JS$', 'MYSQL_DB': 'learn_rbac_lc_dev'}} 
+[2024-10-17 14:19:37,286][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/getPublicKey
+[2024-10-17 14:19:37,286][http_client.py 41][INFO]: 接口请求方式 ==>> GET
+[2024-10-17 14:19:37,286][http_client.py 43][INFO]: 接口请求头 ==>> null
+[2024-10-17 14:19:37,375][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+[2024-10-17 14:19:37,375][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 14:19:37,375][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[2024-10-17 14:19:37,375][http_client.py 47][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "123456"
+}
+[2024-10-17 14:19:37,466][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+[2024-10-17 14:19:37,466][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 14:19:37,466][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[2024-10-17 14:19:37,466][http_client.py 47][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "18592037348"
+}
+[2024-10-17 14:19:37,561][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/register
+[2024-10-17 14:19:37,561][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 14:19:37,561][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/json"
+}
+[2024-10-17 14:19:37,561][http_client.py 49][INFO]: 接口请求体 json 参数 ==>> {
+    "userName": "萧然",
+    "password": {
+        "success": true,
+        "code": 200,
+        "message": "操作成功",
+        "time": "1729145977558",
+        "data": "Q55RgU@3V4Kl4OD7mpVyaYm3Calwi3kV6wCjan2ReY76jgfbC95k4X29fc50yDCTJD0wZGfhvp1NKr0Aj/azIihnx5bAFYS@PlEuAUrR7DpEQFsZLG/mMQY9NjBDfUveU5leiU@qLossodiTzegcC/BdB@lGL5DA4l9gbEhCR90=",
+        "path": null,
+        "timestamp": null,
+        "msg": null,
+        "trackId": null
+    },
+    "gender": "男",
+    "phone": "18592037348",
+    "email": "62131232@qq.com"
+}
+[2024-10-17 14:20:27,531][read_data.py 39][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\config\setting.ini 文件......
+[2024-10-17 14:20:27,532][read_data.py 43][INFO]: 读到数据 ==>>  {'host': {'api_root_url': 'http://127.0.0.1'}, 'mysql': {'MYSQL_HOST': '172.29.0.17', 'MYSQL_PORT': '3306', 'MYSQL_USER': 'root', 'MYSQL_PASSWD': '9NBmX6BbKujY*JS$', 'MYSQL_DB': 'learn_rbac_lc_dev'}} 
+[2024-10-17 14:20:27,532][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+[2024-10-17 14:20:27,532][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 14:20:27,532][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[2024-10-17 14:20:27,532][http_client.py 47][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "18592037348"
+}
+[2024-10-17 14:20:27,631][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/register
+[2024-10-17 14:20:27,631][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 14:20:27,631][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/json"
+}
+[2024-10-17 14:20:27,631][http_client.py 49][INFO]: 接口请求体 json 参数 ==>> {
+    "userName": "萧然",
+    "password": {
+        "success": true,
+        "code": 200,
+        "message": "操作成功",
+        "time": "1729146027629",
+        "data": "LNI@GskF9zPF2WIpKeNcyu3oSAcwVLaneHDmXx2FR9Km9Gn5Aa/8Fjnm8qoZGRvvW1f4yY4MUGBZRqYA5kNumDmqJx/skcH@88PbQ84yBGMXEPjrxeWfvKwT3ipB8kXaju4v/B/WscXPyIpJ@oAGv/Y0is2w3jth9fWLlMB9x8s=",
+        "path": null,
+        "timestamp": null,
+        "msg": null,
+        "trackId": null
+    },
+    "gender": "男",
+    "phone": "18592037348",
+    "email": "62131232@qq.com"
+}
+[2024-10-17 14:21:23,175][read_data.py 39][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\config\setting.ini 文件......
+[2024-10-17 14:21:23,175][read_data.py 43][INFO]: 读到数据 ==>>  {'host': {'api_root_url': 'http://127.0.0.1'}, 'mysql': {'MYSQL_HOST': '172.29.0.17', 'MYSQL_PORT': '3306', 'MYSQL_USER': 'root', 'MYSQL_PASSWD': '9NBmX6BbKujY*JS$', 'MYSQL_DB': 'learn_rbac_lc_dev'}} 
+[2024-10-17 14:21:23,175][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+[2024-10-17 14:21:23,175][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 14:21:23,175][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[2024-10-17 14:21:23,175][http_client.py 47][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "18592037348"
+}
+[2024-10-17 14:21:23,276][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/login
+[2024-10-17 14:21:23,276][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 14:21:23,276][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[2024-10-17 14:21:23,276][http_client.py 47][INFO]: 接口请求体 data 参数 ==>> {
+    "phone": "18592037348",
+    "password": {
+        "success": true,
+        "code": 200,
+        "message": "操作成功",
+        "time": "1729146083274",
+        "data": "CpmhBEAP8/tisdAYXup7x3sYk0sILuLXqaBEh8yQVrwoWUnTLH/dQIauqzn5@Ht9/1PXyynuwReiL3pWV0bo1hmexWqQsNV1lG@NebtcreB/HIh8@Y7ZpelI8LwkHMTCBrwnC6@Om7VdoPVG66ovJeW4w0BRLpESg1UT6TfGKkw=",
+        "path": null,
+        "timestamp": null,
+        "msg": null,
+        "trackId": null
+    }
+}
+[2024-10-17 14:21:30,543][read_data.py 39][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\config\setting.ini 文件......
+[2024-10-17 14:21:30,545][read_data.py 43][INFO]: 读到数据 ==>>  {'host': {'api_root_url': 'http://127.0.0.1'}, 'mysql': {'MYSQL_HOST': '172.29.0.17', 'MYSQL_PORT': '3306', 'MYSQL_USER': 'root', 'MYSQL_PASSWD': '9NBmX6BbKujY*JS$', 'MYSQL_DB': 'learn_rbac_lc_dev'}} 
+[2024-10-17 14:21:30,545][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+[2024-10-17 14:21:30,545][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 14:21:30,545][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[2024-10-17 14:21:30,545][http_client.py 47][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "18592037348"
+}
+[2024-10-17 14:21:30,660][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/login
+[2024-10-17 14:21:30,660][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 14:21:30,660][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[2024-10-17 14:21:30,660][http_client.py 47][INFO]: 接口请求体 data 参数 ==>> {
+    "phone": "18592037348",
+    "password": {
+        "success": true,
+        "code": 200,
+        "message": "操作成功",
+        "time": "1729146090656",
+        "data": "hUB8lmTd4GBwjOEOu0tzZeYi71M/QlBaDoZQ2wA//YO69PJUCUAwHpmJcDIsC5y9IhLVYhn6wYnFijaZZDodM8rKO5a4HJzaZ7bDnIkQOk3XGZw/N33i8w3LxDs2W4S9FcHhx8k0riGzt88rkLr/gR9GxuIhnSszucOvvuaL4OU=",
+        "path": null,
+        "timestamp": null,
+        "msg": null,
+        "trackId": null
+    }
+}
+[2024-10-17 14:22:13,781][read_data.py 39][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\config\setting.ini 文件......
+[2024-10-17 14:22:13,782][read_data.py 43][INFO]: 读到数据 ==>>  {'host': {'api_root_url': 'http://127.0.0.1'}, 'mysql': {'MYSQL_HOST': '172.29.0.17', 'MYSQL_PORT': '3306', 'MYSQL_USER': 'root', 'MYSQL_PASSWD': '9NBmX6BbKujY*JS$', 'MYSQL_DB': 'learn_rbac_lc_dev'}} 
+[2024-10-17 14:22:13,782][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+[2024-10-17 14:22:13,782][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 14:22:13,782][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[2024-10-17 14:22:13,782][http_client.py 47][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "18592037348"
+}
+[2024-10-17 14:22:14,014][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/register
+[2024-10-17 14:22:14,014][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 14:22:14,014][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/json"
+}
+[2024-10-17 14:22:14,014][http_client.py 49][INFO]: 接口请求体 json 参数 ==>> {
+    "userName": "萧然",
+    "password": {
+        "success": true,
+        "code": 200,
+        "message": "操作成功",
+        "time": "1729146134012",
+        "data": "TOeQkqyZSttQ/dnM@xaZ8kuSdZIHZomo@KuviS087lZJ7gzn2bpnqBqzklkJGgkLYzkYR1laezGZQi39Z9vwEKjnhi@5UtGtJsiPisnwGUVNrI1X4tC1lVE1Td@oPN1LiskztJF2QMSrblj4ApPO/v8SrDqvUmp9DYaDsYF7@Kw=",
+        "path": null,
+        "timestamp": null,
+        "msg": null,
+        "trackId": null
+    },
+    "gender": "男",
+    "phone": "18592037348",
+    "email": "62131232@qq.com"
+}
+[2024-10-17 14:23:08,126][read_data.py 39][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\config\setting.ini 文件......
+[2024-10-17 14:23:08,127][read_data.py 43][INFO]: 读到数据 ==>>  {'host': {'api_root_url': 'http://127.0.0.1'}, 'mysql': {'MYSQL_HOST': '172.29.0.17', 'MYSQL_PORT': '3306', 'MYSQL_USER': 'root', 'MYSQL_PASSWD': '9NBmX6BbKujY*JS$', 'MYSQL_DB': 'learn_rbac_lc_dev'}} 
+[2024-10-17 14:23:08,127][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+[2024-10-17 14:23:08,127][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 14:23:08,127][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[2024-10-17 14:23:08,127][http_client.py 47][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "18592037348"
+}
+[2024-10-17 14:23:08,295][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/register
+[2024-10-17 14:23:08,295][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 14:23:08,295][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/json"
+}
+[2024-10-17 14:23:08,295][http_client.py 49][INFO]: 接口请求体 json 参数 ==>> {
+    "userName": "萧然",
+    "password": "UMU35Bu@ifD6QJlEdS5nBZWmCY@724CtDYj7KdyTCNQcVOfMNc1cyDgfVYclMGgAF0bmFZRXqkjPIQb9F7DQqJwuqfWUwJ44oINkmlQfJWFP3IN5oNJY35/58T7o42JA2oKNK/v5LFGoYax4cFiCTdocIgYOVRBF3p//sM7Ud3s=",
+    "gender": "男",
+    "phone": "18592037348",
+    "email": "62131232@qq.com"
+}
+[2024-10-17 14:28:40,472][read_data.py 39][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\config\setting.ini 文件......
+[2024-10-17 14:28:40,472][read_data.py 43][INFO]: 读到数据 ==>>  {'host': {'api_root_url': 'http://127.0.0.1'}, 'mysql': {'MYSQL_HOST': '172.29.0.17', 'MYSQL_PORT': '3306', 'MYSQL_USER': 'root', 'MYSQL_PASSWD': '9NBmX6BbKujY*JS$', 'MYSQL_DB': 'learn_rbac_lc_dev'}} 
+[2024-10-17 14:28:40,472][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+[2024-10-17 14:28:40,472][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 14:28:40,472][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[2024-10-17 14:28:40,472][http_client.py 47][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "18592037348"
+}
+[2024-10-17 14:28:40,805][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/login
+[2024-10-17 14:28:40,805][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 14:28:40,805][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[2024-10-17 14:28:40,805][http_client.py 47][INFO]: 接口请求体 data 参数 ==>> {
+    "phone": "18592037348",
+    "password": {
+        "success": true,
+        "code": 200,
+        "message": "操作成功",
+        "time": "1729146520803",
+        "data": "XTMPZQxcI0JdAM58c3aHEuFhzxIuZfqF/Ffay/JzlsHG2@h1Jea4SBaaaAr1VI9VJoU5OOPDYE28Zvgs@vp5QsrsVKzodqUa5BysM7T14lVnPavZHOY8zaMxOdGLw78W5yF4ZU2kYQd6skcAS6drele2RG0/4Z@bUNB3Oqw37sE=",
+        "path": null,
+        "timestamp": null,
+        "msg": null,
+        "trackId": null
+    }
+}
+[2024-10-17 14:31:02,780][read_data.py 39][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\config\setting.ini 文件......
+[2024-10-17 14:31:02,780][read_data.py 43][INFO]: 读到数据 ==>>  {'host': {'api_root_url': 'http://127.0.0.1'}, 'mysql': {'MYSQL_HOST': '172.29.0.17', 'MYSQL_PORT': '3306', 'MYSQL_USER': 'root', 'MYSQL_PASSWD': '9NBmX6BbKujY*JS$', 'MYSQL_DB': 'learn_rbac_lc_dev'}} 
+[2024-10-17 14:31:02,780][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/getPublicKey
+[2024-10-17 14:31:02,780][http_client.py 41][INFO]: 接口请求方式 ==>> GET
+[2024-10-17 14:31:02,780][http_client.py 43][INFO]: 接口请求头 ==>> null
+[2024-10-17 14:32:02,046][read_data.py 39][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\config\setting.ini 文件......
+[2024-10-17 14:32:02,046][read_data.py 43][INFO]: 读到数据 ==>>  {'host': {'api_root_url': 'http://127.0.0.1'}, 'mysql': {'MYSQL_HOST': '172.29.0.17', 'MYSQL_PORT': '3306', 'MYSQL_USER': 'root', 'MYSQL_PASSWD': '9NBmX6BbKujY*JS$', 'MYSQL_DB': 'learn_rbac_lc_dev'}} 
+[2024-10-17 14:32:02,047][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+[2024-10-17 14:32:02,047][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 14:32:02,047][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[2024-10-17 14:32:02,047][http_client.py 47][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "18592037348"
+}
+[2024-10-17 14:32:02,716][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/login
+[2024-10-17 14:32:02,716][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 14:32:02,716][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[2024-10-17 14:32:02,716][http_client.py 47][INFO]: 接口请求体 data 参数 ==>> {
+    "phone": "18592037348",
+    "password": {
+        "success": true,
+        "code": 200,
+        "message": "操作成功",
+        "time": "1729146722713",
+        "data": "dvtlIdLnDLGKSScRni/O3unBhkTEUwm6gY79WanVWJwtk2qDkwTaaTtIy/ird5UGi/nDIJdvLdvZxNrir0gZpGzPWhljwDdZDKC1PTcVW7ifObw5xZiwOx8Wb02GUejK9ctU8fk//zBUTni2TkT9bmAT5cC90J7UPQTGSdofoAw=",
+        "path": null,
+        "timestamp": null,
+        "msg": null,
+        "trackId": null
+    }
+}
+[2024-10-17 14:32:29,986][read_data.py 39][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\config\setting.ini 文件......
+[2024-10-17 14:32:29,986][read_data.py 43][INFO]: 读到数据 ==>>  {'host': {'api_root_url': 'http://127.0.0.1'}, 'mysql': {'MYSQL_HOST': '172.29.0.17', 'MYSQL_PORT': '3306', 'MYSQL_USER': 'root', 'MYSQL_PASSWD': '9NBmX6BbKujY*JS$', 'MYSQL_DB': 'learn_rbac_lc_dev'}} 
+[2024-10-17 14:32:29,986][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+[2024-10-17 14:32:29,986][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 14:32:29,987][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[2024-10-17 14:32:29,987][http_client.py 47][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "18592037349"
+}
+[2024-10-17 14:32:30,175][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/register
+[2024-10-17 14:32:30,175][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 14:32:30,175][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/json"
+}
+[2024-10-17 14:32:30,175][http_client.py 49][INFO]: 接口请求体 json 参数 ==>> {
+    "userName": "萧然1",
+    "password": "a9O5x5R32/mhg62JIgG0TCRHeVhkBZHX0fezT/14qnrUltYZx6z/TmF1tmgQn5uMc3Ca0s4EbtNGovPF7uC0l8HxRMy1OQ/6beii5BtoVskOWQ5IPpRZ3nAKXePg@0/3j3yM0xzo4P04SfyEWxPlr3yNVMQyCvnrATIxTTUvxkE=",
+    "gender": "男",
+    "phone": "18592037349",
+    "email": "62131232@qq.com"
+}
+[2024-10-17 14:32:48,188][read_data.py 39][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\config\setting.ini 文件......
+[2024-10-17 14:32:48,188][read_data.py 43][INFO]: 读到数据 ==>>  {'host': {'api_root_url': 'http://127.0.0.1'}, 'mysql': {'MYSQL_HOST': '172.29.0.17', 'MYSQL_PORT': '3306', 'MYSQL_USER': 'root', 'MYSQL_PASSWD': '9NBmX6BbKujY*JS$', 'MYSQL_DB': 'learn_rbac_lc_dev'}} 
+[2024-10-17 14:32:48,188][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+[2024-10-17 14:32:48,188][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 14:32:48,188][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[2024-10-17 14:32:48,188][http_client.py 47][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "18592037349"
+}
+[2024-10-17 14:32:48,281][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/login
+[2024-10-17 14:32:48,281][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 14:32:48,281][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[2024-10-17 14:32:48,281][http_client.py 47][INFO]: 接口请求体 data 参数 ==>> {
+    "phone": "18592037349",
+    "password": {
+        "success": true,
+        "code": 200,
+        "message": "操作成功",
+        "time": "1729146768280",
+        "data": "MkI/zXa8V5o7QnlaVm8sHIJCLcV2c@fjppjmp7qVh8ZAKSbfKOcLVQWAPUgXNkzqBJkVIjJTUkH6zFFtVB5qlFRoGMEM8s2OVeKnP13FVMCbiyGiqNECJ0oihzq4cUBMy11m7VwWmHsHPVkHWc2P9rJ@swpnipXvq58QvjtlgdY=",
+        "path": null,
+        "timestamp": null,
+        "msg": null,
+        "trackId": null
+    }
+}
+[2024-10-17 14:33:30,526][read_data.py 39][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\config\setting.ini 文件......
+[2024-10-17 14:33:30,527][read_data.py 43][INFO]: 读到数据 ==>>  {'host': {'api_root_url': 'http://127.0.0.1'}, 'mysql': {'MYSQL_HOST': '172.29.0.17', 'MYSQL_PORT': '3306', 'MYSQL_USER': 'root', 'MYSQL_PASSWD': '9NBmX6BbKujY*JS$', 'MYSQL_DB': 'learn_rbac_lc_dev'}} 
+[2024-10-17 14:33:30,527][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+[2024-10-17 14:33:30,527][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 14:33:30,527][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[2024-10-17 14:33:30,527][http_client.py 47][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "18592037349"
+}
+[2024-10-17 14:33:30,721][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/register
+[2024-10-17 14:33:30,722][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 14:33:30,722][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/json"
+}
+[2024-10-17 14:33:30,722][http_client.py 49][INFO]: 接口请求体 json 参数 ==>> {
+    "userName": "萧然1",
+    "password": "EPBCT/yYGncxTy7As8yDCtJrRpesWdVDHq2c3zScKEIief/Nb3TsqOdPL8AkC98XnnIcuTkdzn@8LbqKRO3QfK3qqHHw4@7IJjsUqUZBvzZ2svklsIVzD0YBdRwzeT3JoiHpQ3o24KOHK4k2rGc02i443CQkFAwL0r2TjmQOH7g=",
+    "gender": "男",
+    "phone": "18592037349",
+    "email": "62131232@qq.com"
+}
+[2024-10-17 14:34:12,020][read_data.py 39][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\config\setting.ini 文件......
+[2024-10-17 14:34:12,020][read_data.py 43][INFO]: 读到数据 ==>>  {'host': {'api_root_url': 'http://127.0.0.1'}, 'mysql': {'MYSQL_HOST': '172.29.0.17', 'MYSQL_PORT': '3306', 'MYSQL_USER': 'root', 'MYSQL_PASSWD': '9NBmX6BbKujY*JS$', 'MYSQL_DB': 'learn_rbac_lc_dev'}} 
+[2024-10-17 14:34:12,021][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+[2024-10-17 14:34:12,021][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 14:34:12,021][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[2024-10-17 14:34:12,021][http_client.py 47][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "18592037349"
+}
+[2024-10-17 14:34:12,143][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/login
+[2024-10-17 14:34:12,143][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 14:34:12,143][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[2024-10-17 14:34:12,143][http_client.py 47][INFO]: 接口请求体 data 参数 ==>> {
+    "phone": "18592037349",
+    "password": {
+        "success": true,
+        "code": 200,
+        "message": "操作成功",
+        "time": "1729146852141",
+        "data": "QGMrdeDqcX/MWckeVtrOV1QsVBa8ss4SjJChXSaD4uc9PwzlotsXgld8qXYu6T7FJBzdt8TPFGILdo9w9wGOycN6@6gtnO0II1Sgh3iENGqaHOtZ9NLWXoDEOrmXY0b7H8xDYj4GrfvtH9RhIfJc@b1djhLhgpMU@14cYi1AnV0=",
+        "path": null,
+        "timestamp": null,
+        "msg": null,
+        "trackId": null
+    }
+}
+[2024-10-17 14:36:18,709][read_data.py 39][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\config\setting.ini 文件......
+[2024-10-17 14:36:18,710][read_data.py 43][INFO]: 读到数据 ==>>  {'host': {'api_root_url': 'http://127.0.0.1'}, 'mysql': {'MYSQL_HOST': '172.29.0.17', 'MYSQL_PORT': '3306', 'MYSQL_USER': 'root', 'MYSQL_PASSWD': '9NBmX6BbKujY*JS$', 'MYSQL_DB': 'learn_rbac_lc_dev'}} 
+[2024-10-17 14:36:18,710][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+[2024-10-17 14:36:18,710][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 14:36:18,710][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[2024-10-17 14:36:18,710][http_client.py 47][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "18592037349\""
+}
+[2024-10-17 14:36:18,794][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+[2024-10-17 14:36:18,794][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 14:36:18,794][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[2024-10-17 14:36:18,794][http_client.py 47][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "18592037349\""
+}
+[2024-10-17 14:38:51,293][read_data.py 39][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\config\setting.ini 文件......
+[2024-10-17 14:38:51,293][read_data.py 43][INFO]: 读到数据 ==>>  {'host': {'api_root_url': 'http://127.0.0.1'}, 'mysql': {'MYSQL_HOST': '172.29.0.17', 'MYSQL_PORT': '3306', 'MYSQL_USER': 'root', 'MYSQL_PASSWD': '9NBmX6BbKujY*JS$', 'MYSQL_DB': 'learn_rbac_lc_dev'}} 
+[2024-10-17 14:38:51,293][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+[2024-10-17 14:38:51,293][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 14:38:51,293][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[2024-10-17 14:38:51,293][http_client.py 47][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "18592037349"
+}
+[2024-10-17 14:38:51,476][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+[2024-10-17 14:38:51,476][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 14:38:51,476][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[2024-10-17 14:38:51,476][http_client.py 47][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "18592037349"
+}
+[2024-10-17 14:39:55,583][read_data.py 39][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\config\setting.ini 文件......
+[2024-10-17 14:39:55,584][read_data.py 43][INFO]: 读到数据 ==>>  {'host': {'api_root_url': 'http://127.0.0.1'}, 'mysql': {'MYSQL_HOST': '172.29.0.17', 'MYSQL_PORT': '3306', 'MYSQL_USER': 'root', 'MYSQL_PASSWD': '9NBmX6BbKujY*JS$', 'MYSQL_DB': 'learn_rbac_lc_dev'}} 
+[2024-10-17 14:39:55,584][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/getPublicKey
+[2024-10-17 14:39:55,584][http_client.py 41][INFO]: 接口请求方式 ==>> GET
+[2024-10-17 14:39:55,584][http_client.py 43][INFO]: 接口请求头 ==>> null
+[2024-10-17 14:39:55,694][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+[2024-10-17 14:39:55,694][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 14:39:55,694][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[2024-10-17 14:39:55,694][http_client.py 47][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "18592037349"
+}
+[2024-10-17 14:39:55,776][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/getPublicKey
+[2024-10-17 14:39:55,776][http_client.py 41][INFO]: 接口请求方式 ==>> GET
+[2024-10-17 14:39:55,776][http_client.py 43][INFO]: 接口请求头 ==>> null
+[2024-10-17 14:39:55,873][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+[2024-10-17 14:39:55,873][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 14:39:55,873][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[2024-10-17 14:39:55,873][http_client.py 47][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "18592037349"
+}
+[2024-10-17 14:41:24,925][read_data.py 39][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\config\setting.ini 文件......
+[2024-10-17 14:41:24,926][read_data.py 43][INFO]: 读到数据 ==>>  {'host': {'api_root_url': 'http://127.0.0.1'}, 'mysql': {'MYSQL_HOST': '172.29.0.17', 'MYSQL_PORT': '3306', 'MYSQL_USER': 'root', 'MYSQL_PASSWD': '9NBmX6BbKujY*JS$', 'MYSQL_DB': 'learn_rbac_lc_dev'}} 
+[2024-10-17 14:41:24,926][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/getPublicKey
+[2024-10-17 14:41:24,926][http_client.py 41][INFO]: 接口请求方式 ==>> GET
+[2024-10-17 14:41:24,926][http_client.py 43][INFO]: 接口请求头 ==>> null
+[2024-10-17 14:41:25,036][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+[2024-10-17 14:41:25,037][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 14:41:25,037][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[2024-10-17 14:41:25,037][http_client.py 47][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "18592037349"
+}
+[2024-10-17 14:41:55,970][read_data.py 39][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\config\setting.ini 文件......
+[2024-10-17 14:41:55,970][read_data.py 43][INFO]: 读到数据 ==>>  {'host': {'api_root_url': 'http://127.0.0.1'}, 'mysql': {'MYSQL_HOST': '172.29.0.17', 'MYSQL_PORT': '3306', 'MYSQL_USER': 'root', 'MYSQL_PASSWD': '9NBmX6BbKujY*JS$', 'MYSQL_DB': 'learn_rbac_lc_dev'}} 
+[2024-10-17 14:41:55,971][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/getPublicKey
+[2024-10-17 14:41:55,971][http_client.py 41][INFO]: 接口请求方式 ==>> GET
+[2024-10-17 14:41:55,971][http_client.py 43][INFO]: 接口请求头 ==>> null
+[2024-10-17 14:41:56,066][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+[2024-10-17 14:41:56,066][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 14:41:56,066][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[2024-10-17 14:41:56,066][http_client.py 47][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "18592037349"
+}
+[2024-10-17 14:41:56,213][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/getPublicKey
+[2024-10-17 14:41:56,214][http_client.py 41][INFO]: 接口请求方式 ==>> GET
+[2024-10-17 14:41:56,214][http_client.py 43][INFO]: 接口请求头 ==>> null
+[2024-10-17 14:41:56,302][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+[2024-10-17 14:41:56,303][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 14:41:56,303][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[2024-10-17 14:41:56,303][http_client.py 47][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "18592037349"
+}
+[2024-10-17 14:42:47,490][read_data.py 39][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\config\setting.ini 文件......
+[2024-10-17 14:42:47,491][read_data.py 43][INFO]: 读到数据 ==>>  {'host': {'api_root_url': 'http://127.0.0.1'}, 'mysql': {'MYSQL_HOST': '172.29.0.17', 'MYSQL_PORT': '3306', 'MYSQL_USER': 'root', 'MYSQL_PASSWD': '9NBmX6BbKujY*JS$', 'MYSQL_DB': 'learn_rbac_lc_dev'}} 
+[2024-10-17 14:42:47,491][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+[2024-10-17 14:42:47,491][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 14:42:47,491][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[2024-10-17 14:42:47,491][http_client.py 47][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "18592037349"
+}
+[2024-10-17 14:42:47,573][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/login
+[2024-10-17 14:42:47,574][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 14:42:47,574][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[2024-10-17 14:42:47,574][http_client.py 47][INFO]: 接口请求体 data 参数 ==>> {
+    "phone": "18592037349",
+    "password": {
+        "success": true,
+        "code": 200,
+        "message": "操作成功",
+        "time": "1729147367572",
+        "data": "RSZDp/TpOCnWEpidr7byUL@LH5d3FhJ/4mAh0a7x0LwsXCoYjq5dfNK@WfPCbd3H8b8FoA/QHvue4yOv/ZQ7mcmMjQ/Egbu@WcPtZ42swwRcGIhescNWJpdL0Sq/VRpzhyTphCaakIT2KuY@ZcZa3NVhKoooYh1Zmpg8/c/qYgk=",
+        "path": null,
+        "timestamp": null,
+        "msg": null,
+        "trackId": null
+    }
+}
+[2024-10-17 14:44:34,105][read_data.py 39][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\config\setting.ini 文件......
+[2024-10-17 14:44:34,106][read_data.py 43][INFO]: 读到数据 ==>>  {'host': {'api_root_url': 'http://127.0.0.1'}, 'mysql': {'MYSQL_HOST': '172.29.0.17', 'MYSQL_PORT': '3306', 'MYSQL_USER': 'root', 'MYSQL_PASSWD': '9NBmX6BbKujY*JS$', 'MYSQL_DB': 'learn_rbac_lc_dev'}} 
+[2024-10-17 14:44:34,107][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+[2024-10-17 14:44:34,107][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 14:44:34,107][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[2024-10-17 14:44:34,107][http_client.py 47][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "18592037349"
+}
+[2024-10-17 14:44:34,199][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/login
+[2024-10-17 14:44:34,199][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 14:44:34,199][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[2024-10-17 14:44:34,199][http_client.py 47][INFO]: 接口请求体 data 参数 ==>> {
+    "phone": "18592037349",
+    "password": {
+        "success": true,
+        "code": 200,
+        "message": "操作成功",
+        "time": "1729147474197",
+        "data": "Mz4pHbfKs1Qx39yldFlTT1v7G7i@95RYhnCGJkfAD2S3WCvR0gaiUg9W6sUTULWyDdwqLwfCun5ewltui61NYYvXXtsI1@4DryppI1md0T67yo7eIBLSz6c5VDznQzHBFvDPbe4GA8HrEGBMDi073RyCpBUX9Szvn13B5LT92Ko=",
+        "path": null,
+        "timestamp": null,
+        "msg": null,
+        "trackId": null
+    }
+}
+[2024-10-17 14:50:35,314][read_data.py 39][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\config\setting.ini 文件......
+[2024-10-17 14:50:35,314][read_data.py 43][INFO]: 读到数据 ==>>  {'host': {'api_root_url': 'http://127.0.0.1'}, 'mysql': {'MYSQL_HOST': '172.29.0.17', 'MYSQL_PORT': '3306', 'MYSQL_USER': 'root', 'MYSQL_PASSWD': '9NBmX6BbKujY*JS$', 'MYSQL_DB': 'learn_rbac_lc_dev'}} 
+[2024-10-17 14:50:35,315][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+[2024-10-17 14:50:35,315][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 14:50:35,315][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[2024-10-17 14:50:35,315][http_client.py 47][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "18592037349"
+}
+[2024-10-17 14:50:35,404][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/login
+[2024-10-17 14:50:35,404][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 14:50:35,404][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[2024-10-17 14:50:35,404][http_client.py 47][INFO]: 接口请求体 data 参数 ==>> {
+    "phone": "18592037349",
+    "password": {
+        "success": true,
+        "code": 200,
+        "message": "操作成功",
+        "time": "1729147835403",
+        "data": "KCXrKN@dY0hzYAN2RltN9jPN8vVFVww@8cUlAQNJCNvwiVHkhkVD8OPqyNk6Ropjpr6NOgSMJ8tTtVmexre7W2fZzKQHtcHhmAA7WAxlkmVQ@M43V@5sfe95kFLWR6mRKeXPD2cIwaG8rOsT9HhddFeNclb1W8RBSeRi/O5eNag=",
+        "path": null,
+        "timestamp": null,
+        "msg": null,
+        "trackId": null
+    }
+}
+[2024-10-17 14:51:33,725][read_data.py 39][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\config\setting.ini 文件......
+[2024-10-17 14:51:33,726][read_data.py 43][INFO]: 读到数据 ==>>  {'host': {'api_root_url': 'http://127.0.0.1'}, 'mysql': {'MYSQL_HOST': '172.29.0.17', 'MYSQL_PORT': '3306', 'MYSQL_USER': 'root', 'MYSQL_PASSWD': '9NBmX6BbKujY*JS$', 'MYSQL_DB': 'learn_rbac_lc_dev'}} 
+[2024-10-17 14:51:33,726][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+[2024-10-17 14:51:33,726][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 14:51:33,726][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[2024-10-17 14:51:33,726][http_client.py 47][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "18592037349"
+}
+[2024-10-17 14:51:33,872][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/login
+[2024-10-17 14:51:33,872][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 14:51:33,872][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[2024-10-17 14:51:33,872][http_client.py 47][INFO]: 接口请求体 data 参数 ==>> {
+    "phone": "18592037349",
+    "password": {
+        "success": true,
+        "code": 200,
+        "message": "操作成功",
+        "time": "1729147893870",
+        "data": "elmXDKDhUVkMKCGfpYuk6aM4EJPNGMGYk2fVW/wxMcKQFPQX2AEL8UvfmlQPLFCVECyztLXf@pUGydTYVSd02sgk3Ojy04HRCxYcYUh@/gv2yRRkzS@j25rUgPloWKs6SvGkoESdBN3R/qZmHv7Gzdo6VdeuDhxZhAMWv3IUS1s=",
+        "path": null,
+        "timestamp": null,
+        "msg": null,
+        "trackId": null
+    }
+}
+[2024-10-17 14:52:13,955][read_data.py 39][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\config\setting.ini 文件......
+[2024-10-17 14:52:13,956][read_data.py 43][INFO]: 读到数据 ==>>  {'host': {'api_root_url': 'http://127.0.0.1'}, 'mysql': {'MYSQL_HOST': '172.29.0.17', 'MYSQL_PORT': '3306', 'MYSQL_USER': 'root', 'MYSQL_PASSWD': '9NBmX6BbKujY*JS$', 'MYSQL_DB': 'learn_rbac_lc_dev'}} 
+[2024-10-17 14:52:13,956][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+[2024-10-17 14:52:13,956][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 14:52:13,956][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[2024-10-17 14:52:13,956][http_client.py 47][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "18592037349"
+}
+[2024-10-17 14:52:14,039][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/login
+[2024-10-17 14:52:14,039][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 14:52:14,040][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[2024-10-17 14:52:14,040][http_client.py 47][INFO]: 接口请求体 data 参数 ==>> {
+    "phone": "18592037349",
+    "password": {
+        "success": true,
+        "code": 200,
+        "message": "操作成功",
+        "time": "1729147934038",
+        "data": "ebt@tnWRdPbM2YiTbPLnecUMvYzZRG@NGj3bDKD8gFlQjQcIXSelW6xOjsEvRawKDKm9k8WEivN/cxWiHZcCf5MNXEN45ytnRNieW/ZUxZub0orJYTMz47rschlVvDoRiaJRkk5msTMBCZ7yi17/HvGhOfM1fpR4@u5xT3jCwkc=",
+        "path": null,
+        "timestamp": null,
+        "msg": null,
+        "trackId": null
+    }
+}
+[2024-10-17 14:54:24,690][read_data.py 39][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\config\setting.ini 文件......
+[2024-10-17 14:54:24,691][read_data.py 43][INFO]: 读到数据 ==>>  {'host': {'api_root_url': 'http://127.0.0.1'}, 'mysql': {'MYSQL_HOST': '172.29.0.17', 'MYSQL_PORT': '3306', 'MYSQL_USER': 'root', 'MYSQL_PASSWD': '9NBmX6BbKujY*JS$', 'MYSQL_DB': 'learn_rbac_lc_dev'}} 
+[2024-10-17 14:54:24,691][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+[2024-10-17 14:54:24,691][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 14:54:24,691][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[2024-10-17 14:54:24,691][http_client.py 47][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "18592037349"
+}
+[2024-10-17 14:54:24,778][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/login
+[2024-10-17 14:54:24,778][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 14:54:24,778][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[2024-10-17 14:54:24,778][http_client.py 47][INFO]: 接口请求体 data 参数 ==>> {
+    "phone": "18592037349",
+    "password": "EopAsqAMqQf5dcGAsQoIHVVqK0JvQLmZOhcVL6Nk6SrlnAi7IbW6xjSZvapKq40@o7CpM5nBWKtFF/7vJcjod5k0FcX5CtFZPm@AkWS9@LAdjH7cprgBqx2FEK/ObQHhf9Cvxq8Fs8sSzblY/5bsFiYjsiJn6AZgfUD7t3S4@Ik="
+}
+[2024-10-17 16:01:09,899][read_data.py 39][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\config\setting.ini 文件......
+[2024-10-17 16:01:09,899][read_data.py 43][INFO]: 读到数据 ==>>  {'host': {'api_root_url': 'http://127.0.0.1'}, 'mysql': {'MYSQL_HOST': '172.29.0.17', 'MYSQL_PORT': '3306', 'MYSQL_USER': 'root', 'MYSQL_PASSWD': '9NBmX6BbKujY*JS$', 'MYSQL_DB': 'learn_rbac_lc_dev'}} 
+[2024-10-17 16:01:09,899][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+[2024-10-17 16:01:09,899][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 16:01:09,899][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[2024-10-17 16:01:09,899][http_client.py 47][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "18592037349"
+}
+[2024-10-17 16:01:10,020][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/login
+[2024-10-17 16:01:10,021][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 16:01:10,021][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[2024-10-17 16:01:10,021][http_client.py 47][INFO]: 接口请求体 data 参数 ==>> {
+    "phone": "18592037349",
+    "password": "RBvbfAEy4FotgZQy3QHSWfWLZLKmyVv@UCs9axpUa0RJwtOGY1QOy7deAocRgJpBP9dIyZmUNjD65iE3ArRm/nJi0csNqiuNhH2WgdW/S8Dgi@a/NM/sqZAPIr2TH@gCYn/uUOTSVv9AHU7HLmloHgC@YXhCJV4XINPs6XYB/7o="
+}
+[2024-10-17 16:02:26,169][read_data.py 39][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\config\setting.ini 文件......
+[2024-10-17 16:02:26,170][read_data.py 43][INFO]: 读到数据 ==>>  {'host': {'api_root_url': 'http://127.0.0.1'}, 'mysql': {'MYSQL_HOST': '172.29.0.17', 'MYSQL_PORT': '3306', 'MYSQL_USER': 'root', 'MYSQL_PASSWD': '9NBmX6BbKujY*JS$', 'MYSQL_DB': 'learn_rbac_lc_dev'}} 
+[2024-10-17 16:02:26,170][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/login
+[2024-10-17 16:02:26,170][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 16:02:26,170][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[2024-10-17 16:02:26,170][http_client.py 47][INFO]: 接口请求体 data 参数 ==>> {
+    "userId": "1846801442433683458",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYmFjLXVzZXIiLCJpc3MiOiJsb25nY2hhbyIsImlhdCI6MTcyOTE1MjA3MSwiZXhwIjoxNzI5MTU1NjcxLCJpZCI6MTg0NjgwMTQ0MjQzMzY4MzQ1OH0.SNEb6dkZjvkJ_1wxbYUROzzW-xHZc2j4qfFqiqdCoSQ"
+}
+[2024-10-17 16:02:45,162][read_data.py 39][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\config\setting.ini 文件......
+[2024-10-17 16:02:45,162][read_data.py 43][INFO]: 读到数据 ==>>  {'host': {'api_root_url': 'http://127.0.0.1'}, 'mysql': {'MYSQL_HOST': '172.29.0.17', 'MYSQL_PORT': '3306', 'MYSQL_USER': 'root', 'MYSQL_PASSWD': '9NBmX6BbKujY*JS$', 'MYSQL_DB': 'learn_rbac_lc_dev'}} 
+[2024-10-17 16:03:00,764][read_data.py 39][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\config\setting.ini 文件......
+[2024-10-17 16:03:00,764][read_data.py 43][INFO]: 读到数据 ==>>  {'host': {'api_root_url': 'http://127.0.0.1'}, 'mysql': {'MYSQL_HOST': '172.29.0.17', 'MYSQL_PORT': '3306', 'MYSQL_USER': 'root', 'MYSQL_PASSWD': '9NBmX6BbKujY*JS$', 'MYSQL_DB': 'learn_rbac_lc_dev'}} 
+[2024-10-17 16:03:00,764][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/login
+[2024-10-17 16:03:00,764][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 16:03:00,765][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[2024-10-17 16:03:00,765][http_client.py 47][INFO]: 接口请求体 data 参数 ==>> {
+    "userId": "1846801442433683458",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYmFjLXVzZXIiLCJpc3MiOiJsb25nY2hhbyIsImlhdCI6MTcyOTE1MjA3MSwiZXhwIjoxNzI5MTU1NjcxLCJpZCI6MTg0NjgwMTQ0MjQzMzY4MzQ1OH0.SNEb6dkZjvkJ_1wxbYUROzzW-xHZc2j4qfFqiqdCoSQ"
+}
+[2024-10-17 16:03:25,427][read_data.py 39][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\config\setting.ini 文件......
+[2024-10-17 16:03:25,427][read_data.py 43][INFO]: 读到数据 ==>>  {'host': {'api_root_url': 'http://127.0.0.1'}, 'mysql': {'MYSQL_HOST': '172.29.0.17', 'MYSQL_PORT': '3306', 'MYSQL_USER': 'root', 'MYSQL_PASSWD': '9NBmX6BbKujY*JS$', 'MYSQL_DB': 'learn_rbac_lc_dev'}} 
+[2024-10-17 16:03:25,428][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/login
+[2024-10-17 16:03:25,428][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 16:03:25,428][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[2024-10-17 16:03:25,428][http_client.py 47][INFO]: 接口请求体 data 参数 ==>> {
+    "userId": "1846801442433683458",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYmFjLXVzZXIiLCJpc3MiOiJsb25nY2hhbyIsImlhdCI6MTcyOTE1MjA3MSwiZXhwIjoxNzI5MTU1NjcxLCJpZCI6MTg0NjgwMTQ0MjQzMzY4MzQ1OH0.SNEb6dkZjvkJ_1wxbYUROzzW-xHZc2j4qfFqiqdCoSQ"
+}
+[2024-10-17 16:05:29,216][read_data.py 39][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\config\setting.ini 文件......
+[2024-10-17 16:05:29,216][read_data.py 43][INFO]: 读到数据 ==>>  {'host': {'api_root_url': 'http://127.0.0.1'}, 'mysql': {'MYSQL_HOST': '172.29.0.17', 'MYSQL_PORT': '3306', 'MYSQL_USER': 'root', 'MYSQL_PASSWD': '9NBmX6BbKujY*JS$', 'MYSQL_DB': 'learn_rbac_lc_dev'}} 
+[2024-10-17 16:05:29,216][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/login
+[2024-10-17 16:05:29,216][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 16:05:29,216][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[2024-10-17 16:05:29,216][http_client.py 47][INFO]: 接口请求体 data 参数 ==>> {
+    "userId": "1846801442433683458",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYmFjLXVzZXIiLCJpc3MiOiJsb25nY2hhbyIsImlhdCI6MTcyOTE1MjA3MSwiZXhwIjoxNzI5MTU1NjcxLCJpZCI6MTg0NjgwMTQ0MjQzMzY4MzQ1OH0.SNEb6dkZjvkJ_1wxbYUROzzW-xHZc2j4qfFqiqdCoSQ"
+}
+[2024-10-17 16:05:44,726][read_data.py 39][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\config\setting.ini 文件......
+[2024-10-17 16:05:44,726][read_data.py 43][INFO]: 读到数据 ==>>  {'host': {'api_root_url': 'http://127.0.0.1'}, 'mysql': {'MYSQL_HOST': '172.29.0.17', 'MYSQL_PORT': '3306', 'MYSQL_USER': 'root', 'MYSQL_PASSWD': '9NBmX6BbKujY*JS$', 'MYSQL_DB': 'learn_rbac_lc_dev'}} 
+[2024-10-17 16:05:44,727][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/logout
+[2024-10-17 16:05:44,727][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 16:05:44,727][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[2024-10-17 16:05:44,727][http_client.py 47][INFO]: 接口请求体 data 参数 ==>> {
+    "userId": "1846801442433683458",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYmFjLXVzZXIiLCJpc3MiOiJsb25nY2hhbyIsImlhdCI6MTcyOTE1MjA3MSwiZXhwIjoxNzI5MTU1NjcxLCJpZCI6MTg0NjgwMTQ0MjQzMzY4MzQ1OH0.SNEb6dkZjvkJ_1wxbYUROzzW-xHZc2j4qfFqiqdCoSQ"
+}
+[2024-10-17 16:35:14,549][read_data.py 39][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\config\setting.ini 文件......
+[2024-10-17 16:35:14,550][read_data.py 43][INFO]: 读到数据 ==>>  {'host': {'api_root_url': 'http://127.0.0.1'}, 'mysql': {'MYSQL_HOST': '172.29.0.17', 'MYSQL_PORT': '3306', 'MYSQL_USER': 'root', 'MYSQL_PASSWD': '9NBmX6BbKujY*JS$', 'MYSQL_DB': 'learn_rbac_lc_dev'}} 
+[2024-10-17 16:35:14,550][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+[2024-10-17 16:35:14,550][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 16:35:14,550][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[2024-10-17 16:35:14,550][http_client.py 47][INFO]: 接口请求体 data 参数 ==>> {
+    "password": "15320254462"
+}
+[2024-10-17 16:35:14,661][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/index/login
+[2024-10-17 16:35:14,662][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 16:35:14,662][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[2024-10-17 16:35:14,662][http_client.py 47][INFO]: 接口请求体 data 参数 ==>> {
+    "phone": "15320254462",
+    "password": "OGgy2DYhcUj9Ksn7hJz4xWQW/E88Ja4FkHONfHmQEev4zgMqwyWjh63L/dWUnZ4/j3h@NlvSpfZNBErYcBRUhejkUnhoqswW9yOJz3PF6xsmQ10NLAHZPSqWwd137QFsqI9rYnqAms6l/8ZJ9fAb2iCXhqse8GNemmP6O/N89YM="
+}
+[2024-10-17 16:36:51,070][read_data.py 39][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\config\setting.ini 文件......
+[2024-10-17 16:36:51,071][read_data.py 43][INFO]: 读到数据 ==>>  {'host': {'api_root_url': 'http://127.0.0.1'}, 'mysql': {'MYSQL_HOST': '172.29.0.17', 'MYSQL_PORT': '3306', 'MYSQL_USER': 'root', 'MYSQL_PASSWD': '9NBmX6BbKujY*JS$', 'MYSQL_DB': 'learn_rbac_lc_dev'}} 
+[2024-10-17 16:38:03,215][read_data.py 39][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\config\setting.ini 文件......
+[2024-10-17 16:38:03,215][read_data.py 43][INFO]: 读到数据 ==>>  {'host': {'api_root_url': 'http://127.0.0.1'}, 'mysql': {'MYSQL_HOST': '172.29.0.17', 'MYSQL_PORT': '3306', 'MYSQL_USER': 'root', 'MYSQL_PASSWD': '9NBmX6BbKujY*JS$', 'MYSQL_DB': 'learn_rbac_lc_dev'}} 
+[2024-10-17 16:38:03,216][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/user/getAllUser
+[2024-10-17 16:38:03,216][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 16:38:03,216][http_client.py 43][INFO]: 接口请求头 ==>> null
+[2024-10-17 16:38:03,216][http_client.py 49][INFO]: 接口请求体 json 参数 ==>> {
+    "pageNo": null,
+    "pageSize": null,
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYmFjLXVzZXIiLCJpc3MiOiJsb25nY2hhbyIsImlhdCI6MTcyOTE1NDExNSwiZXhwIjoxNzI5MTU3NzE1LCJpZCI6MTg0NjAzMDEwOTI2MDAzNDA1MH0.FA_4INGn2M4PWdTfmMXDvePrdVH2Xj_oqt1gzUxhOd0",
+    "name": null,
+    "gender": null,
+    "phone": null,
+    "email": null
+}
+[2024-10-17 16:40:01,382][read_data.py 39][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\config\setting.ini 文件......
+[2024-10-17 16:40:01,382][read_data.py 43][INFO]: 读到数据 ==>>  {'host': {'api_root_url': 'http://127.0.0.1'}, 'mysql': {'MYSQL_HOST': '172.29.0.17', 'MYSQL_PORT': '3306', 'MYSQL_USER': 'root', 'MYSQL_PASSWD': '9NBmX6BbKujY*JS$', 'MYSQL_DB': 'learn_rbac_lc_dev'}} 
+[2024-10-17 16:40:01,383][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/user/getAllUser
+[2024-10-17 16:40:01,383][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 16:40:01,383][http_client.py 43][INFO]: 接口请求头 ==>> null
+[2024-10-17 16:40:01,383][http_client.py 49][INFO]: 接口请求体 json 参数 ==>> {
+    "pageNo": null,
+    "pageSize": null,
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYmFjLXVzZXIiLCJpc3MiOiJsb25nY2hhbyIsImlhdCI6MTcyOTE1NDExNSwiZXhwIjoxNzI5MTU3NzE1LCJpZCI6MTg0NjAzMDEwOTI2MDAzNDA1MH0.FA_4INGn2M4PWdTfmMXDvePrdVH2Xj_oqt1gzUxhOd0",
+    "name": null,
+    "gender": null,
+    "phone": null,
+    "email": null
+}
+[2024-10-17 16:40:56,819][read_data.py 39][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\config\setting.ini 文件......
+[2024-10-17 16:40:56,820][read_data.py 43][INFO]: 读到数据 ==>>  {'host': {'api_root_url': 'http://127.0.0.1'}, 'mysql': {'MYSQL_HOST': '172.29.0.17', 'MYSQL_PORT': '3306', 'MYSQL_USER': 'root', 'MYSQL_PASSWD': '9NBmX6BbKujY*JS$', 'MYSQL_DB': 'learn_rbac_lc_dev'}} 
+[2024-10-17 16:40:56,820][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/user/getAllUser
+[2024-10-17 16:40:56,820][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 16:40:56,820][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/json"
+}
+[2024-10-17 16:40:56,820][http_client.py 49][INFO]: 接口请求体 json 参数 ==>> {
+    "pageNo": null,
+    "pageSize": null,
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYmFjLXVzZXIiLCJpc3MiOiJsb25nY2hhbyIsImlhdCI6MTcyOTE1NDExNSwiZXhwIjoxNzI5MTU3NzE1LCJpZCI6MTg0NjAzMDEwOTI2MDAzNDA1MH0.FA_4INGn2M4PWdTfmMXDvePrdVH2Xj_oqt1gzUxhOd0",
+    "name": null,
+    "gender": null,
+    "phone": null,
+    "email": null
+}
+[2024-10-17 16:41:18,514][read_data.py 39][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\config\setting.ini 文件......
+[2024-10-17 16:41:18,514][read_data.py 43][INFO]: 读到数据 ==>>  {'host': {'api_root_url': 'http://127.0.0.1'}, 'mysql': {'MYSQL_HOST': '172.29.0.17', 'MYSQL_PORT': '3306', 'MYSQL_USER': 'root', 'MYSQL_PASSWD': '9NBmX6BbKujY*JS$', 'MYSQL_DB': 'learn_rbac_lc_dev'}} 
+[2024-10-17 16:41:18,514][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/user/getAllUser
+[2024-10-17 16:41:18,515][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 16:41:18,515][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/json"
+}
+[2024-10-17 16:41:18,515][http_client.py 49][INFO]: 接口请求体 json 参数 ==>> {
+    "pageNo": null,
+    "pageSize": null,
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYmFjLXVzZXIiLCJpc3MiOiJsb25nY2hhbyIsImlhdCI6MTcyOTE1NDExNSwiZXhwIjoxNzI5MTU3NzE1LCJpZCI6MTg0NjAzMDEwOTI2MDAzNDA1MH0.FA_4INGn2M4PWdTfmMXDvePrdVH2Xj_oqt1gzUxhOd0",
+    "name": null,
+    "gender": null,
+    "phone": null,
+    "email": null
+}
+[2024-10-17 16:47:11,956][read_data.py 39][INFO]: 加载 C:\Users\changan\Documents\python\RbacTest\config\setting.ini 文件......
+[2024-10-17 16:47:11,956][read_data.py 43][INFO]: 读到数据 ==>>  {'host': {'api_root_url': 'http://127.0.0.1'}, 'mysql': {'MYSQL_HOST': '172.29.0.17', 'MYSQL_PORT': '3306', 'MYSQL_USER': 'root', 'MYSQL_PASSWD': '9NBmX6BbKujY*JS$', 'MYSQL_DB': 'learn_rbac_lc_dev'}} 
+[2024-10-17 16:47:11,957][http_client.py 40][INFO]: 接口请求地址 ==>> http://127.0.0.1/user/getAllUser
+[2024-10-17 16:47:11,957][http_client.py 41][INFO]: 接口请求方式 ==>> POST
+[2024-10-17 16:47:11,957][http_client.py 43][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/json",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYmFjLXVzZXIiLCJpc3MiOiJsb25nY2hhbyIsImlhdCI6MTcyOTE1NDExNSwiZXhwIjoxNzI5MTU3NzE1LCJpZCI6MTg0NjAzMDEwOTI2MDAzNDA1MH0.FA_4INGn2M4PWdTfmMXDvePrdVH2Xj_oqt1gzUxhOd0"
+}
+[2024-10-17 16:47:11,957][http_client.py 45][INFO]: 接口请求 params 参数 ==>> {
+    "pageNo": null,
+    "pageSize": null
+}
+[2024-10-17 16:47:11,957][http_client.py 49][INFO]: 接口请求体 json 参数 ==>> {
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYmFjLXVzZXIiLCJpc3MiOiJsb25nY2hhbyIsImlhdCI6MTcyOTE1NDExNSwiZXhwIjoxNzI5MTU3NzE1LCJpZCI6MTg0NjAzMDEwOTI2MDAzNDA1MH0.FA_4INGn2M4PWdTfmMXDvePrdVH2Xj_oqt1gzUxhOd0",
+    "name": null,
+    "gender": null,
+    "phone": null,
+    "email": null
+}

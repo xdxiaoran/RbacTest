@@ -1,0 +1,49 @@
+INFO     log:conftest.py:36 ******************************
+INFO     log:conftest.py:37 前置步骤开始 ==>> 获取管理员token
+INFO     log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+INFO     log:http_client.py:41 接口请求方式 ==>> POST
+INFO     log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+INFO     log:http_client.py:47 接口请求体 data 参数 ==>> {
+    "password": "15320255643"
+}
+INFO     log:index_user_api.py:14 接口实际返回的结果为==>>{
+    "success": true,
+    "code": 200,
+    "message": "操作成功",
+    "time": "1729846184770",
+    "data": "XO3ngEfga9/08bVs4juzy8zu19I2@yIGwBQ7dKo8S2UFVhQq@Xzdc@5EA1y0mo6SqWesQ3CBfsM2WDs1FWODxTYe7bidjAkbkNopNPQc1ZOmMqF@kKZMjxJ/tyz5bo1hIxWv/tGM9JD42w86pyvI05lDRq8GH9halKmivCQAY7E=",
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+INFO     log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/index/login
+INFO     log:http_client.py:41 接口请求方式 ==>> POST
+INFO     log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+INFO     log:http_client.py:47 接口请求体 data 参数 ==>> {
+    "phone": "15320255643",
+    "password": "XO3ngEfga9/08bVs4juzy8zu19I2@yIGwBQ7dKo8S2UFVhQq@Xzdc@5EA1y0mo6SqWesQ3CBfsM2WDs1FWODxTYe7bidjAkbkNopNPQc1ZOmMqF@kKZMjxJ/tyz5bo1hIxWv/tGM9JD42w86pyvI05lDRq8GH9halKmivCQAY7E="
+}
+INFO     log:index_user_api.py:14 接口实际返回的结果为==>>{
+    "success": true,
+    "code": 200,
+    "message": "操作成功",
+    "time": "1729846185280",
+    "data": {
+        "id": "1846030109260034050",
+        "userName": "龙超",
+        "gender": "0",
+        "phone": "15320255643",
+        "email": "longchao@changan.com.cn",
+        "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYmFjLXVzZXIiLCJpc3MiOiJsb25nY2hhbyIsImlhdCI6MTcyOTg0NjE4NSwiZXhwIjoxNzI5ODQ5Nzg1LCJpZCI6MTg0NjAzMDEwOTI2MDAzNDA1MH0.eHk7sQ49LiogWUp2qpJzHNbbbQ2ox3IV_QvPeXXIF5w"
+    },
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+INFO     log:test_01_get_all_resource.py:19 *************** 开始执行用例 ***************

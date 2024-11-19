@@ -1,0 +1,23 @@
+INFO     log:test_02_get_user.py:20 *************** 开始执行用例 ***************
+INFO     log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/user/getUser
+INFO     log:http_client.py:41 接口请求方式 ==>> POST
+INFO     log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded",
+    "token": "21313123123"
+}
+INFO     log:http_client.py:47 接口请求体 data 参数 ==>> {
+    "userId": 1849351355764076546
+}
+INFO     log:index_user_api.py:15 接口实际返回的结果为==>>{
+    "success": false,
+    "code": 9991,
+    "message": "token过期失效！",
+    "time": 1730704548503,
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+INFO     log:conftest.py:29 code ==>> 期望结果：9991， 实际结果：9991
+INFO     log:conftest.py:30 返回信息 ==>> 期望结果：token过期失效！， 实际结果：token过期失效！
+INFO     log:test_02_get_user.py:29 *************** 结束执行用例 ***************

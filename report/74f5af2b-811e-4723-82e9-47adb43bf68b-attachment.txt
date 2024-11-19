@@ -1,0 +1,70 @@
+[32mINFO    [0m log:conftest.py:38 ******************************
+[32mINFO    [0m log:conftest.py:39 前置步骤开始 ==>> 获取管理员token
+[32mINFO    [0m log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+[32mINFO    [0m log:http_client.py:41 接口请求方式 ==>> POST
+[32mINFO    [0m log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[32mINFO    [0m log:http_client.py:47 接口请求体 data 参数 ==>> {
+    "password": "18592037348"
+}
+[32mINFO    [0m log:index_user_api.py:15 接口实际返回的结果为==>>{
+    "success": true,
+    "code": 200,
+    "message": "操作成功",
+    "time": "1731384232145",
+    "data": "c4FOBMNF0rcEFLoCq@in2Sc@E1sj4YcZ541cT7Z6fNSHpMouTeGr1uF9UTBoKh5WaW7qZr9i/N1ijIqfA71h1YX8cxC5lWuGDW5mrpPW7XLugbhyLAe2DKxpXAI0CNMkHvpM3sEe4y@9r1vg2vwvOiT5kGPruBhcLHYOeyqrT8E=",
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+[32mINFO    [0m log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/index/login
+[32mINFO    [0m log:http_client.py:41 接口请求方式 ==>> POST
+[32mINFO    [0m log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[32mINFO    [0m log:http_client.py:47 接口请求体 data 参数 ==>> {
+    "phone": "18592037348",
+    "password": "c4FOBMNF0rcEFLoCq@in2Sc@E1sj4YcZ541cT7Z6fNSHpMouTeGr1uF9UTBoKh5WaW7qZr9i/N1ijIqfA71h1YX8cxC5lWuGDW5mrpPW7XLugbhyLAe2DKxpXAI0CNMkHvpM3sEe4y@9r1vg2vwvOiT5kGPruBhcLHYOeyqrT8E="
+}
+[32mINFO    [0m log:index_user_api.py:15 接口实际返回的结果为==>>{
+    "success": true,
+    "code": 200,
+    "message": "操作成功",
+    "time": "1731384232540",
+    "data": {
+        "id": "1849351355764076546",
+        "userName": "萧然",
+        "gender": "男",
+        "phone": "18592037348",
+        "email": "2312213@qq.com",
+        "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYmFjLXVzZXIiLCJpc3MiOiJsb25nY2hhbyIsImlhdCI6MTczMTM4NDIzMiwiZXhwIjoxNzMxMzg3ODMyLCJpZCI6MTg0OTM1MTM1NTc2NDA3NjU0Nn0.4QuwxYhpBm-mSS615--7kM1vicCxAw89D5yDPxGjTDU"
+    },
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+[32mINFO    [0m log:test_03_logout.py:19 *************** 开始执行用例 ***************
+[32mINFO    [0m log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/index/logout
+[32mINFO    [0m log:http_client.py:41 接口请求方式 ==>> POST
+[32mINFO    [0m log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[32mINFO    [0m log:http_client.py:47 接口请求体 data 参数 ==>> {
+    "userId": ""
+}
+[32mINFO    [0m log:index_user_api.py:15 接口实际返回的结果为==>>{
+    "success": false,
+    "code": 10007,
+    "message": "当前用户不存在！",
+    "time": "1731384232541",
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+[32mINFO    [0m log:conftest.py:29 code ==>> 期望结果：10007， 实际结果：10007
+[32mINFO    [0m log:conftest.py:30 返回信息 ==>> 期望结果：当前用户不存在！， 实际结果：当前用户不存在！
+[32mINFO    [0m log:test_03_logout.py:22 *************** 结束执行用例 ***************

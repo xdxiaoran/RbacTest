@@ -1,0 +1,437 @@
+INFO     log:conftest.py:38 ******************************
+INFO     log:conftest.py:39 前置步骤开始 ==>> 获取管理员token
+INFO     log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+INFO     log:http_client.py:41 接口请求方式 ==>> POST
+INFO     log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+INFO     log:http_client.py:47 接口请求体 data 参数 ==>> {
+    "password": "15320255643"
+}
+INFO     log:index_user_api.py:15 接口实际返回的结果为==>>{
+    "success": true,
+    "code": 200,
+    "message": "操作成功",
+    "time": "1730769663822",
+    "data": "i8uvcB9/gMukzg0U/uwIYACLPIY/kqjUyR9fUFy4aKUO@tyMAzw1/83CLzoI/FYtRRLSXZq@gx0g0tVV0UrtjJ/1weYV7Wc0FjbRNB6KxyVCKV3mkfoECzh0SiG5BDWK7Oolss80QZ@Ays/BUu0D4V85hckMn1u3uvfgIVvo/Tc=",
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+INFO     log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/index/login
+INFO     log:http_client.py:41 接口请求方式 ==>> POST
+INFO     log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+INFO     log:http_client.py:47 接口请求体 data 参数 ==>> {
+    "phone": "15320255643",
+    "password": "i8uvcB9/gMukzg0U/uwIYACLPIY/kqjUyR9fUFy4aKUO@tyMAzw1/83CLzoI/FYtRRLSXZq@gx0g0tVV0UrtjJ/1weYV7Wc0FjbRNB6KxyVCKV3mkfoECzh0SiG5BDWK7Oolss80QZ@Ays/BUu0D4V85hckMn1u3uvfgIVvo/Tc="
+}
+INFO     log:index_user_api.py:15 接口实际返回的结果为==>>{
+    "success": true,
+    "code": 200,
+    "message": "操作成功",
+    "time": "1730769664213",
+    "data": {
+        "id": "1846030109260034050",
+        "userName": "龙超",
+        "gender": "男",
+        "phone": "15320255643",
+        "email": "longchao@changan.com.cn",
+        "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYmFjLXVzZXIiLCJpc3MiOiJsb25nY2hhbyIsImlhdCI6MTczMDc2OTY2NCwiZXhwIjoxNzMwNzczMjY0LCJpZCI6MTg0NjAzMDEwOTI2MDAzNDA1MH0.bsUjEL423FnF8-3qePWlB0wVziyQN2mdRn3DAAL1pcQ"
+    },
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+INFO     log:test_09_get_role.py:19 *************** 开始执行用例 ***************
+INFO     log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/user/getRole
+INFO     log:http_client.py:41 接口请求方式 ==>> POST
+INFO     log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-unlencoded",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYmFjLXVzZXIiLCJpc3MiOiJsb25nY2hhbyIsImlhdCI6MTczMDc2OTY2NCwiZXhwIjoxNzMwNzczMjY0LCJpZCI6MTg0NjAzMDEwOTI2MDAzNDA1MH0.bsUjEL423FnF8-3qePWlB0wVziyQN2mdRn3DAAL1pcQ"
+}
+INFO     log:http_client.py:45 接口请求 params 参数 ==>> {
+    "userId": 1846030109260034050
+}
+INFO     log:index_user_api.py:15 接口实际返回的结果为==>>{
+    "success": true,
+    "code": 200,
+    "message": "操作成功",
+    "time": "1730769665007",
+    "data": [
+        {
+            "id": "1846079261643087873",
+            "roleName": "超级管理员",
+            "code": "0",
+            "parentId": "0",
+            "description": "超级管理员，拥有所有资源",
+            "createTime": "2024-10-15 14:43:49",
+            "createBy": "1846079261643087873",
+            "updateTime": "2024-10-29 15:28:03",
+            "updateBy": "1846030109260034050",
+            "isDelete": "0",
+            "reversion": 3
+        },
+        {
+            "id": "1846079261643087874",
+            "roleName": "用户管理员",
+            "code": "0",
+            "parentId": "1846079261643087873",
+            "description": "管理用户",
+            "createTime": "2024-10-15 14:45:21",
+            "createBy": "1846079261643087873",
+            "updateTime": "2024-10-29 15:29:35",
+            "updateBy": "1846030109260034050",
+            "isDelete": "0",
+            "reversion": 3
+        },
+        {
+            "id": "1846079261643087875",
+            "roleName": "角色管理员",
+            "code": "0",
+            "parentId": "1846079261643087873",
+            "description": "管理角色",
+            "createTime": "2024-10-15 14:49:11",
+            "createBy": "1846079261643087873",
+            "updateTime": "2024-10-29 17:12:41",
+            "updateBy": "1846030109260034050",
+            "isDelete": "0",
+            "reversion": 2
+        },
+        {
+            "id": "1846079261643087876",
+            "roleName": "资源管理员",
+            "code": "0",
+            "parentId": "1846079261643087873",
+            "description": "管理资源",
+            "createTime": "2024-10-15 14:49:14",
+            "createBy": "1846079261643087873",
+            "updateTime": "2024-10-16 09:19:52",
+            "updateBy": "1846030109260034050",
+            "isDelete": "0",
+            "reversion": 1
+        },
+        {
+            "id": "1846079261643087877",
+            "roleName": "研发经理",
+            "code": "0",
+            "parentId": "1846079261643087873",
+            "description": "研发经理角色",
+            "createTime": "2024-10-15 14:49:16",
+            "createBy": "1846079261643087873",
+            "updateTime": "2024-10-16 09:21:35",
+            "updateBy": "1846030109260034050",
+            "isDelete": "0",
+            "reversion": 1
+        },
+        {
+            "id": "1846079261643087878",
+            "roleName": "销售经理",
+            "code": "0",
+            "parentId": "1846079261643087873",
+            "description": "销售经理角色",
+            "createTime": "2024-10-15 14:49:19",
+            "createBy": "1846079261643087873",
+            "updateTime": "2024-10-16 09:25:01",
+            "updateBy": "1846030109260034050",
+            "isDelete": "0",
+            "reversion": 1
+        },
+        {
+            "id": "1846079261643087879",
+            "roleName": "人事经理",
+            "code": "0",
+            "parentId": "1846079261643087873",
+            "description": "人事经理角色",
+            "createTime": "2024-10-15 14:49:20",
+            "createBy": "1846079261643087873",
+            "updateTime": "2024-10-16 09:27:50",
+            "updateBy": "1846030109260034050",
+            "isDelete": "0",
+            "reversion": 1
+        },
+        {
+            "id": "1846079261643087880",
+            "roleName": "采购经理",
+            "code": "0",
+            "parentId": "1846079261643087873",
+            "description": "采购经理角色",
+            "createTime": "2024-10-15 14:49:24",
+            "createBy": "1846079261643087873",
+            "updateTime": "2024-10-16 09:31:17",
+            "updateBy": "1846030109260034050",
+            "isDelete": "0",
+            "reversion": 1
+        },
+        {
+            "id": "1846079261643087881",
+            "roleName": "研发主管",
+            "code": "0",
+            "parentId": "1846079261643087877",
+            "description": "研发经理子角色",
+            "createTime": "2024-10-15 14:49:25",
+            "createBy": "1846079261643087873",
+            "updateTime": "2024-10-16 09:22:26",
+            "updateBy": "1846030109260034050",
+            "isDelete": "0",
+            "reversion": 1
+        },
+        {
+            "id": "1846079261643087882",
+            "roleName": "销售主管",
+            "code": "0",
+            "parentId": "1846079261643087878",
+            "description": "销售经理子角色",
+            "createTime": "2024-10-15 14:49:27",
+            "createBy": "1846079261643087873",
+            "updateTime": "2024-10-16 09:25:34",
+            "updateBy": "1846030109260034050",
+            "isDelete": "0",
+            "reversion": 1
+        },
+        {
+            "id": "1846079261643087883",
+            "roleName": "人事主管",
+            "code": "0",
+            "parentId": "1846079261643087879",
+            "description": "人事经理子角色",
+            "createTime": "2024-10-15 14:49:29",
+            "createBy": "1846079261643087873",
+            "updateTime": "2024-10-16 09:28:25",
+            "updateBy": "1846030109260034050",
+            "isDelete": "0",
+            "reversion": 1
+        },
+        {
+            "id": "1846079261643087884",
+            "roleName": "采购主管",
+            "code": "0",
+            "parentId": "1846079261643087880",
+            "description": "采购经理子角色",
+            "createTime": "2024-10-15 14:49:31",
+            "createBy": "1846079261643087873",
+            "updateTime": "2024-10-16 09:31:43",
+            "updateBy": "1846030109260034050",
+            "isDelete": "0",
+            "reversion": 1
+        },
+        {
+            "id": "1846079261643087885",
+            "roleName": "前端开发",
+            "code": "0",
+            "parentId": "1846079261643087881",
+            "description": "研发主管子角色",
+            "createTime": "2024-10-15 14:49:44",
+            "createBy": "1846079261643087873",
+            "updateTime": "2024-10-16 09:23:33",
+            "updateBy": "1846030109260034050",
+            "isDelete": "0",
+            "reversion": 1
+        },
+        {
+            "id": "1846079261643087886",
+            "roleName": "后端开发",
+            "code": "0",
+            "parentId": "1846079261643087881",
+            "description": "研发主管子角色",
+            "createTime": "2024-10-15 14:49:46",
+            "createBy": "1846079261643087873",
+            "updateTime": "2024-10-16 09:24:14",
+            "updateBy": "1846030109260034050",
+            "isDelete": "0",
+            "reversion": 1
+        },
+        {
+            "id": "1846079261643087887",
+            "roleName": "客户专员",
+            "code": "0",
+            "parentId": "1846079261643087882",
+            "description": "销售主管子角色",
+            "createTime": "2024-10-15 14:49:51",
+            "createBy": "1846079261643087873",
+            "updateTime": "2024-10-16 09:26:13",
+            "updateBy": "1846030109260034050",
+            "isDelete": "0",
+            "reversion": 1
+        },
+        {
+            "id": "1846079261643087888",
+            "roleName": "渠道专员",
+            "code": "0",
+            "parentId": "1846079261643087882",
+            "description": "销售主管子角色",
+            "createTime": "2024-10-15 14:49:53",
+            "createBy": "1846079261643087873",
+            "updateTime": "2024-10-16 09:26:34",
+            "updateBy": "1846030109260034050",
+            "isDelete": "0",
+            "reversion": 1
+        },
+        {
+            "id": "1846079261643087889",
+            "roleName": "销售专员",
+            "code": "0",
+            "parentId": "1846079261643087882",
+            "description": "销售主管子角色",
+            "createTime": "2024-10-15 14:49:55",
+            "createBy": "1846079261643087873",
+            "updateTime": "2024-10-16 09:26:50",
+            "updateBy": "1846030109260034050",
+            "isDelete": "0",
+            "reversion": 1
+        },
+        {
+            "id": "1846079261643087890",
+            "roleName": "培训专员",
+            "code": "0",
+            "parentId": "1846079261643087883",
+            "description": "人事主管子角色",
+            "createTime": "2024-10-15 14:49:57",
+            "createBy": "1846079261643087873",
+            "updateTime": "2024-10-16 09:29:28",
+            "updateBy": "1846030109260034050",
+            "isDelete": "0",
+            "reversion": 1
+        },
+        {
+            "id": "1846079261643087891",
+            "roleName": "招聘专员",
+            "code": "0",
+            "parentId": "1846079261643087883",
+            "description": "人事主管子角色",
+            "createTime": "2024-10-15 14:49:58",
+            "createBy": "1846079261643087873",
+            "updateTime": "2024-10-16 09:29:47",
+            "updateBy": "1846030109260034050",
+            "isDelete": "0",
+            "reversion": 1
+        },
+        {
+            "id": "1846079261643087892",
+            "roleName": "绩效管理专员",
+            "code": "0",
+            "parentId": "1846079261643087883",
+            "description": "人事主管子角色",
+            "createTime": "2024-10-15 14:50:01",
+            "createBy": "1846079261643087873",
+            "updateTime": "2024-10-16 09:30:09",
+            "updateBy": "1846030109260034050",
+            "isDelete": "0",
+            "reversion": 1
+        },
+        {
+            "id": "1846079261643087893",
+            "roleName": "薪酬福利专员",
+            "code": "0",
+            "parentId": "1846079261643087883",
+            "description": "人事主管子角色",
+            "createTime": "2024-10-15 14:50:03",
+            "createBy": "1846079261643087873",
+            "updateTime": "2024-10-16 09:30:25",
+            "updateBy": "1846030109260034050",
+            "isDelete": "0",
+            "reversion": 1
+        },
+        {
+            "id": "1846079261643087894",
+            "roleName": "市场分析专员",
+            "code": "0",
+            "parentId": "1846079261643087884",
+            "description": "采购主管子角色",
+            "createTime": "2024-10-15 14:50:05",
+            "createBy": "1846079261643087873",
+            "updateTime": "2024-10-16 09:32:23",
+            "updateBy": "1846030109260034050",
+            "isDelete": "0",
+            "reversion": 1
+        },
+        {
+            "id": "1846079261643087895",
+            "roleName": "成本分析专员",
+            "code": "0",
+            "parentId": "1846079261643087884",
+            "description": "采购主管子角色",
+            "createTime": "2024-10-15 14:50:07",
+            "createBy": "1846079261643087873",
+            "updateTime": "2024-10-16 09:32:42",
+            "updateBy": "1846030109260034050",
+            "isDelete": "0",
+            "reversion": 1
+        },
+        {
+            "id": "1846079261643087896",
+            "roleName": "采购专员",
+            "code": "0",
+            "parentId": "1846079261643087884",
+            "description": "采购主管子角色",
+            "createTime": "2024-10-15 14:50:08",
+            "createBy": "1846079261643087873",
+            "updateTime": "2024-11-04 10:26:31",
+            "updateBy": "1846030109260034050",
+            "isDelete": "0",
+            "reversion": 3
+        },
+        {
+            "id": "1846079261643087897",
+            "roleName": "基础角色",
+            "code": "0",
+            "parentId": "0",
+            "description": "基础角色",
+            "createTime": "2024-10-16 10:18:15",
+            "createBy": "1846079261643087873",
+            "updateTime": "2024-10-16 10:18:29",
+            "updateBy": "1846030109260034050",
+            "isDelete": "0",
+            "reversion": 0
+        },
+        {
+            "id": "1849744835971674113",
+            "roleName": "萧然角色测试",
+            "code": "0",
+            "parentId": "1846079261643087873",
+            "description": "destest",
+            "createTime": "2024-10-25 17:28:30",
+            "createBy": "1846030109260034050",
+            "updateTime": "2024-10-25 17:28:30",
+            "updateBy": "1846030109260034050",
+            "isDelete": "0",
+            "reversion": 0
+        },
+        {
+            "id": "1851437274006781953",
+            "roleName": "测试添加",
+            "code": "0",
+            "parentId": "1846079261643087873",
+            "description": "0",
+            "createTime": "2024-10-30 09:33:39",
+            "createBy": "1846030109260034050",
+            "updateTime": "2024-10-30 09:34:02",
+            "updateBy": "1846030109260034050",
+            "isDelete": "0",
+            "reversion": 1
+        },
+        {
+            "id": "1853278891024617474",
+            "roleName": "测试添加",
+            "code": "test",
+            "parentId": "1851437274006781953",
+            "description": "test",
+            "createTime": "2024-11-04 11:31:34",
+            "createBy": "1846030109260034050",
+            "updateTime": "2024-11-04 13:46:36",
+            "updateBy": "1846030109260034050",
+            "isDelete": "0",
+            "reversion": 1
+        }
+    ],
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+INFO     log:conftest.py:29 code ==>> 期望结果：200， 实际结果：200
+INFO     log:conftest.py:30 返回信息 ==>> 期望结果：操作成功， 实际结果：操作成功
+INFO     log:test_09_get_role.py:24 *************** 结束执行用例 ***************

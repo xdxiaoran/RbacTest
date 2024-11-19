@@ -1,0 +1,35 @@
+INFO     log:test_06_get_user.py:19 *************** 开始执行用例 ***************
+INFO     log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/role/getUserPage
+INFO     log:http_client.py:41 接口请求方式 ==>> POST
+INFO     log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-unlencoded",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYmFjLXVzZXIiLCJpc3MiOiJsb25nY2hhbyIsImlhdCI6MTczMDc4NTkwMywiZXhwIjoxNzMwNzg5NTAzLCJpZCI6MTg0NjAzMDEwOTI2MDAzNDA1MH0.Qm8CdekUS-DBXJ855GBHz3KDmzu3mVlHK8G-XGRuXfc"
+}
+INFO     log:http_client.py:45 接口请求 params 参数 ==>> {
+    "pageNo": 1,
+    "pageSize": 5,
+    "roleId": 184607926164308
+}
+INFO     log:index_user_api.py:15 接口实际返回的结果为==>>{
+    "success": true,
+    "code": 200,
+    "message": "操作成功",
+    "time": "1730785905295",
+    "data": {
+        "records": [],
+        "total": "0",
+        "size": "5",
+        "current": "1",
+        "orders": [],
+        "optimizeCountSql": true,
+        "hitCount": false,
+        "countId": null,
+        "maxLimit": null,
+        "searchCount": true,
+        "pages": "0"
+    },
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}

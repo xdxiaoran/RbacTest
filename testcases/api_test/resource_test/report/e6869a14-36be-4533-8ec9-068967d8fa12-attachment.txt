@@ -1,0 +1,28 @@
+INFO     log:test_04_add_resource.py:20 *************** 开始执行用例 ***************
+INFO     log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/resource/addResource
+INFO     log:http_client.py:41 接口请求方式 ==>> POST
+INFO     log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/json",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYmFjLXVzZXIiLCJpc3MiOiJsb25nY2hhbyIsImlhdCI6MTczMDc5MDM4NiwiZXhwIjoxNzMwNzkzOTg2LCJpZCI6MTg0NjAzMDEwOTI2MDAzNDA1MH0.K40RTYehE5-L6lDyT5hxnm2IG9AKI7ZsPKmbrexhMjU"
+}
+INFO     log:http_client.py:49 接口请求体 json 参数 ==>> {
+    "resourceName": "",
+    "code": "6666",
+    "parentId": 1846109800614629382,
+    "type": "type1",
+    "description": "testDes",
+    "addPermissionList": []
+}
+INFO     log:index_user_api.py:15 接口实际返回的结果为==>>{
+    "success": false,
+    "code": 10006,
+    "message": "资源名不能为空！",
+    "time": "1730790391291",
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+INFO     log:conftest.py:29 code ==>> 期望结果：10006， 实际结果：10006
+INFO     log:conftest.py:30 返回信息 ==>> 期望结果：资源名不能为空！， 实际结果：资源名不能为空！
+INFO     log:test_04_add_resource.py:30 *************** 结束执行用例 ***************

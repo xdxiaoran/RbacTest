@@ -1,0 +1,1059 @@
+[32mINFO    [0m log:conftest.py:38 ******************************
+[32mINFO    [0m log:conftest.py:39 前置步骤开始 ==>> 获取管理员token
+[32mINFO    [0m log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+[32mINFO    [0m log:http_client.py:41 接口请求方式 ==>> POST
+[32mINFO    [0m log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[32mINFO    [0m log:http_client.py:47 接口请求体 data 参数 ==>> {
+    "password": "15320255643"
+}
+[32mINFO    [0m log:index_user_api.py:15 接口实际返回的结果为==>>{
+    "success": true,
+    "code": 200,
+    "message": "操作成功",
+    "time": "1731384233548",
+    "data": "hZ78m9pBOi/R3IOcWQzgX5yDHbzlm0OPpkpnCWS602huC3D8J6fVW638RWgXYnaPyPNYralJSLHUMb/Us@mI0PB7Ix2enxY8YBiJcbIKvgXPb2mftsWGT/FvQ9R/LlV8Mb/xmBQRORVliiiNrOlkRx4oxJVKeHlu1lWCoNzYS4Y=",
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+[32mINFO    [0m log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/index/login
+[32mINFO    [0m log:http_client.py:41 接口请求方式 ==>> POST
+[32mINFO    [0m log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[32mINFO    [0m log:http_client.py:47 接口请求体 data 参数 ==>> {
+    "phone": "15320255643",
+    "password": "hZ78m9pBOi/R3IOcWQzgX5yDHbzlm0OPpkpnCWS602huC3D8J6fVW638RWgXYnaPyPNYralJSLHUMb/Us@mI0PB7Ix2enxY8YBiJcbIKvgXPb2mftsWGT/FvQ9R/LlV8Mb/xmBQRORVliiiNrOlkRx4oxJVKeHlu1lWCoNzYS4Y="
+}
+[32mINFO    [0m log:index_user_api.py:15 接口实际返回的结果为==>>{
+    "success": true,
+    "code": 200,
+    "message": "操作成功",
+    "time": "1731384233968",
+    "data": {
+        "id": "1846030109260034050",
+        "userName": "龙超",
+        "gender": "男",
+        "phone": "15320255643",
+        "email": "longchao@changan.com.cn",
+        "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYmFjLXVzZXIiLCJpc3MiOiJsb25nY2hhbyIsImlhdCI6MTczMTM4NDIzMywiZXhwIjoxNzMxMzg3ODMzLCJpZCI6MTg0NjAzMDEwOTI2MDAzNDA1MH0.mus_8IquIcrNxLffWrofYGJrqiwbIkxm7DjcpBedRBE"
+    },
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+[32mINFO    [0m log:conftest.py:48 ******************************
+[32mINFO    [0m log:conftest.py:49 前置步骤开始 ==>> 获取无权限用户token
+[32mINFO    [0m log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+[32mINFO    [0m log:http_client.py:41 接口请求方式 ==>> POST
+[32mINFO    [0m log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[32mINFO    [0m log:http_client.py:47 接口请求体 data 参数 ==>> {
+    "password": "18592037349"
+}
+[32mINFO    [0m log:index_user_api.py:15 接口实际返回的结果为==>>{
+    "success": true,
+    "code": 200,
+    "message": "操作成功",
+    "time": "1731384234073",
+    "data": "gGfAhiz4Uh9zP/ZvQ7sknZnsVeJ4tR9PeuOIDKBWDZUNDyNJMQX5YUtClCl8X5ySs2owHDam@K0FL3t0p4@5AMTZw7lVu/zx0xScc5rL34wajlRup@1KqWWqDQHVeXSwHOjLuQi5B@TgWgM/Fj1NUrK49rzP2maMlvxiSdqCCWo=",
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+[32mINFO    [0m log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/index/login
+[32mINFO    [0m log:http_client.py:41 接口请求方式 ==>> POST
+[32mINFO    [0m log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[32mINFO    [0m log:http_client.py:47 接口请求体 data 参数 ==>> {
+    "phone": "18592037349",
+    "password": "gGfAhiz4Uh9zP/ZvQ7sknZnsVeJ4tR9PeuOIDKBWDZUNDyNJMQX5YUtClCl8X5ySs2owHDam@K0FL3t0p4@5AMTZw7lVu/zx0xScc5rL34wajlRup@1KqWWqDQHVeXSwHOjLuQi5B@TgWgM/Fj1NUrK49rzP2maMlvxiSdqCCWo="
+}
+[32mINFO    [0m log:index_user_api.py:15 接口实际返回的结果为==>>{
+    "success": true,
+    "code": 200,
+    "message": "操作成功",
+    "time": "1731384234876",
+    "data": {
+        "id": "1846801442433683458",
+        "userName": "萧然1",
+        "gender": "男",
+        "phone": "18592037349",
+        "email": "2312213@qq.com",
+        "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYmFjLXVzZXIiLCJpc3MiOiJsb25nY2hhbyIsImlhdCI6MTczMTM4NDIzNCwiZXhwIjoxNzMxMzg3ODM0LCJpZCI6MTg0NjgwMTQ0MjQzMzY4MzQ1OH0.cveG4Y-AyCCC4QbhwaZHs6fh_zXD2rIlN0fUysplGck"
+    },
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+[32mINFO    [0m log:test_01_get_all_resource.py:19 *************** 开始执行用例 ***************
+[32mINFO    [0m log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/resource/getAllResource
+[32mINFO    [0m log:http_client.py:41 接口请求方式 ==>> GET
+[32mINFO    [0m log:http_client.py:43 接口请求头 ==>> {
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYmFjLXVzZXIiLCJpc3MiOiJsb25nY2hhbyIsImlhdCI6MTczMTM4NDIzMywiZXhwIjoxNzMxMzg3ODMzLCJpZCI6MTg0NjAzMDEwOTI2MDAzNDA1MH0.mus_8IquIcrNxLffWrofYGJrqiwbIkxm7DjcpBedRBE"
+}
+[32mINFO    [0m log:index_user_api.py:15 接口实际返回的结果为==>>{
+    "success": true,
+    "code": 200,
+    "message": "操作成功",
+    "time": "1731384235837",
+    "data": [
+        {
+            "id": "1846109800614629378",
+            "resourceName": "基础公共资源",
+            "code": "1",
+            "parentId": "0",
+            "type": "opt:base",
+            "description": "操作基础公共接口，如用户自己更新信息等操作",
+            "createTime": "2024-10-15 16:51:48",
+            "createBy": "1846030109260034050",
+            "updateTime": "2024-11-11 14:32:16",
+            "updateBy": "1846030109260034050",
+            "isDelete": "0",
+            "reversion": 44,
+            "childResourceList": []
+        },
+        {
+            "id": "1846109800614629379",
+            "resourceName": "用户管理",
+            "code": "0",
+            "parentId": "1846109800614629406",
+            "type": "menu:sys:user",
+            "description": "系统界面下的用户界面资源",
+            "createTime": "2024-10-15 16:54:38",
+            "createBy": "1846030109260034050",
+            "updateTime": "2024-11-08 11:14:42",
+            "updateBy": "1846030109260034050",
+            "isDelete": "0",
+            "reversion": 2,
+            "childResourceList": [
+                {
+                    "id": "1846109800614629405",
+                    "resourceName": "修改用户",
+                    "code": "1",
+                    "parentId": "1846109800614629379",
+                    "type": "opt:user:update",
+                    "description": "用户界面下的修改用户操作",
+                    "createTime": "2024-10-16 08:50:57",
+                    "createBy": "1846030109260034050",
+                    "updateTime": "2024-10-16 08:50:59",
+                    "updateBy": "1846030109260034050",
+                    "isDelete": "0",
+                    "reversion": 0,
+                    "childResourceList": []
+                }
+            ]
+        },
+        {
+            "id": "1846109800614629380",
+            "resourceName": "角色管理",
+            "code": "0",
+            "parentId": "1846109800614629406",
+            "type": "menu:sys:role",
+            "description": "系统界面下的角色界面资源",
+            "createTime": "2024-10-15 16:54:41",
+            "createBy": "1846030109260034050",
+            "updateTime": "2024-10-15 16:50:10",
+            "updateBy": "1846030109260034050",
+            "isDelete": "0",
+            "reversion": 0,
+            "childResourceList": []
+        },
+        {
+            "id": "1846109800614629381",
+            "resourceName": "资源管理",
+            "code": "0",
+            "parentId": "1846109800614629406",
+            "type": "menu:sys:resource",
+            "description": "系统界面下的资源界面资源",
+            "createTime": "2024-10-15 16:54:43",
+            "createBy": "1846030109260034050",
+            "updateTime": "2024-10-15 16:50:05",
+            "updateBy": "1846030109260034050",
+            "isDelete": "0",
+            "reversion": 0,
+            "childResourceList": []
+        },
+        {
+            "id": "1846109800614629382",
+            "resourceName": "研发",
+            "code": "0",
+            "parentId": "0",
+            "type": "menu:dev",
+            "description": "研发界面资源",
+            "createTime": "2024-10-15 17:02:46",
+            "createBy": "1846030109260034050",
+            "updateTime": "2024-11-08 14:37:42",
+            "updateBy": "1846030109260034050",
+            "isDelete": "0",
+            "reversion": 1,
+            "childResourceList": [
+                {
+                    "id": "1846109800614629383",
+                    "resourceName": "前端开发",
+                    "code": "0",
+                    "parentId": "1846109800614629382",
+                    "type": "menu:dev:front",
+                    "description": "研发界面下的前端开发界面资源",
+                    "createTime": "2024-10-15 17:20:32",
+                    "createBy": "1846030109260034050",
+                    "updateTime": "2024-10-15 16:50:17",
+                    "updateBy": "1846030109260034050",
+                    "isDelete": "0",
+                    "reversion": 0,
+                    "childResourceList": [
+                        {
+                            "id": "1846109800614629386",
+                            "resourceName": "前端代码仓",
+                            "code": "0",
+                            "parentId": "1846109800614629383",
+                            "type": "menu:dev:front:store",
+                            "description": "前端开发界面下的代码仓界面资源",
+                            "createTime": "2024-10-15 17:20:28",
+                            "createBy": "1846030109260034050",
+                            "updateTime": "2024-10-15 16:50:23",
+                            "updateBy": "1846030109260034050",
+                            "isDelete": "0",
+                            "reversion": 0,
+                            "childResourceList": []
+                        },
+                        {
+                            "id": "1846109800614629387",
+                            "resourceName": "前端计划",
+                            "code": "0",
+                            "parentId": "1846109800614629383",
+                            "type": "menu:dev:front:plan",
+                            "description": "前端开发界面下的开发计划界面资源",
+                            "createTime": "2024-10-15 17:20:26",
+                            "createBy": "1846030109260034050",
+                            "updateTime": "2024-10-15 16:50:26",
+                            "updateBy": "1846030109260034050",
+                            "isDelete": "0",
+                            "reversion": 0,
+                            "childResourceList": []
+                        }
+                    ]
+                },
+                {
+                    "id": "1846109800614629384",
+                    "resourceName": "后端开发",
+                    "code": "0",
+                    "parentId": "1846109800614629382",
+                    "type": "menu:dev:back",
+                    "description": "研发界面下的后端开发界面资源",
+                    "createTime": "2024-10-15 17:20:29",
+                    "createBy": "1846030109260034050",
+                    "updateTime": "2024-10-15 16:50:19",
+                    "updateBy": "1846030109260034050",
+                    "isDelete": "0",
+                    "reversion": 0,
+                    "childResourceList": [
+                        {
+                            "id": "1846109800614629388",
+                            "resourceName": "后端代码仓",
+                            "code": "0",
+                            "parentId": "1846109800614629384",
+                            "type": "menu:dev:back:store",
+                            "description": "后端开发界面下的代码仓界面资源",
+                            "createTime": "2024-10-15 17:20:24",
+                            "createBy": "1846030109260034050",
+                            "updateTime": "2024-10-15 17:27:20",
+                            "updateBy": "1846030109260034050",
+                            "isDelete": "0",
+                            "reversion": 0,
+                            "childResourceList": []
+                        },
+                        {
+                            "id": "1846109800614629389",
+                            "resourceName": "后端计划",
+                            "code": "0",
+                            "parentId": "1846109800614629384",
+                            "type": "menu:dev:back:plan",
+                            "description": "后端开发界面下的开发计划界面资源",
+                            "createTime": "2024-10-15 17:20:22",
+                            "createBy": "1846030109260034050",
+                            "updateTime": "2024-10-15 17:27:22",
+                            "updateBy": "1846030109260034050",
+                            "isDelete": "0",
+                            "reversion": 0,
+                            "childResourceList": []
+                        }
+                    ]
+                },
+                {
+                    "id": "1846109800614629390",
+                    "resourceName": "研发成本",
+                    "code": "0",
+                    "parentId": "1846109800614629382",
+                    "type": "menu:dev:cos",
+                    "description": "研发界面下的研发成本界面资源",
+                    "createTime": "2024-10-15 17:20:20",
+                    "createBy": "1846030109260034050",
+                    "updateTime": "2024-10-15 17:27:24",
+                    "updateBy": "1846030109260034050",
+                    "isDelete": "0",
+                    "reversion": 0,
+                    "childResourceList": []
+                },
+                {
+                    "id": "1846109800614629391",
+                    "resourceName": "中心代码仓",
+                    "code": "0",
+                    "parentId": "1846109800614629382",
+                    "type": "menu:dev:censtore",
+                    "description": "研发界面下的中心代码仓界面资源",
+                    "createTime": "2024-10-15 17:27:07",
+                    "createBy": "1846030109260034050",
+                    "updateTime": "2024-10-15 17:27:26",
+                    "updateBy": "1846030109260034050",
+                    "isDelete": "0",
+                    "reversion": 0,
+                    "childResourceList": []
+                },
+                {
+                    "id": "1853687465346150401",
+                    "resourceName": "test",
+                    "code": "testCode",
+                    "parentId": "1846109800614629382",
+                    "type": "testType",
+                    "description": "testDes",
+                    "createTime": "2024-11-05 14:35:06",
+                    "createBy": "1846030109260034050",
+                    "updateTime": "2024-11-12 09:34:04",
+                    "updateBy": "1846030109260034050",
+                    "isDelete": "0",
+                    "reversion": 19,
+                    "childResourceList": []
+                }
+            ]
+        },
+        {
+            "id": "1846109800614629383",
+            "resourceName": "前端开发",
+            "code": "0",
+            "parentId": "1846109800614629382",
+            "type": "menu:dev:front",
+            "description": "研发界面下的前端开发界面资源",
+            "createTime": "2024-10-15 17:20:32",
+            "createBy": "1846030109260034050",
+            "updateTime": "2024-10-15 16:50:17",
+            "updateBy": "1846030109260034050",
+            "isDelete": "0",
+            "reversion": 0,
+            "childResourceList": [
+                {
+                    "id": "1846109800614629386",
+                    "resourceName": "前端代码仓",
+                    "code": "0",
+                    "parentId": "1846109800614629383",
+                    "type": "menu:dev:front:store",
+                    "description": "前端开发界面下的代码仓界面资源",
+                    "createTime": "2024-10-15 17:20:28",
+                    "createBy": "1846030109260034050",
+                    "updateTime": "2024-10-15 16:50:23",
+                    "updateBy": "1846030109260034050",
+                    "isDelete": "0",
+                    "reversion": 0,
+                    "childResourceList": []
+                },
+                {
+                    "id": "1846109800614629387",
+                    "resourceName": "前端计划",
+                    "code": "0",
+                    "parentId": "1846109800614629383",
+                    "type": "menu:dev:front:plan",
+                    "description": "前端开发界面下的开发计划界面资源",
+                    "createTime": "2024-10-15 17:20:26",
+                    "createBy": "1846030109260034050",
+                    "updateTime": "2024-10-15 16:50:26",
+                    "updateBy": "1846030109260034050",
+                    "isDelete": "0",
+                    "reversion": 0,
+                    "childResourceList": []
+                }
+            ]
+        },
+        {
+            "id": "1846109800614629384",
+            "resourceName": "后端开发",
+            "code": "0",
+            "parentId": "1846109800614629382",
+            "type": "menu:dev:back",
+            "description": "研发界面下的后端开发界面资源",
+            "createTime": "2024-10-15 17:20:29",
+            "createBy": "1846030109260034050",
+            "updateTime": "2024-10-15 16:50:19",
+            "updateBy": "1846030109260034050",
+            "isDelete": "0",
+            "reversion": 0,
+            "childResourceList": [
+                {
+                    "id": "1846109800614629388",
+                    "resourceName": "后端代码仓",
+                    "code": "0",
+                    "parentId": "1846109800614629384",
+                    "type": "menu:dev:back:store",
+                    "description": "后端开发界面下的代码仓界面资源",
+                    "createTime": "2024-10-15 17:20:24",
+                    "createBy": "1846030109260034050",
+                    "updateTime": "2024-10-15 17:27:20",
+                    "updateBy": "1846030109260034050",
+                    "isDelete": "0",
+                    "reversion": 0,
+                    "childResourceList": []
+                },
+                {
+                    "id": "1846109800614629389",
+                    "resourceName": "后端计划",
+                    "code": "0",
+                    "parentId": "1846109800614629384",
+                    "type": "menu:dev:back:plan",
+                    "description": "后端开发界面下的开发计划界面资源",
+                    "createTime": "2024-10-15 17:20:22",
+                    "createBy": "1846030109260034050",
+                    "updateTime": "2024-10-15 17:27:22",
+                    "updateBy": "1846030109260034050",
+                    "isDelete": "0",
+                    "reversion": 0,
+                    "childResourceList": []
+                }
+            ]
+        },
+        {
+            "id": "1846109800614629386",
+            "resourceName": "前端代码仓",
+            "code": "0",
+            "parentId": "1846109800614629383",
+            "type": "menu:dev:front:store",
+            "description": "前端开发界面下的代码仓界面资源",
+            "createTime": "2024-10-15 17:20:28",
+            "createBy": "1846030109260034050",
+            "updateTime": "2024-10-15 16:50:23",
+            "updateBy": "1846030109260034050",
+            "isDelete": "0",
+            "reversion": 0,
+            "childResourceList": []
+        },
+        {
+            "id": "1846109800614629387",
+            "resourceName": "前端计划",
+            "code": "0",
+            "parentId": "1846109800614629383",
+            "type": "menu:dev:front:plan",
+            "description": "前端开发界面下的开发计划界面资源",
+            "createTime": "2024-10-15 17:20:26",
+            "createBy": "1846030109260034050",
+            "updateTime": "2024-10-15 16:50:26",
+            "updateBy": "1846030109260034050",
+            "isDelete": "0",
+            "reversion": 0,
+            "childResourceList": []
+        },
+        {
+            "id": "1846109800614629388",
+            "resourceName": "后端代码仓",
+            "code": "0",
+            "parentId": "1846109800614629384",
+            "type": "menu:dev:back:store",
+            "description": "后端开发界面下的代码仓界面资源",
+            "createTime": "2024-10-15 17:20:24",
+            "createBy": "1846030109260034050",
+            "updateTime": "2024-10-15 17:27:20",
+            "updateBy": "1846030109260034050",
+            "isDelete": "0",
+            "reversion": 0,
+            "childResourceList": []
+        },
+        {
+            "id": "1846109800614629389",
+            "resourceName": "后端计划",
+            "code": "0",
+            "parentId": "1846109800614629384",
+            "type": "menu:dev:back:plan",
+            "description": "后端开发界面下的开发计划界面资源",
+            "createTime": "2024-10-15 17:20:22",
+            "createBy": "1846030109260034050",
+            "updateTime": "2024-10-15 17:27:22",
+            "updateBy": "1846030109260034050",
+            "isDelete": "0",
+            "reversion": 0,
+            "childResourceList": []
+        },
+        {
+            "id": "1846109800614629390",
+            "resourceName": "研发成本",
+            "code": "0",
+            "parentId": "1846109800614629382",
+            "type": "menu:dev:cos",
+            "description": "研发界面下的研发成本界面资源",
+            "createTime": "2024-10-15 17:20:20",
+            "createBy": "1846030109260034050",
+            "updateTime": "2024-10-15 17:27:24",
+            "updateBy": "1846030109260034050",
+            "isDelete": "0",
+            "reversion": 0,
+            "childResourceList": []
+        },
+        {
+            "id": "1846109800614629391",
+            "resourceName": "中心代码仓",
+            "code": "0",
+            "parentId": "1846109800614629382",
+            "type": "menu:dev:censtore",
+            "description": "研发界面下的中心代码仓界面资源",
+            "createTime": "2024-10-15 17:27:07",
+            "createBy": "1846030109260034050",
+            "updateTime": "2024-10-15 17:27:26",
+            "updateBy": "1846030109260034050",
+            "isDelete": "0",
+            "reversion": 0,
+            "childResourceList": []
+        },
+        {
+            "id": "1846109800614629392",
+            "resourceName": "销售",
+            "code": "0",
+            "parentId": "0",
+            "type": "menu:sale",
+            "description": "销售界面资源",
+            "createTime": "2024-10-15 17:27:09",
+            "createBy": "1846030109260034050",
+            "updateTime": "2024-10-15 17:27:29",
+            "updateBy": "1846030109260034050",
+            "isDelete": "0",
+            "reversion": 0,
+            "childResourceList": [
+                {
+                    "id": "1846109800614629393",
+                    "resourceName": "客户中心",
+                    "code": "0",
+                    "parentId": "1846109800614629392",
+                    "type": "menu:sale:cust",
+                    "description": "销售界面下的客户中心界面资源",
+                    "createTime": "2024-10-15 17:27:12",
+                    "createBy": "1846030109260034050",
+                    "updateTime": "2024-10-15 17:27:32",
+                    "updateBy": "1846030109260034050",
+                    "isDelete": "0",
+                    "reversion": 0,
+                    "childResourceList": []
+                },
+                {
+                    "id": "1846109800614629394",
+                    "resourceName": "渠道中心",
+                    "code": "0",
+                    "parentId": "1846109800614629392",
+                    "type": "menu:sale:path",
+                    "description": "销售界面下的渠道中心界面资源",
+                    "createTime": "2024-10-15 17:27:13",
+                    "createBy": "1846030109260034050",
+                    "updateTime": "2024-10-15 17:27:34",
+                    "updateBy": "1846030109260034050",
+                    "isDelete": "0",
+                    "reversion": 0,
+                    "childResourceList": []
+                },
+                {
+                    "id": "1846109800614629395",
+                    "resourceName": "销售中心",
+                    "code": "0",
+                    "parentId": "1846109800614629392",
+                    "type": "menu:sale:sale",
+                    "description": "销售界面下的销售中心界面资源",
+                    "createTime": "2024-10-15 17:27:15",
+                    "createBy": "1846030109260034050",
+                    "updateTime": "2024-11-08 15:36:47",
+                    "updateBy": "1846030109260034050",
+                    "isDelete": "0",
+                    "reversion": 1,
+                    "childResourceList": []
+                }
+            ]
+        },
+        {
+            "id": "1846109800614629393",
+            "resourceName": "客户中心",
+            "code": "0",
+            "parentId": "1846109800614629392",
+            "type": "menu:sale:cust",
+            "description": "销售界面下的客户中心界面资源",
+            "createTime": "2024-10-15 17:27:12",
+            "createBy": "1846030109260034050",
+            "updateTime": "2024-10-15 17:27:32",
+            "updateBy": "1846030109260034050",
+            "isDelete": "0",
+            "reversion": 0,
+            "childResourceList": []
+        },
+        {
+            "id": "1846109800614629394",
+            "resourceName": "渠道中心",
+            "code": "0",
+            "parentId": "1846109800614629392",
+            "type": "menu:sale:path",
+            "description": "销售界面下的渠道中心界面资源",
+            "createTime": "2024-10-15 17:27:13",
+            "createBy": "1846030109260034050",
+            "updateTime": "2024-10-15 17:27:34",
+            "updateBy": "1846030109260034050",
+            "isDelete": "0",
+            "reversion": 0,
+            "childResourceList": []
+        },
+        {
+            "id": "1846109800614629395",
+            "resourceName": "销售中心",
+            "code": "0",
+            "parentId": "1846109800614629392",
+            "type": "menu:sale:sale",
+            "description": "销售界面下的销售中心界面资源",
+            "createTime": "2024-10-15 17:27:15",
+            "createBy": "1846030109260034050",
+            "updateTime": "2024-11-08 15:36:47",
+            "updateBy": "1846030109260034050",
+            "isDelete": "0",
+            "reversion": 1,
+            "childResourceList": []
+        },
+        {
+            "id": "1846109800614629396",
+            "resourceName": "人事",
+            "code": "0",
+            "parentId": "0",
+            "type": "menu:per",
+            "description": "人事界面资源",
+            "createTime": "2024-10-15 17:28:53",
+            "createBy": "1846030109260034050",
+            "updateTime": "2024-10-15 17:28:57",
+            "updateBy": "1846030109260034050",
+            "isDelete": "0",
+            "reversion": 0,
+            "childResourceList": [
+                {
+                    "id": "1846109800614629397",
+                    "resourceName": "培训中心",
+                    "code": "0",
+                    "parentId": "1846109800614629396",
+                    "type": "menu:per:learn",
+                    "description": "人事界面下的培训中心界面资源",
+                    "createTime": "2024-10-15 17:31:38",
+                    "createBy": "1846030109260034050",
+                    "updateTime": "2024-11-08 14:37:52",
+                    "updateBy": "1846030109260034050",
+                    "isDelete": "0",
+                    "reversion": 1,
+                    "childResourceList": []
+                },
+                {
+                    "id": "1846109800614629398",
+                    "resourceName": "招聘中心",
+                    "code": "0",
+                    "parentId": "1846109800614629396",
+                    "type": "menu:per:rec",
+                    "description": "人事界面下的招聘中心界面资源",
+                    "createTime": "2024-10-15 17:31:40",
+                    "createBy": "1846030109260034050",
+                    "updateTime": "2024-10-15 17:31:47",
+                    "updateBy": "1846030109260034050",
+                    "isDelete": "0",
+                    "reversion": 0,
+                    "childResourceList": []
+                },
+                {
+                    "id": "1846109800614629399",
+                    "resourceName": "绩效考核",
+                    "code": "0",
+                    "parentId": "1846109800614629396",
+                    "type": "menu:per:perfo",
+                    "description": "人事界面下的绩效考核界面资源",
+                    "createTime": "2024-10-15 17:31:42",
+                    "createBy": "1846030109260034050",
+                    "updateTime": "2024-10-15 17:31:49",
+                    "updateBy": "1846030109260034050",
+                    "isDelete": "0",
+                    "reversion": 0,
+                    "childResourceList": []
+                },
+                {
+                    "id": "1846109800614629400",
+                    "resourceName": "薪酬福利",
+                    "code": "0",
+                    "parentId": "1846109800614629396",
+                    "type": "menu:per:salary",
+                    "description": "人事界面下的薪酬福利界面资源",
+                    "createTime": "2024-10-15 17:31:44",
+                    "createBy": "1846030109260034050",
+                    "updateTime": "2024-10-15 17:31:51",
+                    "updateBy": "1846030109260034050",
+                    "isDelete": "0",
+                    "reversion": 0,
+                    "childResourceList": []
+                }
+            ]
+        },
+        {
+            "id": "1846109800614629397",
+            "resourceName": "培训中心",
+            "code": "0",
+            "parentId": "1846109800614629396",
+            "type": "menu:per:learn",
+            "description": "人事界面下的培训中心界面资源",
+            "createTime": "2024-10-15 17:31:38",
+            "createBy": "1846030109260034050",
+            "updateTime": "2024-11-08 14:37:52",
+            "updateBy": "1846030109260034050",
+            "isDelete": "0",
+            "reversion": 1,
+            "childResourceList": []
+        },
+        {
+            "id": "1846109800614629398",
+            "resourceName": "招聘中心",
+            "code": "0",
+            "parentId": "1846109800614629396",
+            "type": "menu:per:rec",
+            "description": "人事界面下的招聘中心界面资源",
+            "createTime": "2024-10-15 17:31:40",
+            "createBy": "1846030109260034050",
+            "updateTime": "2024-10-15 17:31:47",
+            "updateBy": "1846030109260034050",
+            "isDelete": "0",
+            "reversion": 0,
+            "childResourceList": []
+        },
+        {
+            "id": "1846109800614629399",
+            "resourceName": "绩效考核",
+            "code": "0",
+            "parentId": "1846109800614629396",
+            "type": "menu:per:perfo",
+            "description": "人事界面下的绩效考核界面资源",
+            "createTime": "2024-10-15 17:31:42",
+            "createBy": "1846030109260034050",
+            "updateTime": "2024-10-15 17:31:49",
+            "updateBy": "1846030109260034050",
+            "isDelete": "0",
+            "reversion": 0,
+            "childResourceList": []
+        },
+        {
+            "id": "1846109800614629400",
+            "resourceName": "薪酬福利",
+            "code": "0",
+            "parentId": "1846109800614629396",
+            "type": "menu:per:salary",
+            "description": "人事界面下的薪酬福利界面资源",
+            "createTime": "2024-10-15 17:31:44",
+            "createBy": "1846030109260034050",
+            "updateTime": "2024-10-15 17:31:51",
+            "updateBy": "1846030109260034050",
+            "isDelete": "0",
+            "reversion": 0,
+            "childResourceList": []
+        },
+        {
+            "id": "1846109800614629401",
+            "resourceName": "采购",
+            "code": "0",
+            "parentId": "0",
+            "type": "menu:pur",
+            "description": "采购界面资源",
+            "createTime": "2024-10-16 08:42:47",
+            "createBy": "1846030109260034050",
+            "updateTime": "2024-10-16 08:42:51",
+            "updateBy": "1846030109260034050",
+            "isDelete": "0",
+            "reversion": 0,
+            "childResourceList": [
+                {
+                    "id": "1846109800614629402",
+                    "resourceName": "市场中心",
+                    "code": "0",
+                    "parentId": "1846109800614629401",
+                    "type": "menu:pur:mark",
+                    "description": "采购界面的市场界面资源",
+                    "createTime": "2024-10-16 08:44:15",
+                    "createBy": "1846030109260034050",
+                    "updateTime": "2024-10-16 08:44:22",
+                    "updateBy": "1846030109260034050",
+                    "isDelete": "0",
+                    "reversion": 0,
+                    "childResourceList": []
+                },
+                {
+                    "id": "1846109800614629403",
+                    "resourceName": "成本中心",
+                    "code": "0",
+                    "parentId": "1846109800614629401",
+                    "type": "menu:pur:cost",
+                    "description": "采购界面的成本界面资源",
+                    "createTime": "2024-10-16 08:44:17",
+                    "createBy": "1846030109260034050",
+                    "updateTime": "2024-10-16 08:44:24",
+                    "updateBy": "1846030109260034050",
+                    "isDelete": "0",
+                    "reversion": 0,
+                    "childResourceList": []
+                },
+                {
+                    "id": "1846109800614629404",
+                    "resourceName": "采购中心",
+                    "code": "0",
+                    "parentId": "1846109800614629401",
+                    "type": "menu:pur:pur",
+                    "description": "采购界面的采购界面资源",
+                    "createTime": "2024-10-16 08:44:18",
+                    "createBy": "1846030109260034050",
+                    "updateTime": "2024-10-16 08:44:26",
+                    "updateBy": "1846030109260034050",
+                    "isDelete": "0",
+                    "reversion": 0,
+                    "childResourceList": []
+                }
+            ]
+        },
+        {
+            "id": "1846109800614629402",
+            "resourceName": "市场中心",
+            "code": "0",
+            "parentId": "1846109800614629401",
+            "type": "menu:pur:mark",
+            "description": "采购界面的市场界面资源",
+            "createTime": "2024-10-16 08:44:15",
+            "createBy": "1846030109260034050",
+            "updateTime": "2024-10-16 08:44:22",
+            "updateBy": "1846030109260034050",
+            "isDelete": "0",
+            "reversion": 0,
+            "childResourceList": []
+        },
+        {
+            "id": "1846109800614629403",
+            "resourceName": "成本中心",
+            "code": "0",
+            "parentId": "1846109800614629401",
+            "type": "menu:pur:cost",
+            "description": "采购界面的成本界面资源",
+            "createTime": "2024-10-16 08:44:17",
+            "createBy": "1846030109260034050",
+            "updateTime": "2024-10-16 08:44:24",
+            "updateBy": "1846030109260034050",
+            "isDelete": "0",
+            "reversion": 0,
+            "childResourceList": []
+        },
+        {
+            "id": "1846109800614629404",
+            "resourceName": "采购中心",
+            "code": "0",
+            "parentId": "1846109800614629401",
+            "type": "menu:pur:pur",
+            "description": "采购界面的采购界面资源",
+            "createTime": "2024-10-16 08:44:18",
+            "createBy": "1846030109260034050",
+            "updateTime": "2024-10-16 08:44:26",
+            "updateBy": "1846030109260034050",
+            "isDelete": "0",
+            "reversion": 0,
+            "childResourceList": []
+        },
+        {
+            "id": "1846109800614629405",
+            "resourceName": "修改用户",
+            "code": "1",
+            "parentId": "1846109800614629379",
+            "type": "opt:user:update",
+            "description": "用户界面下的修改用户操作",
+            "createTime": "2024-10-16 08:50:57",
+            "createBy": "1846030109260034050",
+            "updateTime": "2024-10-16 08:50:59",
+            "updateBy": "1846030109260034050",
+            "isDelete": "0",
+            "reversion": 0,
+            "childResourceList": []
+        },
+        {
+            "id": "1846109800614629406",
+            "resourceName": "系统",
+            "code": "0",
+            "parentId": "0",
+            "type": "menu:sys",
+            "description": "系统界面",
+            "createTime": "2024-10-16 08:52:31",
+            "createBy": "1846030109260034050",
+            "updateTime": "2024-10-16 08:52:33",
+            "updateBy": "1846030109260034050",
+            "isDelete": "0",
+            "reversion": 0,
+            "childResourceList": [
+                {
+                    "id": "1846109800614629379",
+                    "resourceName": "用户管理",
+                    "code": "0",
+                    "parentId": "1846109800614629406",
+                    "type": "menu:sys:user",
+                    "description": "系统界面下的用户界面资源",
+                    "createTime": "2024-10-15 16:54:38",
+                    "createBy": "1846030109260034050",
+                    "updateTime": "2024-11-08 11:14:42",
+                    "updateBy": "1846030109260034050",
+                    "isDelete": "0",
+                    "reversion": 2,
+                    "childResourceList": [
+                        {
+                            "id": "1846109800614629405",
+                            "resourceName": "修改用户",
+                            "code": "1",
+                            "parentId": "1846109800614629379",
+                            "type": "opt:user:update",
+                            "description": "用户界面下的修改用户操作",
+                            "createTime": "2024-10-16 08:50:57",
+                            "createBy": "1846030109260034050",
+                            "updateTime": "2024-10-16 08:50:59",
+                            "updateBy": "1846030109260034050",
+                            "isDelete": "0",
+                            "reversion": 0,
+                            "childResourceList": []
+                        }
+                    ]
+                },
+                {
+                    "id": "1846109800614629380",
+                    "resourceName": "角色管理",
+                    "code": "0",
+                    "parentId": "1846109800614629406",
+                    "type": "menu:sys:role",
+                    "description": "系统界面下的角色界面资源",
+                    "createTime": "2024-10-15 16:54:41",
+                    "createBy": "1846030109260034050",
+                    "updateTime": "2024-10-15 16:50:10",
+                    "updateBy": "1846030109260034050",
+                    "isDelete": "0",
+                    "reversion": 0,
+                    "childResourceList": []
+                },
+                {
+                    "id": "1846109800614629381",
+                    "resourceName": "资源管理",
+                    "code": "0",
+                    "parentId": "1846109800614629406",
+                    "type": "menu:sys:resource",
+                    "description": "系统界面下的资源界面资源",
+                    "createTime": "2024-10-15 16:54:43",
+                    "createBy": "1846030109260034050",
+                    "updateTime": "2024-10-15 16:50:05",
+                    "updateBy": "1846030109260034050",
+                    "isDelete": "0",
+                    "reversion": 0,
+                    "childResourceList": []
+                }
+            ]
+        },
+        {
+            "id": "1853687465346150401",
+            "resourceName": "test",
+            "code": "testCode",
+            "parentId": "1846109800614629382",
+            "type": "testType",
+            "description": "testDes",
+            "createTime": "2024-11-05 14:35:06",
+            "createBy": "1846030109260034050",
+            "updateTime": "2024-11-12 09:34:04",
+            "updateBy": "1846030109260034050",
+            "isDelete": "0",
+            "reversion": 19,
+            "childResourceList": []
+        },
+        {
+            "id": "1854708424824188929",
+            "resourceName": "顶层测试添加",
+            "code": "0",
+            "parentId": "0",
+            "type": "0",
+            "description": "顶层测试添加",
+            "createTime": "2024-11-08 10:12:02",
+            "createBy": "1846030109260034050",
+            "updateTime": "2024-11-08 14:38:06",
+            "updateBy": "1846030109260034050",
+            "isDelete": "0",
+            "reversion": 2,
+            "childResourceList": [
+                {
+                    "id": "1854709150359089154",
+                    "resourceName": "test01",
+                    "code": "1",
+                    "parentId": "1854708424824188929",
+                    "type": "0",
+                    "description": "0",
+                    "createTime": "2024-11-08 10:14:55",
+                    "createBy": "1846030109260034050",
+                    "updateTime": "2024-11-11 14:32:05",
+                    "updateBy": "1846030109260034050",
+                    "isDelete": "0",
+                    "reversion": 2,
+                    "childResourceList": []
+                },
+                {
+                    "id": "1854709898564202498",
+                    "resourceName": "test02",
+                    "code": "0",
+                    "parentId": "1854708424824188929",
+                    "type": "0",
+                    "description": "0",
+                    "createTime": "2024-11-08 10:17:53",
+                    "createBy": "1846030109260034050",
+                    "updateTime": "2024-11-08 10:17:53",
+                    "updateBy": "1846030109260034050",
+                    "isDelete": "0",
+                    "reversion": 0,
+                    "childResourceList": []
+                }
+            ]
+        },
+        {
+            "id": "1854709150359089154",
+            "resourceName": "test01",
+            "code": "1",
+            "parentId": "1854708424824188929",
+            "type": "0",
+            "description": "0",
+            "createTime": "2024-11-08 10:14:55",
+            "createBy": "1846030109260034050",
+            "updateTime": "2024-11-11 14:32:05",
+            "updateBy": "1846030109260034050",
+            "isDelete": "0",
+            "reversion": 2,
+            "childResourceList": []
+        },
+        {
+            "id": "1854709898564202498",
+            "resourceName": "test02",
+            "code": "0",
+            "parentId": "1854708424824188929",
+            "type": "0",
+            "description": "0",
+            "createTime": "2024-11-08 10:17:53",
+            "createBy": "1846030109260034050",
+            "updateTime": "2024-11-08 10:17:53",
+            "updateBy": "1846030109260034050",
+            "isDelete": "0",
+            "reversion": 0,
+            "childResourceList": []
+        }
+    ],
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+[32mINFO    [0m log:conftest.py:29 code ==>> 期望结果：200， 实际结果：200
+[32mINFO    [0m log:conftest.py:30 返回信息 ==>> 期望结果：操作成功， 实际结果：操作成功
+[32mINFO    [0m log:test_01_get_all_resource.py:26 *************** 结束执行用例 ***************

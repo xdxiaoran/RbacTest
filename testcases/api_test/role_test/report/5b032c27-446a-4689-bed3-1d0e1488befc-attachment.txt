@@ -1,0 +1,27 @@
+INFO     log:test_03_update_role.py:20 *************** 开始执行用例 ***************
+INFO     log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/role/updateRole
+INFO     log:http_client.py:41 接口请求方式 ==>> POST
+INFO     log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/json",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYmFjLXVzZXIiLCJpc3MiOiJsb25nY2hhbyIsImlhdCI6MTczMDc3NTkwNCwiZXhwIjoxNzMwNzc5NTA0LCJpZCI6MTg0NjAzMDEwOTI2MDAzNDA1MH0.6Jta8SW4pVQfjHgMAALokDHxTc4XgaWbFpwXgT19oxY"
+}
+INFO     log:http_client.py:49 接口请求体 json 参数 ==>> {
+    "id": "1849744835971674113",
+    "roleName": "萧然角色测试",
+    "code": "测试code",
+    "description": "萧然测试dec",
+    "deleteResourceList": [],
+    "addResourceList": [
+        184610980061462
+    ]
+}
+INFO     log:index_user_api.py:15 接口实际返回的结果为==>>{
+    "success": true,
+    "code": 200,
+    "message": "操作成功",
+    "time": "1730775907587",
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}

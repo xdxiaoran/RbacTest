@@ -1,0 +1,23 @@
+[32mINFO    [0m log:test_02_get_role.py:19 *************** 开始执行用例 ***************
+[32mINFO    [0m log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/role/getRole
+[32mINFO    [0m log:http_client.py:41 接口请求方式 ==>> POST
+[32mINFO    [0m log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded",
+    "token": "SADSADA"
+}
+[32mINFO    [0m log:http_client.py:47 接口请求体 data 参数 ==>> {
+    "roleId": 1846079261643087873
+}
+[32mINFO    [0m log:index_user_api.py:15 接口实际返回的结果为==>>{
+    "success": false,
+    "code": 9991,
+    "message": "token过期失效！",
+    "time": 1731384267697,
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+[32mINFO    [0m log:conftest.py:29 code ==>> 期望结果：9991， 实际结果：9991
+[32mINFO    [0m log:conftest.py:30 返回信息 ==>> 期望结果：token过期失效！， 实际结果：token过期失效！
+[32mINFO    [0m log:test_02_get_role.py:28 *************** 结束执行用例 ***************

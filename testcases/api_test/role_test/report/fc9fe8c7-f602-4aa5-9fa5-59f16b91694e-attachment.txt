@@ -1,0 +1,29 @@
+INFO     log:test_04_add_role.py:19 *************** 开始执行用例 ***************
+INFO     log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/role/addRole
+INFO     log:http_client.py:41 接口请求方式 ==>> POST
+INFO     log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/json",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYmFjLXVzZXIiLCJpc3MiOiJsb25nY2hhbyIsImlhdCI6MTczMDc3NjUwNywiZXhwIjoxNzMwNzgwMTA3LCJpZCI6MTg0NjAzMDEwOTI2MDAzNDA1MH0.GM6KrY_qnDg2UbqOE8eM5MsmWvblgCC43sCmzD_Xgd4"
+}
+INFO     log:http_client.py:49 接口请求体 json 参数 ==>> {
+    "roleName": "test",
+    "code": "6666",
+    "description": "testDes",
+    "parentId": "184607926164",
+    "addResourceList": [
+        1846109800614629379
+    ]
+}
+INFO     log:index_user_api.py:15 接口实际返回的结果为==>>{
+    "success": false,
+    "code": 10070,
+    "message": "父角色不存在，请确认父亲角色！",
+    "time": "1730776513502",
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+INFO     log:conftest.py:29 code ==>> 期望结果：10070， 实际结果：10070
+INFO     log:conftest.py:30 返回信息 ==>> 期望结果：父角色不存在，请确认父亲角色！， 实际结果：父角色不存在，请确认父亲角色！
+INFO     log:test_04_add_role.py:29 *************** 结束执行用例 ***************

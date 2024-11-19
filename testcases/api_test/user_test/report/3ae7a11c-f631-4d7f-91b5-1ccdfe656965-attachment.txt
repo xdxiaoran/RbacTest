@@ -1,0 +1,134 @@
+INFO     log:conftest.py:38 ******************************
+INFO     log:conftest.py:39 前置步骤开始 ==>> 获取管理员token
+INFO     log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+INFO     log:http_client.py:41 接口请求方式 ==>> POST
+INFO     log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+INFO     log:http_client.py:47 接口请求体 data 参数 ==>> {
+    "password": "15320255643"
+}
+INFO     log:index_user_api.py:15 接口实际返回的结果为==>>{
+    "success": true,
+    "code": 200,
+    "message": "操作成功",
+    "time": "1730699253242",
+    "data": "g3LoDDyvpuOomXTdUndyfC9ROKjVcF0RApWSGDfE1p7Ea05FbzXZ9t7oD2cz9gCP/rShbpEbnJLDnsRs74p1@RM/Lt4mM/nOp7KWNU/MyoFLjUavb5rhPSOUsOlJb9Em25EulXYnQKh5WOZ6CJQ4YLjex/rXiUe/vnqs8@WyDZQ=",
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+INFO     log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/index/login
+INFO     log:http_client.py:41 接口请求方式 ==>> POST
+INFO     log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+INFO     log:http_client.py:47 接口请求体 data 参数 ==>> {
+    "phone": "15320255643",
+    "password": "g3LoDDyvpuOomXTdUndyfC9ROKjVcF0RApWSGDfE1p7Ea05FbzXZ9t7oD2cz9gCP/rShbpEbnJLDnsRs74p1@RM/Lt4mM/nOp7KWNU/MyoFLjUavb5rhPSOUsOlJb9Em25EulXYnQKh5WOZ6CJQ4YLjex/rXiUe/vnqs8@WyDZQ="
+}
+INFO     log:index_user_api.py:15 接口实际返回的结果为==>>{
+    "success": true,
+    "code": 200,
+    "message": "操作成功",
+    "time": "1730699253864",
+    "data": {
+        "id": "1846030109260034050",
+        "userName": "龙超",
+        "gender": "男",
+        "phone": "15320255643",
+        "email": "longchao@changan.com.cn",
+        "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYmFjLXVzZXIiLCJpc3MiOiJsb25nY2hhbyIsImlhdCI6MTczMDY5OTI1MywiZXhwIjoxNzMwNzAyODUzLCJpZCI6MTg0NjAzMDEwOTI2MDAzNDA1MH0.2K_JlM-d4oukiLpHi7TnVuIuxugAZc2N4I1sKlyAkI4"
+    },
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+INFO     log:test_01_get_all_uesr.py:20 *************** 开始执行用例 ***************
+INFO     log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/user/getAllUser
+INFO     log:http_client.py:41 接口请求方式 ==>> POST
+INFO     log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/json",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYmFjLXVzZXIiLCJpc3MiOiJsb25nY2hhbyIsImlhdCI6MTczMDY5OTI1MywiZXhwIjoxNzMwNzAyODUzLCJpZCI6MTg0NjAzMDEwOTI2MDAzNDA1MH0.2K_JlM-d4oukiLpHi7TnVuIuxugAZc2N4I1sKlyAkI4"
+}
+INFO     log:http_client.py:45 接口请求 params 参数 ==>> {
+    "pageNo": 0,
+    "pageSize": 5
+}
+INFO     log:http_client.py:49 接口请求体 json 参数 ==>> {
+    "name": "萧然",
+    "gender": "",
+    "phone": "",
+    "email": ""
+}
+INFO     log:index_user_api.py:15 接口实际返回的结果为==>>{
+    "success": true,
+    "code": 200,
+    "message": "操作成功",
+    "time": "1730699255452",
+    "data": {
+        "records": [
+            {
+                "id": "1849351355764076546",
+                "userName": "萧然",
+                "gender": "男",
+                "phone": "18592037348",
+                "email": "62131232@qq.com",
+                "createTime": "2024-10-24 15:24:57",
+                "createBy": "1849351355764076546",
+                "updateTime": "2024-10-24 15:24:57",
+                "updateBy": "1849351355764076546",
+                "isDelete": "0",
+                "reversion": 0,
+                "roleList": [
+                    {
+                        "id": "1846079261643087897",
+                        "roleName": "基础角色",
+                        "code": "0",
+                        "parentId": "0",
+                        "description": "基础角色",
+                        "createTime": "2024-10-16 10:18:15",
+                        "createBy": "1846079261643087873",
+                        "updateTime": "2024-10-16 10:18:29",
+                        "updateBy": "1846030109260034050",
+                        "isDelete": "0",
+                        "reversion": 0
+                    }
+                ]
+            },
+            {
+                "id": "1846801442433683458",
+                "userName": "萧然1",
+                "gender": "男",
+                "phone": "18592037349",
+                "email": "62131232@qq.com",
+                "createTime": "2024-10-17 14:32:30",
+                "createBy": "1846801442433683458",
+                "updateTime": "2024-10-28 09:17:02",
+                "updateBy": "1846030109260034050",
+                "isDelete": "0",
+                "reversion": 11,
+                "roleList": null
+            }
+        ],
+        "total": "2",
+        "size": "5",
+        "current": "1",
+        "orders": [],
+        "optimizeCountSql": true,
+        "hitCount": false,
+        "countId": null,
+        "maxLimit": null,
+        "searchCount": true,
+        "pages": "1"
+    },
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+INFO     log:conftest.py:29 code ==>> 期望结果：200， 实际结果：200
+INFO     log:conftest.py:30 返回信息 ==>> 期望结果：操作成功， 实际结果：操作成功
+INFO     log:test_01_get_all_uesr.py:24 *************** 结束执行用例 ***************

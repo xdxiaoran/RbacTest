@@ -1,0 +1,46 @@
+INFO     log:test_01_register.py:19 *************** 开始执行用例 ***************
+INFO     log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+INFO     log:http_client.py:41 接口请求方式 ==>> POST
+INFO     log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+INFO     log:http_client.py:47 接口请求体 data 参数 ==>> {
+    "password": "18592037350"
+}
+INFO     log:index_user_api.py:15 接口实际返回的结果为==>>{
+    "success": true,
+    "code": 200,
+    "message": "操作成功",
+    "time": "1730791975655",
+    "data": "OEQXSTsDpxjTU/dx6g1q0BE28Tg@dxB6iyfEjYOt4w7DtQGGfQcrStc02jwaBoPO5V02yoaS@LZHVGJ6f1YC3vVnhFNZ3WSgx526AmCqmNnxnlsWZ5HCwy6Blv5/quB6t/LAE1csW8rSgJmiwrg@HBdgPE88WWKsbFR8dpnx@MA=",
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+INFO     log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/index/register
+INFO     log:http_client.py:41 接口请求方式 ==>> POST
+INFO     log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/json"
+}
+INFO     log:http_client.py:49 接口请求体 json 参数 ==>> {
+    "userName": "test",
+    "password": "OEQXSTsDpxjTU/dx6g1q0BE28Tg@dxB6iyfEjYOt4w7DtQGGfQcrStc02jwaBoPO5V02yoaS@LZHVGJ6f1YC3vVnhFNZ3WSgx526AmCqmNnxnlsWZ5HCwy6Blv5/quB6t/LAE1csW8rSgJmiwrg@HBdgPE88WWKsbFR8dpnx@MA=",
+    "gender": "男",
+    "phone": "18592037350",
+    "email": "sada@qq.com"
+}
+INFO     log:index_user_api.py:15 接口实际返回的结果为==>>{
+    "success": true,
+    "code": 200,
+    "message": "操作成功",
+    "time": "1730791976751",
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+INFO     log:test_01_register.py:21 *************** 成功执行后清理该数据 ***************
+INFO     log:conftest.py:29 code ==>> 期望结果：200， 实际结果：200
+INFO     log:conftest.py:30 返回信息 ==>> 期望结果：操作成功， 实际结果：操作成功
+INFO     log:test_01_register.py:25 *************** 结束执行用例 ***************

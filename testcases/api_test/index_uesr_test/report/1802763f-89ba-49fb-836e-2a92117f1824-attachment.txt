@@ -1,0 +1,70 @@
+INFO     log:conftest.py:38 ******************************
+INFO     log:conftest.py:39 前置步骤开始 ==>> 获取管理员token
+INFO     log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+INFO     log:http_client.py:41 接口请求方式 ==>> POST
+INFO     log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+INFO     log:http_client.py:47 接口请求体 data 参数 ==>> {
+    "password": "18592037348"
+}
+INFO     log:index_user_api.py:15 接口实际返回的结果为==>>{
+    "success": true,
+    "code": 200,
+    "message": "操作成功",
+    "time": "1730703535948",
+    "data": "CksiamKDErJ3R0w@SCVKdfCZYtfxe4QOOns7RbDdLPbqGM9KvihE5sKjo9QlMSGEVUVr7km/tqm6difMdnyCLleXjSw9/qrGddaCROsp5B6c@k3rnQn6D23QZzMeT@dUideLsmJgzzwI8zQjEJYtcPG5E2/55eOgR5h83RFcVt4=",
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+INFO     log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/index/login
+INFO     log:http_client.py:41 接口请求方式 ==>> POST
+INFO     log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+INFO     log:http_client.py:47 接口请求体 data 参数 ==>> {
+    "phone": "18592037348",
+    "password": "CksiamKDErJ3R0w@SCVKdfCZYtfxe4QOOns7RbDdLPbqGM9KvihE5sKjo9QlMSGEVUVr7km/tqm6difMdnyCLleXjSw9/qrGddaCROsp5B6c@k3rnQn6D23QZzMeT@dUideLsmJgzzwI8zQjEJYtcPG5E2/55eOgR5h83RFcVt4="
+}
+INFO     log:index_user_api.py:15 接口实际返回的结果为==>>{
+    "success": true,
+    "code": 200,
+    "message": "操作成功",
+    "time": "1730703536427",
+    "data": {
+        "id": "1849351355764076546",
+        "userName": "萧然",
+        "gender": "男",
+        "phone": "18592037348",
+        "email": "62131232@qq.com",
+        "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYmFjLXVzZXIiLCJpc3MiOiJsb25nY2hhbyIsImlhdCI6MTczMDcwMzUzNiwiZXhwIjoxNzMwNzA3MTM2LCJpZCI6MTg0OTM1MTM1NTc2NDA3NjU0Nn0.Fjwx-naOY6Nn54JfTPGP-wB3PrbPuxUXa2trf-l9-ZU"
+    },
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+INFO     log:test_03_logout.py:19 *************** 开始执行用例 ***************
+INFO     log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/index/logout
+INFO     log:http_client.py:41 接口请求方式 ==>> POST
+INFO     log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+INFO     log:http_client.py:47 接口请求体 data 参数 ==>> {
+    "userId": ""
+}
+INFO     log:index_user_api.py:15 接口实际返回的结果为==>>{
+    "success": false,
+    "code": 10007,
+    "message": "当前用户不存在！",
+    "time": "1730703536433",
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+INFO     log:conftest.py:29 code ==>> 期望结果：10007， 实际结果：10007
+INFO     log:conftest.py:30 返回信息 ==>> 期望结果：当前用户不存在！， 实际结果：当前用户不存在！
+INFO     log:test_03_logout.py:22 *************** 结束执行用例 ***************

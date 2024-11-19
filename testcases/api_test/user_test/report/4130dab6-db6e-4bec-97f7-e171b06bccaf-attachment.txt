@@ -1,0 +1,63 @@
+INFO     log:test_05_updatePassword.py:18 *************** 开始执行用例 ***************
+INFO     log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+INFO     log:http_client.py:41 接口请求方式 ==>> POST
+INFO     log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+INFO     log:http_client.py:47 接口请求体 data 参数 ==>> {
+    "password": "18592037345"
+}
+INFO     log:index_user_api.py:15 接口实际返回的结果为==>>{
+    "success": true,
+    "code": 200,
+    "message": "操作成功",
+    "time": "1730713894126",
+    "data": "ZgtBIFRSkuMjatNWO@ThkLJ9AyARhIFodyI3PyVpfqcxfeds7NOgar2rPV7Q0hL8DGQsM0SULZoP7OUiPkynmbIuLMCeVninax2fJwT3gLy5ij/6XVX0nJTKah8DEImMdCxNJAC8lxozxnFnnK9p7qRajJVtu7MZu6KYpHYoluM=",
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+INFO     log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+INFO     log:http_client.py:41 接口请求方式 ==>> POST
+INFO     log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+INFO     log:http_client.py:47 接口请求体 data 参数 ==>> {
+    "password": "18592037348"
+}
+INFO     log:index_user_api.py:15 接口实际返回的结果为==>>{
+    "success": true,
+    "code": 200,
+    "message": "操作成功",
+    "time": "1730713894213",
+    "data": "Hr4vX1PmoctUALXhacCUkOVOpouGf9ER/@m@5C09rndXHCCvTS1wpSMUoySsm9BlSNot/5vfLJgNDIUCFW6xhW/MWGVKXvkvN/zponzHcQ15C6u2bvPbaDPw7maSojnJI@TVZ9SVPyCivb77ibrF1we0QREL3@Ojf4RbJsEf0mM=",
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+INFO     log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/user/updatePassword
+INFO     log:http_client.py:41 接口请求方式 ==>> POST
+INFO     log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYmFjLXVzZXIiLCJpc3MiOiJsb25nY2hhbyIsImlhdCI6MTczMDcxMzg5MCwiZXhwIjoxNzMwNzE3NDkwLCJpZCI6MTg0OTM1MTM1NTc2NDA3NjU0Nn0.tY_DsarrlO7V4uTXvvVbwlBPHGaTr-851rznfVJbjTE"
+}
+INFO     log:http_client.py:47 接口请求体 data 参数 ==>> {
+    "userId": 1849351355764076546,
+    "oldPassword": "ZgtBIFRSkuMjatNWO@ThkLJ9AyARhIFodyI3PyVpfqcxfeds7NOgar2rPV7Q0hL8DGQsM0SULZoP7OUiPkynmbIuLMCeVninax2fJwT3gLy5ij/6XVX0nJTKah8DEImMdCxNJAC8lxozxnFnnK9p7qRajJVtu7MZu6KYpHYoluM=",
+    "newPassword": "Hr4vX1PmoctUALXhacCUkOVOpouGf9ER/@m@5C09rndXHCCvTS1wpSMUoySsm9BlSNot/5vfLJgNDIUCFW6xhW/MWGVKXvkvN/zponzHcQ15C6u2bvPbaDPw7maSojnJI@TVZ9SVPyCivb77ibrF1we0QREL3@Ojf4RbJsEf0mM="
+}
+INFO     log:index_user_api.py:15 接口实际返回的结果为==>>{
+    "success": false,
+    "code": 10000,
+    "message": "旧密码错误！",
+    "time": "1730713894941",
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+INFO     log:conftest.py:29 code ==>> 期望结果：10000， 实际结果：10000
+INFO     log:conftest.py:30 返回信息 ==>> 期望结果：旧密码错误！， 实际结果：旧密码错误！
+INFO     log:test_05_updatePassword.py:27 *************** 结束执行用例 ***************

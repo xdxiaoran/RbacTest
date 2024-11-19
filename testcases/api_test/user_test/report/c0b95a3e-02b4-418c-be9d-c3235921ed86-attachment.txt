@@ -1,0 +1,63 @@
+INFO     log:test_05_updatePassword.py:18 *************** 开始执行用例 ***************
+INFO     log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+INFO     log:http_client.py:41 接口请求方式 ==>> POST
+INFO     log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+INFO     log:http_client.py:47 接口请求体 data 参数 ==>> {
+    "password": "18592037345"
+}
+INFO     log:index_user_api.py:15 接口实际返回的结果为==>>{
+    "success": true,
+    "code": 200,
+    "message": "操作成功",
+    "time": "1730713854258",
+    "data": "DkFerBmthf4q7qOdYFIr5zD19BsZDjwxrFMTjLwx2a59tFEEJCeNrwXw9rbKxyVaGhYtivjza2Tm/hzdxs9lUeL9GCB2H/UrQGBgfYqMfFHFxzmY6NIZIgghj1@autTt/I6PXmIBciF28dUUKjj3zOJbFweAdWdtzKXhlkKIZ1c=",
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+INFO     log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+INFO     log:http_client.py:41 接口请求方式 ==>> POST
+INFO     log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+INFO     log:http_client.py:47 接口请求体 data 参数 ==>> {
+    "password": "18592037348"
+}
+INFO     log:index_user_api.py:15 接口实际返回的结果为==>>{
+    "success": true,
+    "code": 200,
+    "message": "操作成功",
+    "time": "1730713854338",
+    "data": "SX/@1eFngPrJzfM@bZuJ2Pjg/3TtVPJRDB3vxyoJX86bTsMvdrChJR/7Pw2@liSUu7LO13UlzYwn1Woel4p3KK@SEYU/KQfLAg@fNZsKmIgLB9CU9f5CR0@ZYShVglOWFCJRGmbCVuXwPKZA9AV0b4fbL39mybUN6R5JKPu4vHo=",
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+INFO     log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/user/updatePassword
+INFO     log:http_client.py:41 接口请求方式 ==>> POST
+INFO     log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded",
+    "token": ""
+}
+INFO     log:http_client.py:47 接口请求体 data 参数 ==>> {
+    "userId": 1849351355764076546,
+    "oldPassword": "DkFerBmthf4q7qOdYFIr5zD19BsZDjwxrFMTjLwx2a59tFEEJCeNrwXw9rbKxyVaGhYtivjza2Tm/hzdxs9lUeL9GCB2H/UrQGBgfYqMfFHFxzmY6NIZIgghj1@autTt/I6PXmIBciF28dUUKjj3zOJbFweAdWdtzKXhlkKIZ1c=",
+    "newPassword": "SX/@1eFngPrJzfM@bZuJ2Pjg/3TtVPJRDB3vxyoJX86bTsMvdrChJR/7Pw2@liSUu7LO13UlzYwn1Woel4p3KK@SEYU/KQfLAg@fNZsKmIgLB9CU9f5CR0@ZYShVglOWFCJRGmbCVuXwPKZA9AV0b4fbL39mybUN6R5JKPu4vHo="
+}
+INFO     log:index_user_api.py:15 接口实际返回的结果为==>>{
+    "success": false,
+    "code": 9990,
+    "message": "token丢失！",
+    "time": 1730713854341,
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+INFO     log:conftest.py:29 code ==>> 期望结果：9990， 实际结果：9990
+INFO     log:conftest.py:30 返回信息 ==>> 期望结果：token丢失！， 实际结果：token丢失！
+INFO     log:test_05_updatePassword.py:27 *************** 结束执行用例 ***************

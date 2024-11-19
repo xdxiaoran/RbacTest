@@ -1,0 +1,27 @@
+[32mINFO    [0m log:test_01_register.py:19 *************** 开始执行用例 ***************
+[32mINFO    [0m log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+[32mINFO    [0m log:http_client.py:41 接口请求方式 ==>> POST
+[32mINFO    [0m log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[32mINFO    [0m log:http_client.py:47 接口请求体 data 参数 ==>> {
+    "password": "18592037350"
+}
+[32mINFO    [0m log:index_user_service.py:13 接口实际返回的结果为==>>{'success': True, 'code': 200, 'message': '操作成功', 'time': '1729670192438', 'data': 'ebHv8uklsphiam4PG4@A5pEb@OEM9xw/oOg1UjTGje8ogqxOsaGdfm4pMnIftPdSf3tnQjdo64NFt1HXnobllanPW1diLBUChl@j91c5yrhY5pqP6jRreu8fp6rAillvYymnDJ82cV@FCANx/CZadndnAq8XS028aMarKC3qezI=', 'path': None, 'timestamp': None, 'msg': None, 'trackId': None}
+[32mINFO    [0m log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/index/register
+[32mINFO    [0m log:http_client.py:41 接口请求方式 ==>> POST
+[32mINFO    [0m log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/json"
+}
+[32mINFO    [0m log:http_client.py:49 接口请求体 json 参数 ==>> {
+    "userName": "test",
+    "password": "ebHv8uklsphiam4PG4@A5pEb@OEM9xw/oOg1UjTGje8ogqxOsaGdfm4pMnIftPdSf3tnQjdo64NFt1HXnobllanPW1diLBUChl@j91c5yrhY5pqP6jRreu8fp6rAillvYymnDJ82cV@FCANx/CZadndnAq8XS028aMarKC3qezI=",
+    "gender": "男",
+    "phone": "18592037352",
+    "email": "sadaqq.com"
+}
+[32mINFO    [0m log:index_user_service.py:13 接口实际返回的结果为==>>{'success': False, 'code': 10072, 'message': '邮箱格式不正确！', 'time': '1729670192443', 'path': None, 'timestamp': None, 'msg': None, 'trackId': None}
+[32mINFO    [0m log:test_01_register.py:21 *************** 成功执行后清理该数据 ***************
+[32mINFO    [0m log:conftest.py:26 code ==>> 期望结果：10072， 实际结果：10072
+[32mINFO    [0m log:conftest.py:27 返回信息 ==>> 期望结果：邮箱格式不正确！， 实际结果：邮箱格式不正确！
+[32mINFO    [0m log:test_01_register.py:24 *************** 结束执行用例 ***************

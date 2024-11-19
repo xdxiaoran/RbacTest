@@ -1,0 +1,78 @@
+INFO     log:conftest.py:38 ******************************
+INFO     log:conftest.py:39 前置步骤开始 ==>> 获取管理员token
+INFO     log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+INFO     log:http_client.py:41 接口请求方式 ==>> POST
+INFO     log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+INFO     log:http_client.py:47 接口请求体 data 参数 ==>> {
+    "password": "18592037348"
+}
+INFO     log:index_user_api.py:15 接口实际返回的结果为==>>{
+    "success": true,
+    "code": 200,
+    "message": "操作成功",
+    "time": "1730699309401",
+    "data": "A0M1k5TfWsIfbKKYu2MhaLD8BErrUE6ZNchauafTdT4bZMMSa6ZLzpJgcf5SeREOprNXsB2doZlKz7nr8R@PtmsmeE1Jkdj4N2byVLWkcx9AfE6DYFSo/QVc5a4qmx@wH53A@0hPSvmGZAnT4y7NPsz23SwxHd98Y7Zno/LtrMI=",
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+INFO     log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/index/login
+INFO     log:http_client.py:41 接口请求方式 ==>> POST
+INFO     log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+INFO     log:http_client.py:47 接口请求体 data 参数 ==>> {
+    "phone": "18592037348",
+    "password": "A0M1k5TfWsIfbKKYu2MhaLD8BErrUE6ZNchauafTdT4bZMMSa6ZLzpJgcf5SeREOprNXsB2doZlKz7nr8R@PtmsmeE1Jkdj4N2byVLWkcx9AfE6DYFSo/QVc5a4qmx@wH53A@0hPSvmGZAnT4y7NPsz23SwxHd98Y7Zno/LtrMI="
+}
+INFO     log:index_user_api.py:15 接口实际返回的结果为==>>{
+    "success": true,
+    "code": 200,
+    "message": "操作成功",
+    "time": "1730699309815",
+    "data": {
+        "id": "1849351355764076546",
+        "userName": "萧然",
+        "gender": "男",
+        "phone": "18592037348",
+        "email": "62131232@qq.com",
+        "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYmFjLXVzZXIiLCJpc3MiOiJsb25nY2hhbyIsImlhdCI6MTczMDY5OTMwOSwiZXhwIjoxNzMwNzAyOTA5LCJpZCI6MTg0OTM1MTM1NTc2NDA3NjU0Nn0.ox_vHcYfcNjRvHm_2AVSIekvPxzgy68rCs6dX-FnIL8"
+    },
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+INFO     log:test_01_get_all_uesr.py:34 *************** 开始执行用例 ***************
+INFO     log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/user/getAllUser
+INFO     log:http_client.py:41 接口请求方式 ==>> POST
+INFO     log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/json",
+    "token": ""
+}
+INFO     log:http_client.py:45 接口请求 params 参数 ==>> {
+    "pageNo": 0,
+    "pageSize": 5
+}
+INFO     log:http_client.py:49 接口请求体 json 参数 ==>> {
+    "name": "",
+    "gender": "",
+    "phone": "",
+    "email": ""
+}
+INFO     log:index_user_api.py:15 接口实际返回的结果为==>>{
+    "success": false,
+    "code": 9990,
+    "message": "token丢失！",
+    "time": 1730699309820,
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+INFO     log:conftest.py:29 code ==>> 期望结果：9990， 实际结果：9990
+INFO     log:conftest.py:30 返回信息 ==>> 期望结果：token丢失！， 实际结果：token丢失！
+INFO     log:test_01_get_all_uesr.py:39 *************** 结束执行用例 ***************

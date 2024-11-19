@@ -1,0 +1,25 @@
+[32mINFO    [0m log:test_03_update_user_role_info.py:20 *************** 开始执行用例 ***************
+[32mINFO    [0m log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/user/updateUser
+[32mINFO    [0m log:http_client.py:41 接口请求方式 ==>> POST
+[32mINFO    [0m log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/json",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYmFjLXVzZXIiLCJpc3MiOiJsb25nY2hhbyIsImlhdCI6MTczMTM4NDIzMywiZXhwIjoxNzMxMzg3ODMzLCJpZCI6MTg0NjAzMDEwOTI2MDAzNDA1MH0.mus_8IquIcrNxLffWrofYGJrqiwbIkxm7DjcpBedRBE"
+}
+[32mINFO    [0m log:http_client.py:49 接口请求体 json 参数 ==>> {
+    "id": "",
+    "deleteRoleList": [],
+    "addRoleList": []
+}
+[32mINFO    [0m log:index_user_api.py:15 接口实际返回的结果为==>>{
+    "success": false,
+    "code": 10006,
+    "message": "待修改的用户id异常！",
+    "time": "1731384307344",
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+[32mINFO    [0m log:conftest.py:29 code ==>> 期望结果：10006， 实际结果：10006
+[32mINFO    [0m log:conftest.py:30 返回信息 ==>> 期望结果：待修改的用户id异常！， 实际结果：待修改的用户id异常！
+[32mINFO    [0m log:test_03_update_user_role_info.py:32 *************** 结束执行用例 ***************

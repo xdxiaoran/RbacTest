@@ -1,0 +1,20 @@
+INFO     log:test_04_logoff.py:38 *************** 开始执行用例 ***************
+INFO     log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/index/logout
+INFO     log:http_client.py:41 接口请求方式 ==>> POST
+INFO     log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded",
+    "token": "21312313212321"
+}
+INFO     log:http_client.py:47 接口请求体 data 参数 ==>> {
+    "userId": "213213123131"
+}
+INFO     log:index_user_service.py:14 接口实际返回的结果为==>>{
+    "success": true,
+    "code": 200,
+    "message": "操作成功",
+    "time": "1729675241880",
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}

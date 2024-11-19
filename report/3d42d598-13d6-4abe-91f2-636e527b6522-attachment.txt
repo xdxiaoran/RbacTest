@@ -1,0 +1,366 @@
+[32mINFO    [0m log:test_10_get_permission.py:19 *************** 开始执行用例 ***************
+[32mINFO    [0m log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/user/getResource
+[32mINFO    [0m log:http_client.py:41 接口请求方式 ==>> POST
+[32mINFO    [0m log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-unlencoded",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYmFjLXVzZXIiLCJpc3MiOiJsb25nY2hhbyIsImlhdCI6MTczMTM4NDIzMywiZXhwIjoxNzMxMzg3ODMzLCJpZCI6MTg0NjAzMDEwOTI2MDAzNDA1MH0.mus_8IquIcrNxLffWrofYGJrqiwbIkxm7DjcpBedRBE"
+}
+[32mINFO    [0m log:http_client.py:45 接口请求 params 参数 ==>> {
+    "userId": 1846030109260034050
+}
+[32mINFO    [0m log:index_user_api.py:15 接口实际返回的结果为==>>{
+    "success": true,
+    "code": 200,
+    "message": "操作成功",
+    "time": "1731384344324",
+    "data": [
+        {
+            "resourceName": "基础公共资源",
+            "resourceId": "1846109800614629378",
+            "parentId": "0",
+            "childrenList": []
+        },
+        {
+            "resourceName": "用户管理",
+            "resourceId": "1846109800614629379",
+            "parentId": "1846109800614629406",
+            "childrenList": [
+                {
+                    "resourceName": "修改用户",
+                    "resourceId": "1846109800614629405",
+                    "parentId": "1846109800614629379",
+                    "childrenList": []
+                }
+            ]
+        },
+        {
+            "resourceName": "角色管理",
+            "resourceId": "1846109800614629380",
+            "parentId": "1846109800614629406",
+            "childrenList": []
+        },
+        {
+            "resourceName": "资源管理",
+            "resourceId": "1846109800614629381",
+            "parentId": "1846109800614629406",
+            "childrenList": []
+        },
+        {
+            "resourceName": "前端开发",
+            "resourceId": "1846109800614629383",
+            "parentId": "1846109800614629382",
+            "childrenList": [
+                {
+                    "resourceName": "前端代码仓",
+                    "resourceId": "1846109800614629386",
+                    "parentId": "1846109800614629383",
+                    "childrenList": []
+                },
+                {
+                    "resourceName": "前端计划",
+                    "resourceId": "1846109800614629387",
+                    "parentId": "1846109800614629383",
+                    "childrenList": []
+                }
+            ]
+        },
+        {
+            "resourceName": "后端开发",
+            "resourceId": "1846109800614629384",
+            "parentId": "1846109800614629382",
+            "childrenList": [
+                {
+                    "resourceName": "后端代码仓",
+                    "resourceId": "1846109800614629388",
+                    "parentId": "1846109800614629384",
+                    "childrenList": []
+                },
+                {
+                    "resourceName": "后端计划",
+                    "resourceId": "1846109800614629389",
+                    "parentId": "1846109800614629384",
+                    "childrenList": []
+                }
+            ]
+        },
+        {
+            "resourceName": "前端代码仓",
+            "resourceId": "1846109800614629386",
+            "parentId": "1846109800614629383",
+            "childrenList": []
+        },
+        {
+            "resourceName": "前端计划",
+            "resourceId": "1846109800614629387",
+            "parentId": "1846109800614629383",
+            "childrenList": []
+        },
+        {
+            "resourceName": "后端代码仓",
+            "resourceId": "1846109800614629388",
+            "parentId": "1846109800614629384",
+            "childrenList": []
+        },
+        {
+            "resourceName": "后端计划",
+            "resourceId": "1846109800614629389",
+            "parentId": "1846109800614629384",
+            "childrenList": []
+        },
+        {
+            "resourceName": "研发成本",
+            "resourceId": "1846109800614629390",
+            "parentId": "1846109800614629382",
+            "childrenList": []
+        },
+        {
+            "resourceName": "中心代码仓",
+            "resourceId": "1846109800614629391",
+            "parentId": "1846109800614629382",
+            "childrenList": []
+        },
+        {
+            "resourceName": "销售",
+            "resourceId": "1846109800614629392",
+            "parentId": "0",
+            "childrenList": [
+                {
+                    "resourceName": "客户中心",
+                    "resourceId": "1846109800614629393",
+                    "parentId": "1846109800614629392",
+                    "childrenList": []
+                },
+                {
+                    "resourceName": "渠道中心",
+                    "resourceId": "1846109800614629394",
+                    "parentId": "1846109800614629392",
+                    "childrenList": []
+                },
+                {
+                    "resourceName": "销售中心",
+                    "resourceId": "1846109800614629395",
+                    "parentId": "1846109800614629392",
+                    "childrenList": []
+                }
+            ]
+        },
+        {
+            "resourceName": "客户中心",
+            "resourceId": "1846109800614629393",
+            "parentId": "1846109800614629392",
+            "childrenList": []
+        },
+        {
+            "resourceName": "渠道中心",
+            "resourceId": "1846109800614629394",
+            "parentId": "1846109800614629392",
+            "childrenList": []
+        },
+        {
+            "resourceName": "销售中心",
+            "resourceId": "1846109800614629395",
+            "parentId": "1846109800614629392",
+            "childrenList": []
+        },
+        {
+            "resourceName": "人事",
+            "resourceId": "1846109800614629396",
+            "parentId": "0",
+            "childrenList": [
+                {
+                    "resourceName": "培训中心",
+                    "resourceId": "1846109800614629397",
+                    "parentId": "1846109800614629396",
+                    "childrenList": []
+                },
+                {
+                    "resourceName": "招聘中心",
+                    "resourceId": "1846109800614629398",
+                    "parentId": "1846109800614629396",
+                    "childrenList": []
+                },
+                {
+                    "resourceName": "绩效考核",
+                    "resourceId": "1846109800614629399",
+                    "parentId": "1846109800614629396",
+                    "childrenList": []
+                },
+                {
+                    "resourceName": "薪酬福利",
+                    "resourceId": "1846109800614629400",
+                    "parentId": "1846109800614629396",
+                    "childrenList": []
+                }
+            ]
+        },
+        {
+            "resourceName": "培训中心",
+            "resourceId": "1846109800614629397",
+            "parentId": "1846109800614629396",
+            "childrenList": []
+        },
+        {
+            "resourceName": "招聘中心",
+            "resourceId": "1846109800614629398",
+            "parentId": "1846109800614629396",
+            "childrenList": []
+        },
+        {
+            "resourceName": "绩效考核",
+            "resourceId": "1846109800614629399",
+            "parentId": "1846109800614629396",
+            "childrenList": []
+        },
+        {
+            "resourceName": "薪酬福利",
+            "resourceId": "1846109800614629400",
+            "parentId": "1846109800614629396",
+            "childrenList": []
+        },
+        {
+            "resourceName": "采购",
+            "resourceId": "1846109800614629401",
+            "parentId": "0",
+            "childrenList": [
+                {
+                    "resourceName": "市场中心",
+                    "resourceId": "1846109800614629402",
+                    "parentId": "1846109800614629401",
+                    "childrenList": []
+                },
+                {
+                    "resourceName": "成本中心",
+                    "resourceId": "1846109800614629403",
+                    "parentId": "1846109800614629401",
+                    "childrenList": []
+                },
+                {
+                    "resourceName": "采购中心",
+                    "resourceId": "1846109800614629404",
+                    "parentId": "1846109800614629401",
+                    "childrenList": []
+                }
+            ]
+        },
+        {
+            "resourceName": "市场中心",
+            "resourceId": "1846109800614629402",
+            "parentId": "1846109800614629401",
+            "childrenList": []
+        },
+        {
+            "resourceName": "成本中心",
+            "resourceId": "1846109800614629403",
+            "parentId": "1846109800614629401",
+            "childrenList": []
+        },
+        {
+            "resourceName": "采购中心",
+            "resourceId": "1846109800614629404",
+            "parentId": "1846109800614629401",
+            "childrenList": []
+        },
+        {
+            "resourceName": "修改用户",
+            "resourceId": "1846109800614629405",
+            "parentId": "1846109800614629379",
+            "childrenList": []
+        },
+        {
+            "resourceName": "系统",
+            "resourceId": "1846109800614629406",
+            "parentId": "0",
+            "childrenList": [
+                {
+                    "resourceName": "用户管理",
+                    "resourceId": "1846109800614629379",
+                    "parentId": "1846109800614629406",
+                    "childrenList": [
+                        {
+                            "resourceName": "修改用户",
+                            "resourceId": "1846109800614629405",
+                            "parentId": "1846109800614629379",
+                            "childrenList": []
+                        }
+                    ]
+                },
+                {
+                    "resourceName": "角色管理",
+                    "resourceId": "1846109800614629380",
+                    "parentId": "1846109800614629406",
+                    "childrenList": []
+                },
+                {
+                    "resourceName": "资源管理",
+                    "resourceId": "1846109800614629381",
+                    "parentId": "1846109800614629406",
+                    "childrenList": []
+                }
+            ]
+        },
+        {
+            "resourceName": "研发",
+            "resourceId": "1846109800614629382",
+            "parentId": "0",
+            "childrenList": [
+                {
+                    "resourceName": "前端开发",
+                    "resourceId": "1846109800614629383",
+                    "parentId": "1846109800614629382",
+                    "childrenList": [
+                        {
+                            "resourceName": "前端代码仓",
+                            "resourceId": "1846109800614629386",
+                            "parentId": "1846109800614629383",
+                            "childrenList": []
+                        },
+                        {
+                            "resourceName": "前端计划",
+                            "resourceId": "1846109800614629387",
+                            "parentId": "1846109800614629383",
+                            "childrenList": []
+                        }
+                    ]
+                },
+                {
+                    "resourceName": "后端开发",
+                    "resourceId": "1846109800614629384",
+                    "parentId": "1846109800614629382",
+                    "childrenList": [
+                        {
+                            "resourceName": "后端代码仓",
+                            "resourceId": "1846109800614629388",
+                            "parentId": "1846109800614629384",
+                            "childrenList": []
+                        },
+                        {
+                            "resourceName": "后端计划",
+                            "resourceId": "1846109800614629389",
+                            "parentId": "1846109800614629384",
+                            "childrenList": []
+                        }
+                    ]
+                },
+                {
+                    "resourceName": "研发成本",
+                    "resourceId": "1846109800614629390",
+                    "parentId": "1846109800614629382",
+                    "childrenList": []
+                },
+                {
+                    "resourceName": "中心代码仓",
+                    "resourceId": "1846109800614629391",
+                    "parentId": "1846109800614629382",
+                    "childrenList": []
+                }
+            ]
+        }
+    ],
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+[32mINFO    [0m log:conftest.py:29 code ==>> 期望结果：200， 实际结果：200
+[32mINFO    [0m log:conftest.py:30 返回信息 ==>> 期望结果：操作成功， 实际结果：操作成功
+[32mINFO    [0m log:test_10_get_permission.py:28 *************** 结束执行用例 ***************

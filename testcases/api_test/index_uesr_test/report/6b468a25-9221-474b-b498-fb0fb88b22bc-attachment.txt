@@ -1,0 +1,42 @@
+INFO     log:test_02_login.py:18 *************** 开始执行用例 ***************
+INFO     log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+INFO     log:http_client.py:41 接口请求方式 ==>> POST
+INFO     log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+INFO     log:http_client.py:47 接口请求体 data 参数 ==>> {
+    "password": "15320254461"
+}
+INFO     log:index_user_api.py:14 接口实际返回的结果为==>>{
+    "success": true,
+    "code": 200,
+    "message": "操作成功",
+    "time": "1729846049497",
+    "data": "Gbu3VjydjlrIwArSw49zUffWmO5@1xoveEgzfCfrnYD3LW5YQPnbqQ8sZE2ta@G3qrm4pDnxlpOCHg@Sig0kU3a5ylgawKR3F7kptUhdn4INSf7NpBzhx@n7WjFbevGjIUohOQ3ekjoQ6dzhjS4l9PYrzdlUbRlRFccqYRZqt70=",
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+INFO     log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/index/login
+INFO     log:http_client.py:41 接口请求方式 ==>> POST
+INFO     log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+INFO     log:http_client.py:47 接口请求体 data 参数 ==>> {
+    "phone": "15320254462",
+    "password": "Gbu3VjydjlrIwArSw49zUffWmO5@1xoveEgzfCfrnYD3LW5YQPnbqQ8sZE2ta@G3qrm4pDnxlpOCHg@Sig0kU3a5ylgawKR3F7kptUhdn4INSf7NpBzhx@n7WjFbevGjIUohOQ3ekjoQ6dzhjS4l9PYrzdlUbRlRFccqYRZqt70="
+}
+INFO     log:index_user_api.py:14 接口实际返回的结果为==>>{
+    "success": false,
+    "code": 10007,
+    "message": "当前用户不存在！",
+    "time": "1729846049699",
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+INFO     log:conftest.py:27 code ==>> 期望结果：10007， 实际结果：10007
+INFO     log:conftest.py:28 返回信息 ==>> 期望结果：当前用户不存在！， 实际结果：当前用户不存在！
+INFO     log:test_02_login.py:21 *************** 结束执行用例 ***************

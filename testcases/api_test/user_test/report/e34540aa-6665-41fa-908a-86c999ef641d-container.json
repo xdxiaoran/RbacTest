@@ -1,0 +1,1 @@
+{"uuid": "b373694a-e36f-4753-8926-8ff9fc012530", "children": ["6a911d83-884c-420a-84cb-b3281e1af5f2"], "befores": [{"name": "get_nopri_user_fixture", "status": "passed", "steps": [{"name": "前置步骤 ==>> 获取管理员token", "status": "passed", "start": 1730711593183, "stop": 1730711593183}], "start": 1730711593183, "stop": 1730711593597}], "start": 1730711593183, "stop": 1730711593870}

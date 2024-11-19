@@ -1,0 +1,46 @@
+INFO     log:test_01_register.py:19 *************** 开始执行用例 ***************
+INFO     log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+INFO     log:http_client.py:41 接口请求方式 ==>> POST
+INFO     log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+INFO     log:http_client.py:47 接口请求体 data 参数 ==>> {
+    "password": "18592037350"
+}
+INFO     log:index_user_api.py:15 接口实际返回的结果为==>>{
+    "success": true,
+    "code": 200,
+    "message": "操作成功",
+    "time": "1730854253884",
+    "data": "N3lZKJpumfX3gx47eBCdttOn3TnYneLI8Ohdyzsq3UFOl9dCaN/lZ9m1/lZKJ7RKa/fqvbucLm8YuHvAQ165Rjg8seSb9x4oVTZYDUBty4MvKY0UBSh@3sEpfWZ92WmNFMckxR3pzckzHBKWiH/nf/X2pGJF0P0FNSvMqR1v8T4=",
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+INFO     log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/index/register
+INFO     log:http_client.py:41 接口请求方式 ==>> POST
+INFO     log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/json"
+}
+INFO     log:http_client.py:49 接口请求体 json 参数 ==>> {
+    "userName": "test",
+    "password": "N3lZKJpumfX3gx47eBCdttOn3TnYneLI8Ohdyzsq3UFOl9dCaN/lZ9m1/lZKJ7RKa/fqvbucLm8YuHvAQ165Rjg8seSb9x4oVTZYDUBty4MvKY0UBSh@3sEpfWZ92WmNFMckxR3pzckzHBKWiH/nf/X2pGJF0P0FNSvMqR1v8T4=",
+    "gender": "男",
+    "phone": "A18592037352",
+    "email": "sada@qq.com"
+}
+INFO     log:index_user_api.py:15 接口实际返回的结果为==>>{
+    "success": false,
+    "code": 10071,
+    "message": "电话格式不正确！",
+    "time": "1730854253888",
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+INFO     log:test_01_register.py:21 *************** 成功执行后清理该数据 ***************
+INFO     log:conftest.py:29 code ==>> 期望结果：10071， 实际结果：10071
+INFO     log:conftest.py:30 返回信息 ==>> 期望结果：电话格式不正确！， 实际结果：电话格式不正确！
+INFO     log:test_01_register.py:25 *************** 结束执行用例 ***************

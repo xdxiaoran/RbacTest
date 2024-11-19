@@ -1,0 +1,30 @@
+[32mINFO    [0m log:test_03_update_role.py:20 *************** 开始执行用例 ***************
+[32mINFO    [0m log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/role/updateRole
+[32mINFO    [0m log:http_client.py:41 接口请求方式 ==>> POST
+[32mINFO    [0m log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/json",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYmFjLXVzZXIiLCJpc3MiOiJsb25nY2hhbyIsImlhdCI6MTczMTM4NDI2MywiZXhwIjoxNzMxMzg3ODYzLCJpZCI6MTg0OTM1MTM1NTc2NDA3NjU0Nn0.ASoe4MAHobRQsTQr6FDE3ce1YfpoN_WDvk-Z110k_ck"
+}
+[32mINFO    [0m log:http_client.py:49 接口请求体 json 参数 ==>> {
+    "id": "1849744835971674113",
+    "roleName": "萧然角色测试",
+    "code": "测试code",
+    "description": "萧然测试dec",
+    "deleteResourceList": [],
+    "addResourceList": [
+        184610980061462
+    ]
+}
+[32mINFO    [0m log:index_user_api.py:15 接口实际返回的结果为==>>{
+    "success": false,
+    "code": 9992,
+    "message": "你没有权限访问该接口！",
+    "time": 1731384276080,
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+[32mINFO    [0m log:conftest.py:29 code ==>> 期望结果：9992， 实际结果：9992
+[32mINFO    [0m log:conftest.py:30 返回信息 ==>> 期望结果：你没有权限访问该接口！， 实际结果：你没有权限访问该接口！
+[32mINFO    [0m log:test_03_update_role.py:27 *************** 结束执行用例 ***************

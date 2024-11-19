@@ -1,0 +1,1 @@
+{"uuid": "4811e8e1-b444-4fb2-be18-82a4aba8d8dd", "children": ["42031e26-3904-4d38-8ad3-000a9db40bf5"], "befores": [{"name": "login_test_user_fixture", "status": "passed", "steps": [{"name": "前置步骤 ==>> 获取管理员token", "status": "passed", "start": 1730793279544, "stop": 1730793279544}], "start": 1730793279543, "stop": 1730793280145}], "start": 1730793279543, "stop": 1730793280236}

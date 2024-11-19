@@ -1,0 +1,73 @@
+INFO     log:conftest.py:36 ******************************
+INFO     log:conftest.py:37 前置步骤开始 ==>> 获取管理员token
+INFO     log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+INFO     log:http_client.py:41 接口请求方式 ==>> POST
+INFO     log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+INFO     log:http_client.py:47 接口请求体 data 参数 ==>> {
+    "password": "15320255643"
+}
+INFO     log:index_user_service.py:14 接口实际返回的结果为==>>{
+    "success": true,
+    "code": 200,
+    "message": "操作成功",
+    "time": "1729761721874",
+    "data": "usOqQ2TxD2ZHvV8vWxsctLEvdh04rOznZOvbFSUP1vsNE/5p8CJNG1pHCX9qTpXkesdehSJnDTJ2PTxzQ9nSmWmbq2rPuzOdzrX/NR7@NnaB2GZFBErbztG2354t0oHe/wymZfDwyVdhjW6Ki/1ObR@c09o3bATyvh8G7UnYEL4=",
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+INFO     log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/index/login
+INFO     log:http_client.py:41 接口请求方式 ==>> POST
+INFO     log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+INFO     log:http_client.py:47 接口请求体 data 参数 ==>> {
+    "phone": "15320255643",
+    "password": "usOqQ2TxD2ZHvV8vWxsctLEvdh04rOznZOvbFSUP1vsNE/5p8CJNG1pHCX9qTpXkesdehSJnDTJ2PTxzQ9nSmWmbq2rPuzOdzrX/NR7@NnaB2GZFBErbztG2354t0oHe/wymZfDwyVdhjW6Ki/1ObR@c09o3bATyvh8G7UnYEL4="
+}
+INFO     log:index_user_service.py:14 接口实际返回的结果为==>>{
+    "success": true,
+    "code": 200,
+    "message": "操作成功",
+    "time": "1729761723530",
+    "data": {
+        "id": "1846030109260034050",
+        "userName": "龙超",
+        "gender": "0",
+        "phone": "15320255643",
+        "email": "longchao@changan.com.cn",
+        "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYmFjLXVzZXIiLCJpc3MiOiJsb25nY2hhbyIsImlhdCI6MTcyOTc2MTcyMywiZXhwIjoxNzI5NzY1MzIzLCJpZCI6MTg0NjAzMDEwOTI2MDAzNDA1MH0.IAN-1MRQJm7OoyxqGM4_df22Sg0zuDFlfzZZ688j8hc"
+    },
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+INFO     log:test_03_admin_role_add_update_delete.py:29 *************** 开始执行用例 ***************
+INFO     log:test_03_admin_role_add_update_delete.py:10 步骤1 ==>> 添加角色
+INFO     log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/role/addRole
+INFO     log:http_client.py:41 接口请求方式 ==>> POST
+INFO     log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/json",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYmFjLXVzZXIiLCJpc3MiOiJsb25nY2hhbyIsImlhdCI6MTcyOTc2MTcyMywiZXhwIjoxNzI5NzY1MzIzLCJpZCI6MTg0NjAzMDEwOTI2MDAzNDA1MH0.IAN-1MRQJm7OoyxqGM4_df22Sg0zuDFlfzZZ688j8hc"
+}
+INFO     log:http_client.py:49 接口请求体 json 参数 ==>> {
+    "roleName": "萧然角色测试",
+    "code": "6666",
+    "description": "destest",
+    "parentName": "超级管理员",
+    "addResourceList": []
+}
+INFO     log:index_user_service.py:14 接口实际返回的结果为==>>{
+    "success": true,
+    "code": 200,
+    "message": "操作成功",
+    "time": "1729761726171",
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}

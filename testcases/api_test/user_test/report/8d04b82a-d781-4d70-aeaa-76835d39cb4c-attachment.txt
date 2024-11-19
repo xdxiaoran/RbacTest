@@ -1,0 +1,22 @@
+INFO     log:test_08_logoff.py:23 *************** 开始执行用例 ***************
+INFO     log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/user/logoff
+INFO     log:http_client.py:41 接口请求方式 ==>> POST
+INFO     log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYmFjLXVzZXIiLCJpc3MiOiJsb25nY2hhbyIsImlhdCI6MTczMDc5NTc4MSwiZXhwIjoxNzMwNzk5MzgxLCJpZCI6MTg0OTM1MTM1NTc2NDA3NjU0Nn0.C4_3QG1XUzc0hbYCT3QhQ4jA5tg87gLl-bwry87m1DM"
+}
+INFO     log:http_client.py:47 接口请求体 data 参数 ==>> {
+    "userId": 1846064248370
+}
+INFO     log:index_user_api.py:15 接口实际返回的结果为==>>{
+    "success": false,
+    "code": 10020,
+    "message": "非法操作！",
+    "time": "1730795785162",
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+INFO     log:conftest.py:29 code ==>> 期望结果：10007， 实际结果：10020
+INFO     log:conftest.py:30 返回信息 ==>> 期望结果：当前用户不存在!， 实际结果：非法操作！

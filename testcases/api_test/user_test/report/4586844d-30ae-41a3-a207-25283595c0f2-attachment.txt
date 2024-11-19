@@ -1,0 +1,50 @@
+INFO     log:test_05_updatePassword.py:18 *************** 开始执行用例 ***************
+INFO     log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+INFO     log:http_client.py:41 接口请求方式 ==>> POST
+INFO     log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+INFO     log:http_client.py:47 接口请求体 data 参数 ==>> {
+    "password": "18592037348"
+}
+INFO     log:index_user_api.py:15 接口实际返回的结果为==>>{
+    "success": true,
+    "code": 200,
+    "message": "操作成功",
+    "time": "1730712254458",
+    "data": "GpEam5NYKZC/BO9szcA5sQ1YhNXvvJ9u9wqEs9LvAFHiCN6DqqAQiW4rdZBqrGk0ou6a/gPfLp6fySvhBZZYSIZ1gTCVBIh//eUSOLpNeoGT@87NcKMO9oOAJl9Ge38aqGPPaA6eaRZuJz/tN5G/xJVu8uRPPl1DpYG7Ho8bgfQ=",
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+INFO     log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+INFO     log:http_client.py:41 接口请求方式 ==>> POST
+INFO     log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+INFO     log:http_client.py:47 接口请求体 data 参数 ==>> {
+    "password": "18592037348"
+}
+INFO     log:index_user_api.py:15 接口实际返回的结果为==>>{
+    "success": true,
+    "code": 200,
+    "message": "操作成功",
+    "time": "1730712254541",
+    "data": "PGrXiBmr27Fb7k2RAONv4VdiqwjrIK/MuFmScaZBVo0HA@4pZlTNAQCtQJrZASth/UUyaFnRNhVh50r8tKpmz3tTKZnT23XmokiTDPhjF2RiySNOy1Rm@fuLk/LBCWGLXz5oe3XoVwk@y@Rgt/728iiPr6TkXB4qQSKM//3llHs=",
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+INFO     log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/user/updatePassword
+INFO     log:http_client.py:41 接口请求方式 ==>> POST
+INFO     log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYmFjLXVzZXIiLCJpc3MiOiJsb25nY2hhbyIsImlhdCI6MTczMDcxMjI1MiwiZXhwIjoxNzMwNzE1ODUyLCJpZCI6MTg0OTM1MTM1NTc2NDA3NjU0Nn0.aMmkyfxRH7XoCKyMiPtK7ljRbjHF2jYxzGeig3wqJso"
+}
+INFO     log:http_client.py:47 接口请求体 data 参数 ==>> {
+    "userIdw": 184935135576407654,
+    "oldPassword": "GpEam5NYKZC/BO9szcA5sQ1YhNXvvJ9u9wqEs9LvAFHiCN6DqqAQiW4rdZBqrGk0ou6a/gPfLp6fySvhBZZYSIZ1gTCVBIh//eUSOLpNeoGT@87NcKMO9oOAJl9Ge38aqGPPaA6eaRZuJz/tN5G/xJVu8uRPPl1DpYG7Ho8bgfQ=",
+    "newPassword": "PGrXiBmr27Fb7k2RAONv4VdiqwjrIK/MuFmScaZBVo0HA@4pZlTNAQCtQJrZASth/UUyaFnRNhVh50r8tKpmz3tTKZnT23XmokiTDPhjF2RiySNOy1Rm@fuLk/LBCWGLXz5oe3XoVwk@y@Rgt/728iiPr6TkXB4qQSKM//3llHs="
+}

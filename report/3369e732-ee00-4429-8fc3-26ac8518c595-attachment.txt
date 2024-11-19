@@ -1,0 +1,46 @@
+[32mINFO    [0m log:test_01_register.py:19 *************** 开始执行用例 ***************
+[32mINFO    [0m log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+[32mINFO    [0m log:http_client.py:41 接口请求方式 ==>> POST
+[32mINFO    [0m log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[32mINFO    [0m log:http_client.py:47 接口请求体 data 参数 ==>> {
+    "password": "15320254463"
+}
+[32mINFO    [0m log:index_user_api.py:15 接口实际返回的结果为==>>{
+    "success": true,
+    "code": 200,
+    "message": "操作成功",
+    "time": "1731384228891",
+    "data": "PxhoirU3UxZsApEaC1iZGUvZwDJgte44qf@UphXP2TBfWbOjK3YojWT8aS6Q2bPt7fA8/DB9zRjFqkEA0kgtbvZrrZTBKj@NcSlLwnPCfpvn42a/eP076CnSNbnJgWEC9S@IpIsbS58AdGHi439iFu8C1we7tWZY8PS2eMLZ@7Y=",
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+[32mINFO    [0m log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/index/register
+[32mINFO    [0m log:http_client.py:41 接口请求方式 ==>> POST
+[32mINFO    [0m log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/json"
+}
+[32mINFO    [0m log:http_client.py:49 接口请求体 json 参数 ==>> {
+    "userName": "test",
+    "password": "PxhoirU3UxZsApEaC1iZGUvZwDJgte44qf@UphXP2TBfWbOjK3YojWT8aS6Q2bPt7fA8/DB9zRjFqkEA0kgtbvZrrZTBKj@NcSlLwnPCfpvn42a/eP076CnSNbnJgWEC9S@IpIsbS58AdGHi439iFu8C1we7tWZY8PS2eMLZ@7Y=",
+    "gender": "男",
+    "phone": "15320255643",
+    "email": "sada@qq.com"
+}
+[32mINFO    [0m log:index_user_api.py:15 接口实际返回的结果为==>>{
+    "success": false,
+    "code": 10004,
+    "message": "账号已存在！",
+    "time": "1731384229509",
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+[32mINFO    [0m log:test_01_register.py:21 *************** 成功执行后清理该数据 ***************
+[32mINFO    [0m log:conftest.py:29 code ==>> 期望结果：10004， 实际结果：10004
+[32mINFO    [0m log:conftest.py:30 返回信息 ==>> 期望结果：账号已存在！， 实际结果：账号已存在！
+[32mINFO    [0m log:test_01_register.py:25 *************** 结束执行用例 ***************

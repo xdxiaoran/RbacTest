@@ -1,0 +1,33 @@
+[32mINFO    [0m log:test_03_logout.py:19 *************** 开始执行用例 ***************
+[32mINFO    [0m log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+[32mINFO    [0m log:http_client.py:41 接口请求方式 ==>> POST
+[32mINFO    [0m log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[32mINFO    [0m log:http_client.py:47 接口请求体 data 参数 ==>> {
+    "password": "18592037348"
+}
+[32mINFO    [0m log:index_user_service.py:13 接口实际返回的结果为==>>{'success': True, 'code': 200, 'message': '操作成功', 'time': '1729670197844', 'data': 'ECBcLAPBowvFFkaP0Vf2kkTWqlV2v3n9Yb/WMP3PhJU@aANV4Ow3gnwBctea//tuT7wqZbTefhNGnp9mK4YX0TAwDjXeoprHRyGkK0TaVbQtSriYQ5yu63h77RdluUznoiqch7dvZ67s5kdHNO66jYqNiQqsvQ4un1d7SY6NhyA=', 'path': None, 'timestamp': None, 'msg': None, 'trackId': None}
+[32mINFO    [0m log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/index/login
+[32mINFO    [0m log:http_client.py:41 接口请求方式 ==>> POST
+[32mINFO    [0m log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[32mINFO    [0m log:http_client.py:47 接口请求体 data 参数 ==>> {
+    "phone": "18592037348",
+    "password": "ECBcLAPBowvFFkaP0Vf2kkTWqlV2v3n9Yb/WMP3PhJU@aANV4Ow3gnwBctea//tuT7wqZbTefhNGnp9mK4YX0TAwDjXeoprHRyGkK0TaVbQtSriYQ5yu63h77RdluUznoiqch7dvZ67s5kdHNO66jYqNiQqsvQ4un1d7SY6NhyA="
+}
+[32mINFO    [0m log:index_user_service.py:13 接口实际返回的结果为==>>{'success': True, 'code': 200, 'message': '操作成功', 'time': '1729670198175', 'data': {'id': '1846795390791208961', 'userName': '萧然', 'gender': '0', 'phone': '18592037348', 'email': '2312213qq.com', 'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYmFjLXVzZXIiLCJpc3MiOiJsb25nY2hhbyIsImlhdCI6MTcyOTY3MDE5OCwiZXhwIjoxNzI5NjczNzk4LCJpZCI6MTg0Njc5NTM5MDc5MTIwODk2MX0.E7G9KDNZEul86DB50sOnumc6_XPFd69ctcjEJex4LkU'}, 'path': None, 'timestamp': None, 'msg': None, 'trackId': None}
+[32mINFO    [0m log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/index/logout
+[32mINFO    [0m log:http_client.py:41 接口请求方式 ==>> POST
+[32mINFO    [0m log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYmFjLXVzZXIiLCJpc3MiOiJsb25nY2hhbyIsImlhdCI6MTcyOTY3MDE5OCwiZXhwIjoxNzI5NjczNzk4LCJpZCI6MTg0Njc5NTM5MDc5MTIwODk2MX0.E7G9KDNZEul86DB50sOnumc6_XPFd69ctcjEJex4LkU"
+}
+[32mINFO    [0m log:http_client.py:47 接口请求体 data 参数 ==>> {
+    "userId": "1846795390791208961"
+}
+[32mINFO    [0m log:index_user_service.py:13 接口实际返回的结果为==>>{'success': True, 'code': 200, 'message': '操作成功', 'time': '1729670198678', 'path': None, 'timestamp': None, 'msg': None, 'trackId': None}
+[32mINFO    [0m log:conftest.py:26 code ==>> 期望结果：200， 实际结果：200
+[32mINFO    [0m log:conftest.py:27 返回信息 ==>> 期望结果：操作成功， 实际结果：操作成功
+[32mINFO    [0m log:test_03_logout.py:24 *************** 结束执行用例 ***************

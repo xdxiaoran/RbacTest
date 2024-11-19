@@ -1,0 +1,46 @@
+INFO     log:test_01_register.py:19 *************** 开始执行用例 ***************
+INFO     log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+INFO     log:http_client.py:41 接口请求方式 ==>> POST
+INFO     log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+INFO     log:http_client.py:47 接口请求体 data 参数 ==>> {
+    "password": "18592037350"
+}
+INFO     log:index_user_api.py:15 接口实际返回的结果为==>>{
+    "success": true,
+    "code": 200,
+    "message": "操作成功",
+    "time": "1730689117501",
+    "data": "Ac6qSr@qvzL@bbUnY6aR5eKAPTy6MMJpl8APViu3ipNkNzXO6ybU7hRMslzKNi0DDRJ5Ka@JC9dnIhQsqkjSmq/3EukIJF0jfrVE1dut/bd47g0U6UguZESZAxoH9CNfnr39PBvOAweRD1DpzpavAGeYtTQkGSOlG@G5ueCXyjg=",
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+INFO     log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/index/register
+INFO     log:http_client.py:41 接口请求方式 ==>> POST
+INFO     log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/json"
+}
+INFO     log:http_client.py:49 接口请求体 json 参数 ==>> {
+    "userName": "test",
+    "password": "Ac6qSr@qvzL@bbUnY6aR5eKAPTy6MMJpl8APViu3ipNkNzXO6ybU7hRMslzKNi0DDRJ5Ka@JC9dnIhQsqkjSmq/3EukIJF0jfrVE1dut/bd47g0U6UguZESZAxoH9CNfnr39PBvOAweRD1DpzpavAGeYtTQkGSOlG@G5ueCXyjg=",
+    "gender": "男",
+    "phone": "18592037352",
+    "email": "sadaqq.com"
+}
+INFO     log:index_user_api.py:15 接口实际返回的结果为==>>{
+    "success": false,
+    "code": 10072,
+    "message": "邮箱格式不正确！",
+    "time": "1730689117508",
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+INFO     log:test_01_register.py:21 *************** 成功执行后清理该数据 ***************
+INFO     log:conftest.py:29 code ==>> 期望结果：10072， 实际结果：10072
+INFO     log:conftest.py:30 返回信息 ==>> 期望结果：邮箱格式不正确！， 实际结果：邮箱格式不正确！
+INFO     log:test_01_register.py:25 *************** 结束执行用例 ***************

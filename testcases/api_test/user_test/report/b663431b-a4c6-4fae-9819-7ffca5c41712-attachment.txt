@@ -1,0 +1,96 @@
+INFO     log:conftest.py:36 ******************************
+INFO     log:conftest.py:37 前置步骤开始 ==>> 获取管理员token
+INFO     log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+INFO     log:http_client.py:41 接口请求方式 ==>> POST
+INFO     log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+INFO     log:http_client.py:47 接口请求体 data 参数 ==>> {
+    "password": "15320255643"
+}
+INFO     log:index_user_service.py:14 接口实际返回的结果为==>>{
+    "success": true,
+    "code": 200,
+    "message": "操作成功",
+    "time": "1729754796379",
+    "data": "ReojzHv6TbsmX392oNtw8RdWqhsWE16MZyP9wwkhXi7A/muAcwa8zYIST0BGW9krr5dxFn268Hrhfv7Mj4WiWo13L0HVmfdghlmyGGMPN0IgrUFXC@gdY4wvYuUlXz7JB7TJGw1sZXrhdC5vGVYrdEfUtvbh/4PapjXBHmUxSg4=",
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+INFO     log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/index/login
+INFO     log:http_client.py:41 接口请求方式 ==>> POST
+INFO     log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+INFO     log:http_client.py:47 接口请求体 data 参数 ==>> {
+    "phone": "15320255643",
+    "password": "ReojzHv6TbsmX392oNtw8RdWqhsWE16MZyP9wwkhXi7A/muAcwa8zYIST0BGW9krr5dxFn268Hrhfv7Mj4WiWo13L0HVmfdghlmyGGMPN0IgrUFXC@gdY4wvYuUlXz7JB7TJGw1sZXrhdC5vGVYrdEfUtvbh/4PapjXBHmUxSg4="
+}
+INFO     log:index_user_service.py:14 接口实际返回的结果为==>>{
+    "success": true,
+    "code": 200,
+    "message": "操作成功",
+    "time": "1729754796872",
+    "data": {
+        "id": "1846030109260034050",
+        "userName": "龙超",
+        "gender": "0",
+        "phone": "15320255643",
+        "email": "longchao@changan.com.cn",
+        "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYmFjLXVzZXIiLCJpc3MiOiJsb25nY2hhbyIsImlhdCI6MTcyOTc1NDc5NiwiZXhwIjoxNzI5NzU4Mzk2LCJpZCI6MTg0NjAzMDEwOTI2MDAzNDA1MH0.an3X9_mq3OqhbboyQVrfW4l-ZfIKvK-C35DGoyU93yA"
+    },
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+INFO     log:test_03_add_user.py:19 *************** 开始执行用例 ***************
+INFO     log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+INFO     log:http_client.py:41 接口请求方式 ==>> POST
+INFO     log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+INFO     log:http_client.py:47 接口请求体 data 参数 ==>> {
+    "password": "18592037351"
+}
+INFO     log:index_user_service.py:14 接口实际返回的结果为==>>{
+    "success": true,
+    "code": 200,
+    "message": "操作成功",
+    "time": "1729754796966",
+    "data": "PjCbHjPmyHqfP5xyD82Ekjh6fusXp7TFHa2/LIRoJnR@/0tzs3SgrM2H44laV/x@jHMnU0Jsab7zGPvecV7Tbqpdyg6pLqI/pNb6g9ZxvuvGdIQ0joyxMNhz4J/wDVpA@Z35Pe8PF4KDuXvoDYHOlUtr23MQgFXjjvPsw1LTKVY=",
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+INFO     log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/user/addUser
+INFO     log:http_client.py:41 接口请求方式 ==>> POST
+INFO     log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/json",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYmFjLXVzZXIiLCJpc3MiOiJsb25nY2hhbyIsImlhdCI6MTcyOTc1NDc5NiwiZXhwIjoxNzI5NzU4Mzk2LCJpZCI6MTg0NjAzMDEwOTI2MDAzNDA1MH0.an3X9_mq3OqhbboyQVrfW4l-ZfIKvK-C35DGoyU93yA"
+}
+INFO     log:http_client.py:49 接口请求体 json 参数 ==>> {
+    "userName": "萧然2",
+    "password": "PjCbHjPmyHqfP5xyD82Ekjh6fusXp7TFHa2/LIRoJnR@/0tzs3SgrM2H44laV/x@jHMnU0Jsab7zGPvecV7Tbqpdyg6pLqI/pNb6g9ZxvuvGdIQ0joyxMNhz4J/wDVpA@Z35Pe8PF4KDuXvoDYHOlUtr23MQgFXjjvPsw1LTKVY=",
+    "gender": "男",
+    "phone": "18592037351",
+    "email": "2312213@qq.com",
+    "addRoleList": []
+}
+INFO     log:index_user_service.py:14 接口实际返回的结果为==>>{
+    "success": true,
+    "code": 200,
+    "message": "操作成功",
+    "time": "1729754798820",
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+INFO     log:test_03_add_user.py:21 *************** 成功执行后清理该数据 ***************
+INFO     log:conftest.py:27 code ==>> 期望结果：200， 实际结果：200
+INFO     log:conftest.py:28 返回信息 ==>> 期望结果：操作成功， 实际结果：操作成功
+INFO     log:test_03_add_user.py:25 *************** 结束执行用例 ***************

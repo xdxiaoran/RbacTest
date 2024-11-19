@@ -1,0 +1,30 @@
+[32mINFO    [0m log:test_03_update_role.py:20 *************** 开始执行用例 ***************
+[32mINFO    [0m log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/role/updateRole
+[32mINFO    [0m log:http_client.py:41 接口请求方式 ==>> POST
+[32mINFO    [0m log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/json",
+    "token": "sdasdadas"
+}
+[32mINFO    [0m log:http_client.py:49 接口请求体 json 参数 ==>> {
+    "id": "1849744835971674113",
+    "roleName": "萧然角色测试",
+    "code": "测试code",
+    "description": "萧然测试dec",
+    "deleteResourceList": [],
+    "addResourceList": [
+        184610980061462
+    ]
+}
+[32mINFO    [0m log:index_user_api.py:15 接口实际返回的结果为==>>{
+    "success": false,
+    "code": 9991,
+    "message": "token过期失效！",
+    "time": 1731384275255,
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+[32mINFO    [0m log:conftest.py:29 code ==>> 期望结果：9991， 实际结果：9991
+[32mINFO    [0m log:conftest.py:30 返回信息 ==>> 期望结果：token过期失效！， 实际结果：token过期失效！
+[32mINFO    [0m log:test_03_update_role.py:27 *************** 结束执行用例 ***************

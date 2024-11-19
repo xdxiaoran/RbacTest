@@ -1,0 +1,67 @@
+INFO     log:conftest.py:38 ******************************
+INFO     log:conftest.py:39 前置步骤开始 ==>> 获取管理员token
+INFO     log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+INFO     log:http_client.py:41 接口请求方式 ==>> POST
+INFO     log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+INFO     log:http_client.py:47 接口请求体 data 参数 ==>> {
+    "password": "18592037348"
+}
+INFO     log:index_user_api.py:15 接口实际返回的结果为==>>{
+    "success": true,
+    "code": 200,
+    "message": "操作成功",
+    "time": "1730793184057",
+    "data": "aVuWex@UMiroMOEr9gS8bWVqMNpVTavVnGOhBQdY2@1cap6XLFuEEr/rStashUh6yWfBJVridT2TFfQfX/sX9aBaseuUcCwCqN/B86eGDamnDE@uZZLU8zPpgfsfWVqZOE21g3b2JKnQYt3eBZ7pmHw0bKYDUxgvX2Vzvlvcz/U=",
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+INFO     log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/index/login
+INFO     log:http_client.py:41 接口请求方式 ==>> POST
+INFO     log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+INFO     log:http_client.py:47 接口请求体 data 参数 ==>> {
+    "phone": "18592037348",
+    "password": "aVuWex@UMiroMOEr9gS8bWVqMNpVTavVnGOhBQdY2@1cap6XLFuEEr/rStashUh6yWfBJVridT2TFfQfX/sX9aBaseuUcCwCqN/B86eGDamnDE@uZZLU8zPpgfsfWVqZOE21g3b2JKnQYt3eBZ7pmHw0bKYDUxgvX2Vzvlvcz/U="
+}
+INFO     log:index_user_api.py:15 接口实际返回的结果为==>>{
+    "success": true,
+    "code": 200,
+    "message": "操作成功",
+    "time": "1730793184361",
+    "data": {
+        "id": "1849351355764076546",
+        "userName": "萧然",
+        "gender": "男",
+        "phone": "18592037348",
+        "email": "2312213@qq.com",
+        "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYmFjLXVzZXIiLCJpc3MiOiJsb25nY2hhbyIsImlhdCI6MTczMDc5MzE4NCwiZXhwIjoxNzMwNzk2Nzg0LCJpZCI6MTg0OTM1MTM1NTc2NDA3NjU0Nn0.r1Beb5MKY-pGG2CPsnlaoNJf5WwAUD12XVUmKGJPNf0"
+    },
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+INFO     log:test_03_logout.py:19 *************** 开始执行用例 ***************
+INFO     log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/index/logout
+INFO     log:http_client.py:41 接口请求方式 ==>> POST
+INFO     log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+INFO     log:http_client.py:47 接口请求体 data 参数 ==>> {
+    "userId": 1846030109260034050
+}
+INFO     log:index_user_api.py:15 接口实际返回的结果为==>>{
+    "success": true,
+    "code": 200,
+    "message": "操作成功",
+    "time": "1730793184456",
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}

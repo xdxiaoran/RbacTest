@@ -1,0 +1,19 @@
+[32mINFO    [0m log:test_01_get_all_resource.py:19 *************** 开始执行用例 ***************
+[32mINFO    [0m log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/resource/getAllResource
+[32mINFO    [0m log:http_client.py:41 接口请求方式 ==>> GET
+[32mINFO    [0m log:http_client.py:43 接口请求头 ==>> {
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYmFjLXVzZXIiLCJpc3MiOiJsb25nY2hhbyIsImlhdCI6MTczMTM4NDIzNCwiZXhwIjoxNzMxMzg3ODM0LCJpZCI6MTg0NjgwMTQ0MjQzMzY4MzQ1OH0.cveG4Y-AyCCC4QbhwaZHs6fh_zXD2rIlN0fUysplGck"
+}
+[32mINFO    [0m log:index_user_api.py:15 接口实际返回的结果为==>>{
+    "success": false,
+    "code": 9992,
+    "message": "你没有权限访问该接口！",
+    "time": 1731384236788,
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+[32mINFO    [0m log:conftest.py:29 code ==>> 期望结果：9992， 实际结果：9992
+[32mINFO    [0m log:conftest.py:30 返回信息 ==>> 期望结果：你没有权限访问该接口！， 实际结果：你没有权限访问该接口！
+[32mINFO    [0m log:test_01_get_all_resource.py:26 *************** 结束执行用例 ***************

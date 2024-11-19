@@ -1,0 +1,1 @@
+{"uuid": "17cc061d-37e9-4173-8c6a-758f7b576b0a", "children": ["4f0b870f-17af-4588-8e15-954dcd3635cf"], "befores": [{"name": "get_admin_token_fixture", "status": "passed", "steps": [{"name": "前置步骤 ==>> 获取管理员token", "status": "passed", "start": 1730770022098, "stop": 1730770022098}], "start": 1730770022098, "stop": 1730770022606}], "start": 1730770022098, "stop": 1730770024035}

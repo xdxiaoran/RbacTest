@@ -1,0 +1,43 @@
+INFO     log:test_01_register.py:19 *************** 开始执行用例 ***************
+INFO     log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/index/getRsaEncodePassword
+INFO     log:http_client.py:41 接口请求方式 ==>> POST
+INFO     log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+INFO     log:http_client.py:47 接口请求体 data 参数 ==>> {
+    "password": ""
+}
+INFO     log:index_user_service.py:14 接口实际返回的结果为==>>{
+    "success": true,
+    "code": 200,
+    "message": "操作成功",
+    "time": "1729675203248",
+    "data": "OISLnn2/j63KDf6SS689//OvEWjYYZ2i7HZ/JoEOcdjDydyRr08BpvO/wMncveNJY7kFLADj5TaND6AtpPSmdhbawVabrqsWkH0YsZFZ5o37cTZbqjotIfHRWzEjxC3YikXMqKWBYrZghYAfN@9D3XsBAFSZIb/U9U6wkSyxLyw=",
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+INFO     log:http_client.py:40 接口请求地址 ==>> http://127.0.0.1/index/register
+INFO     log:http_client.py:41 接口请求方式 ==>> POST
+INFO     log:http_client.py:43 接口请求头 ==>> {
+    "Content-Type": "application/json"
+}
+INFO     log:http_client.py:49 接口请求体 json 参数 ==>> {
+    "userName": "test",
+    "password": "OISLnn2/j63KDf6SS689//OvEWjYYZ2i7HZ/JoEOcdjDydyRr08BpvO/wMncveNJY7kFLADj5TaND6AtpPSmdhbawVabrqsWkH0YsZFZ5o37cTZbqjotIfHRWzEjxC3YikXMqKWBYrZghYAfN@9D3XsBAFSZIb/U9U6wkSyxLyw=",
+    "gender": "男",
+    "phone": "18592037350",
+    "email": "sada@qq.com"
+}
+INFO     log:index_user_service.py:14 接口实际返回的结果为==>>{
+    "success": true,
+    "code": 200,
+    "message": "操作成功",
+    "time": "1729675204202",
+    "path": null,
+    "timestamp": null,
+    "msg": null,
+    "trackId": null
+}
+INFO     log:test_01_register.py:21 *************** 成功执行后清理该数据 ***************
